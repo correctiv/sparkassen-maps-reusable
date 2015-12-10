@@ -1,0 +1,32 @@
+.superbugs-map {
+
+  &__legend {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid black;
+    padding: 10px;
+
+    ul li.-hilighted {
+      text-decoration: underline;
+    }
+  }
+
+  &__svg {
+    width: 100%;
+    height: 800px;
+
+    path {
+      fill: grey;
+      opacity: .8;
+      stroke-width: 1;
+      stroke: #fff;
+
+      &.-hilighted {
+        opacity: 1;
+        stroke: red;
+      }
+    }
+  }
+
+}
