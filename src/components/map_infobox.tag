@@ -2,12 +2,16 @@ import './state_selector.tag'
 
 <map-infobox class="superbugs-map__infobox">
 
-  <h3>{ data.name }</h3>
-  <p>({ data.iso })</p>
-
   <state-selector></state-selector>
 
-  riot.control.on(riot.EVT.dataChanged, data => {
+  <div if={ data }>
+    <h3>{ data.name }</h3>
+    <p>{ data.value } %</p>
+  </div>
+
+  this.data = null
+
+  riot.control.on(riot.EVT.hilightChanged, data => {
     this.data = data
   })
 

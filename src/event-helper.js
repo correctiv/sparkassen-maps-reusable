@@ -5,7 +5,8 @@ riot.control = Riotcontrol;
 // event names
 
 riot.EVT = {
-  reloadMap : 'reload_map',
   hilight : 'hilight',
-  dataChanged : 'data_changed'
+  hilightChanged : 'hilight_changed',
+  changeLayer : 'change_layer',
+  layerChanged : 'layer_changed'
 }
