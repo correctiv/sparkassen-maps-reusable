@@ -1,36 +1,21 @@
-import isoeu from '../data/isoeu.js';
+import COLORS from '../data/colors.js'
 
 <map-legend class="superbugs-map__legend">
 
-  <ul>
-    <li each={ countries } onmouseover={ hilight }>{ name } ({ iso })</li>
+  <h3>Legend</h3>
+  <ul name="legend">
+    <li each={ color in colors } id={ colors.indexOf(color)}>
+      { 10 + colors.indexOf(color) * 10 } %</li>
   </ul>
 
-  this.countries = isoeu
-  this.hilighted = null
-  this.hilightedEl = null
-  this.map = this.parent
+  this.colors = COLORS
 
-  this.hilight = (e) => {
-    if (this.hilighted) {
-      this.unhilight(this.hilighted)
+  this.on('mount', () => {
+    for (let color of this.colors) {
+      let el = this.legend.children[this.colors.indexOf(color)]
+      let style = 'background-color:'+color
+      el.setAttribute('style', style)
     }
-    this.hilightedEl = e.target
-    this.hilightedEl.classList.add('-hilighted')
-    var id = e.item.iso_l
-    var path = this.map[id]
-    if (path) {
-      path.classList.add('-hilighted')
-      this.hilighted = path
-    } else {
-      console.log('not found:', id)
-    }
-  }
+  })
 
-  this.unhilight = (path) => {
-    path.classList.remove('-hilighted')
-    this.hilightedEl.classList.remove('-hilighted')
-    this.hilightedEl = null
-    this.hilighted = null
-  }
 </map-legend>

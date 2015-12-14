@@ -1,22 +1,43 @@
-import './map_legend.tag';
-import data from '../data/data.js';
+import './map_infobox.tag'
+import './map_legend.tag'
+import DATA from '../data/data.js'
+import COLORS from '../data/colors.js'
 
 <superbugs-map>
   <yield/>
+  <map-infobox></map-infobox>
   <map-legend></map-legend>
 
   this.hilight = (e) => {
-    if (this.hilighted) {
-      this.unhilight()
-    }
-    let path = e.target
+    let iso = e.target.getAttribute('id')
+    riot.control.trigger(riot.EVT.hilight, iso)
+  }
+
+  riot.control.on(riot.EVT.hilight, iso => {
+    this.unhilight()
+    this.update({hilighted: iso})
+    this.hilightPath()
+  })
+
+  this.on('mount', () => {
+    this.hilighted = null
+    this.data = this.buildData(DATA)
+    this.paths = this.getPaths(DATA)
+    let steps = this.calculate(DATA, COLORS)
+    this.eventize(this.paths)
+    this.colorize(this.paths, steps, this.data)
+  })
+
+  this.hilightPath = () => {
+    let path = this[this.hilighted]
     path.classList.add('-hilighted')
-    this.hilighted = path
   }
 
   this.unhilight = () => {
-    this.hilighted.classList.remove('-hilighted')
-    this.hilighted = null
+    if (this.hilighted) {
+      let path = this[this.hilighted]
+      path.classList.remove('-hilighted')
+    }
   }
 
   this.eventize = (paths) => {
@@ -85,12 +106,5 @@ import data from '../data/data.js';
     return paths
   }
 
-  this.hilighted = null
-  this.data = this.buildData(data)
-  let paths = this.getPaths(data)
-  let colors = ['#f7fcfd','#e5f5f9','#ccece6','#99d8c9','#66c2a4','#41ae76','#238b45','#006d2c','#00441b']
-  this.eventize(paths)
-  this.steps = this.calculate(data, colors)
-  this.colorize(paths, this.steps, this.data)
 
 </superbugs-map>

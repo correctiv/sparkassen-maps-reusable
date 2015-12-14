@@ -1,9 +1,6 @@
 import './css/map.css';
-
-// import './event-helper';
-// import './stores/itemstore';
-// import './router.js';
-
+import './event-helper';
+import './stores/mapstore';
 import './components/map.tag';
 
 riot.mount('*');

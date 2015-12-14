@@ -5,6 +5,7 @@ riot.control = Riotcontrol;
 // event names
 
 riot.EVT = {
-  loadItems : 'load_items',
-  loadItemsSuccess : 'load_items_success'
+  reloadMap : 'reload_map',
+  hilight : 'hilight',
+  dataChanged : 'data_changed'
 }
