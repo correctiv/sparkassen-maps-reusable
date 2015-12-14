@@ -2,16 +2,24 @@
 
   &__legend {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    border: 1px solid black;
-    padding: 10px;
+    bottom: 0;
+    left: 0;
+
+    ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+
+      li {
+        display: inline;
+        padding: 3px;
+      }
+    }
   }
 
   &__svg {
     width: 100%;
     height: 800px;
-    border: 1px solid black;
 
     path {
       fill: grey;
@@ -27,15 +35,19 @@
   }
 
   &__infobox {
-    border: 1px solid black;
-    padding: 10px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
   }
 
   &__states-selector {
     margin-top: 25px;
+  }
+
+  &__layer-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
 }

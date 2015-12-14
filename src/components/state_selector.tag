@@ -9,7 +9,7 @@ import isoeu from '../data/isoeu.js';
   this.states = isoeu
 
   this.hilight = (e) => {
-    let iso = e.target.value.toLowerCase()
-    riot.control.trigger(riot.EVT.hilight, iso)
+    let id = e.target.value.toLowerCase()
+    riot.control.trigger(riot.EVT.hilight, id)
   }
 </state-selector>
