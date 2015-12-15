@@ -3,6 +3,11 @@ import colors from './colors.js'
 
 const SOURCES = [
   {
+    name: 'Escherichia coli',
+    title: 'Percentage with resistance to fluoroquinolones (%R)',
+    data: require('dsv!./csv/data3.csv')
+  },
+  {
     name: 'Keim 1',
     data: require('dsv!./csv/data.csv')
   },
@@ -20,6 +25,7 @@ for (let source of SOURCES) {
   })
   let dataset = {
     name: source.name,
+    title: source.title,
     loader: loader
   }
   DATASETS.push(dataset)
