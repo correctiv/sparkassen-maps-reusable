@@ -10,9 +10,14 @@ class Loader {
     for (let path of paths) {
       let id = path.getAttribute('id')
       let value = data[id]
-      let color = this.getColor(value)
-      let style = 'fill:'+color
-      path.setAttribute('style', style)
+      if (value) {
+        let color = this.getColor(value)
+        let style = 'fill:'+color
+        path.setAttribute('style', style)
+      } else {
+        // remove any previusly colors
+        path.removeAttribute('style')
+      }
     }
   }
 
@@ -62,7 +67,10 @@ class Loader {
   getValues() {
     let values = []
     this.data.map(d => {
-      values.push(parseFloat(d.value))
+      let val = parseFloat(d.value)
+      if (!isNaN(val)) {
+        values.push(val)
+      }
     })
     return values
   }
@@ -78,7 +86,8 @@ class Loader {
   getDataDict() {
     let data = {}
     this.data.map(d => {
-      data[d.id.toLowerCase()] = parseFloat(d.value)
+      let val = parseFloat(d.value)
+      data[d.id.toLowerCase()] = !isNaN(val) ? val : null
     })
     return data
   }
