@@ -86,9 +86,18 @@
     text-align: right;
 
     &__layerinfo {
-      p.subtitle {
+      p {
         color: @gray-dark;
         font-family: @heading-font-primary;
+
+        &.-subtitle {
+          // font-size: @font-size-large;
+        }
+
+        &.-annotation {
+          font-size: @font-size-small;
+          font-style: italic;
+        }
       }
     }
 
