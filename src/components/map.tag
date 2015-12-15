@@ -34,6 +34,8 @@ import ISO from '../data/iso'
 
   this.hilightPath = () => {
     let path = this[this.hilighted]
+    // bring path to front because of stroke styling:
+    this.map.appendChild(path)
     path.classList.add('-hilighted')
   }
 
