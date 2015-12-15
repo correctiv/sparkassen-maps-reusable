@@ -4,11 +4,12 @@ import DATASETS from '../data/datasets.js'
 function getDataSet(i) {
   let dataSet = DATASETS[i]
   let name = dataSet.name
+  let title = dataSet.title
   let loader = dataSet.loader
   let colorize = loader.colorize.bind(loader)
   let data = loader.getDataDict()
   let legend = loader.getLegend()
-  return {name, colorize, data, legend}
+  return {name, title, colorize, data, legend}
 }
 
 class MapStore {
@@ -38,7 +39,7 @@ class MapStore {
       this.data = dataSet.data
       this.trigger(riot.EVT.layerChanged, dataSet)
 
-      // update data in infobox
+      // update data in infobox of previously hilighted
       if (this.hilighted) {
         this.trigger(riot.EVT.hilight, this.hilighted)
       }
