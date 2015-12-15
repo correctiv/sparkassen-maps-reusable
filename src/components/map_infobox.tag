@@ -3,16 +3,14 @@ import './map_layerinfo.tag'
 
 <map-infobox class="superbugs-map__infobox">
 
-  <state-selector></state-selector>
-
   <map-layerinfo></map-layerinfo>
 
-  <div if={ data } class="superbugs-map__infobox__data">
-    <h3>{ data.name }</h3>
-    <p>{ data.value } %</p>
-  </div>
+  <div class="superbugs-map__infobox__data">
 
-  this.data = null
+    <state-selector active={ data.iso.toUpperCase() }></state-selector>
+    <p class={ -hidden: !data }>{ data.value } %</p>
+
+  </div>
 
   riot.control.on(riot.EVT.hilightChanged, data => {
     this.data = data

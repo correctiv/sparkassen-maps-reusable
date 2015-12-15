@@ -3,13 +3,12 @@ import DATASETS from '../data/datasets.js'
 
 function getDataSet(i) {
   let dataSet = DATASETS[i]
-  let name = dataSet.name
-  let title = dataSet.title
+  let metaData = dataSet.metaData
   let loader = dataSet.loader
   let colorize = loader.colorize.bind(loader)
   let data = loader.getDataDict()
   let legend = loader.getLegend()
-  return {name, title, colorize, data, legend}
+  return {metaData, colorize, data, legend}
 }
 
 class MapStore {
@@ -50,7 +49,7 @@ class MapStore {
   getLayers() {
     let layers = []
     DATASETS.map(d => {
-      let name = d.name
+      let name = d.metaData.shortName
       let id = DATASETS.indexOf(d)
       layers.push({id, name})
     })

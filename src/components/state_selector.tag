@@ -3,7 +3,7 @@ import ISOLIST from '../data/isolist'
 <state-selector class="superbugs-map__states-selector">
 
   <select onchange={ hilight }>
-    <option each={ states } value={ iso }>{ name }</option>
+    <option each={ states } value={ iso } selected={ parent.opts.active === iso }>{ name }</option>
   </select>
 
   this.states = ISOLIST
