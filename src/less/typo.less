@@ -1,0 +1,46 @@
+@neuzeit-font-path: '/static/fonts/neuzeit_grotesk_bold/NeuzeitGro-Bol';
+@neuzeit-condensed-font-path: '/static/fonts/neuzeit_grotesk_black_condensed/NeuzeitGroExt-Bla';
+
+@font-face {
+  font-family: 'Neuzeit';
+  src: url('@{neuzeit-font-path}.eot');
+  src: url('@{neuzeit-font-path}.eot?#iefix') format('embedded-opentype'),
+       url('@{neuzeit-font-path}.woff2') format('woff2'),
+       url('@{neuzeit-font-path}.woff') format('woff'),
+       url('@{neuzeit-font-path}.ttf') format('truetype'),
+       url('@{neuzeit-font-path}.svg#Neuzeit') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neuzeit-Condensed';
+  src: url('@{neuzeit-condensed-font-path}.eot');
+  src: url('@{neuzeit-condensed-font-path}.eot?#iefix') format('embedded-opentype'),
+       url('@{neuzeit-condensed-font-path}.woff2') format('woff2'),
+       url('@{neuzeit-condensed-font-path}.woff') format('woff'),
+       url('@{neuzeit-condensed-font-path}.ttf') format('truetype'),
+       url('@{neuzeit-condensed-font-path}.svg#NeuzeitCondensed') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.heading-font-primary() {
+  font-family: 'Neuzeit', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.heading-font-secondary() {
+  font-family: 'Neuzeit-Condensed', 'Arial Narrow', 'Franklin Gothic Medium', 'Arial', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.numbers {
+  font-family: 'Neuzeit', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-feature-settings: 'tnum';
+  -moz-font-feature-settings: 'tnum';
+  -ms-font-feature-settings: 'tnum';
+  text-align: right;
+}

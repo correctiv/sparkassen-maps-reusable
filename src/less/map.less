@@ -1,4 +1,17 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import './variables.less';
+
 .superbugs-map {
+  font-family: @body-font;
+  color: @black;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: @heading-font-primary;
+  }
+
+  p {
+    font-size: @font-size-base;
+  }
 
   &__legend {
     position: absolute;
@@ -13,6 +26,8 @@
       li {
         display: inline;
         padding: 3px;
+        font-feature-settings: 'tnum';
+        font-size: @font-size-small;
       }
     }
   }
@@ -22,14 +37,16 @@
     height: 800px;
 
     path {
-      fill: grey;
+      fill: @beige;
       opacity: .8;
-      stroke-width: 1;
-      stroke: #fff;
+      stroke: @white;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
 
       &.-hilighted {
+        stroke: @purple;
         opacity: 1;
-        stroke: red;
       }
     }
   }
