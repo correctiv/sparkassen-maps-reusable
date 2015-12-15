@@ -4,10 +4,12 @@ import './layer_switcher.tag'
 import ISO from '../data/iso'
 
 <superbugs-map>
+  <layer-switcher></layer-switcher>
+
   <yield/>
+
   <map-infobox></map-infobox>
   <map-legend></map-legend>
-  <layer-switcher></layer-switcher>
 
   this.on('mount', () => {
     this.hilighted = null
