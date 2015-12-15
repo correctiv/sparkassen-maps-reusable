@@ -1,4 +1,4 @@
-import isoeu from '../data/isoeu.js';
+import ISOLIST from '../data/isolist'
 
 <state-selector class="superbugs-map__states-selector">
 
@@ -6,7 +6,7 @@ import isoeu from '../data/isoeu.js';
     <option each={ states } value={ iso }>{ name }</option>
   </select>
 
-  this.states = isoeu
+  this.states = ISOLIST
 
   this.hilight = (e) => {
     let id = e.target.value.toLowerCase()
