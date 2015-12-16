@@ -12,7 +12,7 @@ $ npm install
 $ npm run dev
 ```
 
-Now the server is runnning on localhost:1337
+Now the server is runnning on localhost:4000
 
 
 ## Build

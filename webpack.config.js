@@ -55,7 +55,7 @@ module.exports = {
   postcss: [autoprefixer, csswring],
   devServer: {
     contentBase: './build/',
-    port: 1337,
+    port: 4000,
     hot: true,
     inline: true
   }
