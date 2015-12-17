@@ -3,58 +3,62 @@ import colors from './colors.js'
 
 const SOURCES = [
   {
-    name: 'Escherichia coli',
-    title: 'Percentage with resistance to fluoroquinolones (%R)',
-    annotation: 'Data: 2014, except Poland: 2013',
-    euData: 22.4,
-    data: require('dsv!./csv/0_e-coli.csv')
-  },
-  {
-    name: 'Escherichia coli',
-    title: 'Percentage with resistance to third-generation cephalosporins (%R)',
-    annotation: 'Data: 2014, except Poland: 2013',
+    name: 'Escherichia coli vs cephalosporins',
+    title: 'Resistance to 3rd generation cephalosporins  in percent',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
     euData: 12,
     data: require('dsv!./csv/1_e-coli.csv')
   },
   {
-    name: 'Klebsiella pneumoniae',
-    title: 'Percentage with resistance to third-generation cephalosporins (%R)',
+    name: 'Escherichia coli vs fluoroquinolones ',
+    title: 'Resistance to fluoroquinolones in percent',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
+    euData: 22.4,
+    data: require('dsv!./csv/0_e-coli.csv')
+  },
+  {
+    name: 'Klebsiella pneumoniae vs cephalosporins',
+    title: 'Resistance to 3rd generation cephalosporins in percent',
     euData: 28,
-    annotation: 'Data: 2014, except Poland: 2013',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
     data: require('dsv!./csv/2_k-p.csv')
   },
   {
-    name: 'Klebsiella pneumoniae',
-    title: 'Percentage with resistance to carbapenems (%R)',
+    name: 'Klebsiella pneumoniae vs carbapenems',
+    title: 'Resistance to carbapenems in percent',
     euData: 7.3,
-    annotation: 'Data: 2014, except Poland: 2013',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
     data: require('dsv!./csv/3_k-p.csv')
   },
   {
-    name: 'Streptococcus pneumoniae',
-    title: 'Percentages non-susceptible to penicillin (%IR)',
-    annotation: 'Data: 2014, except Poland: 2013',
-    data: require('dsv!./csv/4_s-p.csv')
-  },
-  {
-    name: 'Staphylococcus aureus',
-    title: 'Percentage with resistance to meticillin (MRSA) (%R)',
+    name: 'Staphylococcus aureus vs methicillin',
+    title: 'MRSA in percent',
     euData: 17.4,
-    annotation: 'Data: 2014, except Poland: 2013',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
     data: require('dsv!./csv/5_mrsa.csv')
   },
   {
-    name: 'NTS',
-    annotation: 'Source: WHO',
+    name: 'Streptococcus pneumoniae vs penicillin',
+    title: 'Resistance to penicillin in percent',
+    annotation: 'ECDC Surveillance report 2014, except Poland (2013)',
+    data: require('dsv!./csv/4_s-p.csv')
+  },
+  {
+    name: 'Salmonella vs fluoroquinolones',
+    title: 'Resistance to fluoroquinolones in percent',
+    annotation: 'WHO Surveillance report 2014',
     data: require('dsv!./csv/6_nts.csv')
   },
   {
-    name: 'Shigella',
-    annotation: 'Source: WHO',
+    name: 'Shigella vs fluoroquinolones',
+    title: 'Resistance to fluoroquinolones in percent',
+    annotation: 'WHO Surveillance report 2014',
     data: require('dsv!./csv/7_shigella.csv')
   },
   {
-    name: 'Neisseria',
+    name: 'Neisseria gonorrhoea vs cephalosporins',
+    title: 'Resistance to 3rd generation cephalosporins in percent',
+    annotation: 'WHO Surveillance report 2014',
     data: require('dsv!./csv/8_neisseria.csv')
   }
 ]
