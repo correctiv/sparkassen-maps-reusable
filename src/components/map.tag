@@ -6,16 +6,15 @@ import ISO from '../data/iso'
 
   <yield/>
 
-  <map-infobox></map-infobox>
   <map-legend></map-legend>
+  <map-infobox></map-infobox>
 
   <script>
     this.on('mount', () => {
       this.hilighted = null
       this.paths = this.getPaths(ISO)
       this.eventize()
-      // initial layer:
-      riot.control.trigger(riot.EVT.changeLayer, 0)
+      riot.control.trigger(riot.EVT.changeLayer, opts.layer || 0)
     })
 
     riot.control.on(riot.EVT.hilight, id => {
