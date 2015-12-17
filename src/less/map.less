@@ -10,21 +10,23 @@
   font-family: @body-font;
   color: @black;
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: @heading-font-primary;
-  }
-
   p {
     font-size: @font-size-base;
   }
 
   &__legend {
     position: absolute;
-    bottom: @base-padding;
+    top: @base-padding;
     right: @base-padding;
     padding: @base-padding;
     background-color: @white;
     opacity: .8;
+    color: black;
+
+    @media (min-width: 768px) {
+      top: auto;
+      bottom: @base-padding;
+    }
 
     ul {
       list-style: none;
@@ -35,7 +37,8 @@
         display: inline;
         padding: 3px;
         font-feature-settings: 'tnum';
-        font-size: @font-size-small;
+        font-family: sans-serif;
+        font-size: 10px;
       }
     }
   }
@@ -65,12 +68,22 @@
   }
 
   &__infobox {
-    position: absolute;
-    top: 22px;
-    right: 22px;
-    width: 30%;
-    background-color: @white;
+    display: block;
+    position: relative;
+    top: -30px;
+    border: 1px solid @gray-light;
+    background: @white;
     padding: @base-padding;
+    margin: 0 @base-padding;
+
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 22px;
+      right: 22px;
+      width: 30%;
+      margin: 0;
+      background-color: @white;
+    }
 
     &__layerinfo {
       p {
@@ -129,7 +142,6 @@
       height: 50px;
       background-color: @beige-lighter;
       border: 0;
-      font-family: @heading-font-primary;
       font-weight: bold;
       color: @white;
 
