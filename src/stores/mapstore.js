@@ -49,7 +49,6 @@ class MapStore {
   getLayers() {
     let layers = []
     DATASETS.map(d => {
-      let name = d.metaData.shortName
       let id = DATASETS.indexOf(d)
       layers.push({id, name})
     })
