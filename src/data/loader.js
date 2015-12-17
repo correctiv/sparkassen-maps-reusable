@@ -1,3 +1,6 @@
+const MIN_BORDER = 0;
+const MAX_BORDER = 70;
+
 class Loader {
 
   constructor({colors, data}) {
@@ -46,21 +49,18 @@ class Loader {
   }
 
   getRanges() {
-    let borders = this.getBorders()
-    let min = borders.min
-    let max = borders.max
+    let min = MIN_BORDER
+    let max = MAX_BORDER
     let range = max - min
     let steps = this.colors.length
-    let stepSize = range/steps
+    let stepSize = range / steps
     let ranges = []
     let i = 1
     while (i <= steps) {
-      let val = min + i*stepSize
+      let val = i * stepSize + min
       ranges.push(val)
       i++
     }
-    // make sure last value of ranges is the maximum
-    ranges[ranges.length-1] = max
     return ranges
   }
 
@@ -73,14 +73,6 @@ class Loader {
       }
     })
     return values
-  }
-
-  getBorders() {
-    let values = this.getValues()
-    return {
-      min: Math.min(...values),
-      max: Math.max(...values)
-    }
   }
 
   getDataDict() {
