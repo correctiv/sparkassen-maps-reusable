@@ -1,5 +1,5 @@
 import ISO from '../data/iso.js'
-import DATASETS from '../data/datasets.js'
+import {DATASETS} from '../data/datasets.js'
 
 function getDataSet(i) {
   let dataSet = DATASETS[i]

@@ -1,6 +1,7 @@
 import './map_infobox.tag'
 import './map_legend.tag'
 import ISO from '../data/iso'
+import {DEFAULT_DATASET} from '../data/datasets'
 
 <superbugs-map>
 
@@ -14,7 +15,7 @@ import ISO from '../data/iso'
       this.hilighted = null
       this.paths = this.getPaths(ISO)
       this.eventize()
-      riot.control.trigger(riot.EVT.changeLayer, opts.layer || 0)
+      riot.control.trigger(riot.EVT.changeLayer, opts.layer || DEFAULT_DATASET)
     })
 
     riot.control.on(riot.EVT.hilight, id => {
