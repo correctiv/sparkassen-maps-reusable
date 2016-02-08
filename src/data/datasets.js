@@ -164,6 +164,4 @@ for (let source of SOURCES) {
   i = i+1
 }
 
-DEFAULT_DATASET = 'ab-animals'
-
 export default {DATASETS, DEFAULT_DATASET}
