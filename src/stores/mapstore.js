@@ -1,8 +1,8 @@
 import ISO from '../data/iso.js'
 import {DATASETS} from '../data/datasets.js'
 
-function getDataSet(i) {
-  let dataSet = DATASETS[i]
+function getDataSet(slug) {
+  let dataSet = DATASETS[slug]
   let metaData = dataSet.metaData
   let loader = dataSet.loader
   let colorize = loader.colorize.bind(loader)
@@ -33,8 +33,8 @@ class MapStore {
     })
 
     // change data layer
-    this.on(riot.EVT.changeLayer, (i) => {
-      let dataSet = getDataSet(i)
+    this.on(riot.EVT.changeLayer, (slug) => {
+      let dataSet = getDataSet(slug)
       this.data = dataSet.data
       this.trigger(riot.EVT.layerChanged, dataSet)
 
