@@ -1,5 +1,5 @@
 import Loader from './loader.js'
-import colors from './colors.js'
+import {COLORS7, COLORS9} from './colors.js'
 
 const SOURCES = [
   {
@@ -124,8 +124,9 @@ const SOURCES = [
     unit: 'mg/kg',
     range: {
       min: 0,
-      max: 420
+      max: 450
     },
+    colors: COLORS9,
     data: require('dsv!./csv/9_ab_animals.csv')
   },
   {
@@ -137,18 +138,21 @@ const SOURCES = [
     unit: 'mg/kg',
     range: {
       min: 0,
-      max: 420
+      max: 450
     },
+    colors: COLORS9,
     data: require('dsv!./csv/10_ab_humans.csv')
   }
 ]
 
+let DEFAULT_COLORS = COLORS7
 let DATASETS = {}
 let DEFAULT_DATASET
 let i = 0
 for (let source of SOURCES) {
   let data = source.data
   let range = source.range
+  let colors = source.colors || DEFAULT_COLORS
   let loader = new Loader({colors, data, range})
   delete source.data
   let metaData = source
@@ -159,5 +163,7 @@ for (let source of SOURCES) {
   }
   i = i+1
 }
+
+DEFAULT_DATASET = 'ab-animals'
 
 export default {DATASETS, DEFAULT_DATASET}
