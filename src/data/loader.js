@@ -1,11 +1,9 @@
-const MIN_BORDER = 0;
-const MAX_BORDER = 70;
-
 class Loader {
 
-  constructor({colors, data}) {
+  constructor({colors, data, range}) {
     this.colors = colors
     this.data = data
+    this.range = range
   }
 
   colorize(paths) {
@@ -49,8 +47,8 @@ class Loader {
   }
 
   getRanges() {
-    let min = MIN_BORDER
-    let max = MAX_BORDER
+    let min = this.range.min
+    let max = this.range.max
     let range = max - min
     let steps = this.colors.length
     let stepSize = range / steps

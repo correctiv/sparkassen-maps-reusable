@@ -6,7 +6,6 @@ import {DEFAULT_DATASET} from '../data/datasets'
 <superbugs-map>
 
   <yield/>
-
   <map-legend></map-legend>
   <map-infobox></map-infobox>
 
