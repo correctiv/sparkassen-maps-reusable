@@ -117,9 +117,9 @@ const SOURCES = [
   },
   {
     slug: 'ab-animals',
-    name: 'Antibiotikum Tiere',
-    title: 'Resistance to 3rd generation cephalosporins in percent. Of all infections with this bacterium, this percentage was resistant to this antibiotic.',
-    annotation: 'WHO Surveillance report 2014',
+    name: 'Antimicrobials consumption (animals)',
+    title: 'Consumption of antimicrobials by food-producing animals expressed as milligrams per kilogram biomass.',
+    annotation: 'ECDC/EFSA/EMA first joint report, 2015 (Data from 2012)',
     euData: 114,
     unit: 'mg/kg',
     range: {
@@ -131,9 +131,9 @@ const SOURCES = [
   },
   {
     slug: 'ab-humans',
-    name: 'Antibiotikum Menschen',
-    title: 'Resistance to 3rd generation cephalosporins in percent. Of all infections with this bacterium, this percentage was resistant to this antibiotic.',
-    annotation: 'WHO Surveillance report 2014',
+    name: 'Antimicrobials consumption (humans)',
+    title: 'Consumption of antimicrobials by humans expressed as milligrams per kilogram biomass.',
+    annotation: 'ECDC/EFSA/EMA first joint report, 2015 (Data from 2012)',
     euData: 116.4,
     unit: 'mg/kg',
     range: {
