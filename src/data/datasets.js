@@ -11,7 +11,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/1_e-coli.csv')
   },
@@ -24,7 +24,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/0_e-coli.csv')
   },
@@ -37,7 +37,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/2_k-p.csv')
   },
@@ -50,7 +50,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/3_k-p.csv')
   },
@@ -63,7 +63,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/5_mrsa.csv')
   },
@@ -75,7 +75,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/4_s-p.csv')
   },
@@ -87,7 +87,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/6_nts.csv')
   },
@@ -99,7 +99,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/7_shigella.csv')
   },
@@ -111,7 +111,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 70
+      max: 64
     },
     data: require('dsv!./csv/8_neisseria.csv')
   },
@@ -124,7 +124,7 @@ const SOURCES = [
     unit: 'mg/kg',
     range: {
       min: 0,
-      max: 450
+      max: 360
     },
     colors: COLORS9,
     data: require('dsv!./csv/9_ab_animals.csv')
@@ -138,14 +138,14 @@ const SOURCES = [
     unit: 'mg/kg',
     range: {
       min: 0,
-      max: 450
+      max: 360
     },
     colors: COLORS9,
     data: require('dsv!./csv/10_ab_humans.csv')
   }
 ]
 
-let DEFAULT_COLORS = COLORS7
+let DEFAULT_COLORS = COLORS9
 let DATASETS = {}
 let DEFAULT_DATASET
 let i = 0

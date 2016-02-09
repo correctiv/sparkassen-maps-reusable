@@ -41,7 +41,7 @@ class Loader {
     let color = colors[i]
     while (value > ranges[i]) {
       i++
-      color = colors[i]
+      color = colors[i] || colors[colors.length-1]
     }
     return color
   }
@@ -50,7 +50,7 @@ class Loader {
     let min = this.range.min
     let max = this.range.max
     let range = max - min
-    let steps = this.colors.length
+    let steps = this.colors.length - 1
     let stepSize = range / steps
     let ranges = []
     let i = 1
