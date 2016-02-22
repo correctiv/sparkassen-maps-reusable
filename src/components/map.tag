@@ -1,9 +1,9 @@
 import './map_infobox.tag'
 import './map_legend.tag'
-import ISO from '../data/iso'
+import {IDS} from '../data/paths'
 import {DEFAULT_DATASET} from '../data/datasets'
 
-<superbugs-map>
+<riot-map>
 
   <yield/>
   <map-legend></map-legend>
@@ -12,7 +12,7 @@ import {DEFAULT_DATASET} from '../data/datasets'
   <script>
     this.on('mount', () => {
       this.hilighted = null
-      this.paths = this.getPaths(ISO)
+      this.paths = this.getPaths(IDS)
       this.eventize()
       riot.control.trigger(riot.EVT.changeLayer, opts.layer || DEFAULT_DATASET)
     })
@@ -52,17 +52,16 @@ import {DEFAULT_DATASET} from '../data/datasets'
       })
     }
 
-    this.getPaths = (isoData) => {
+    this.getPaths = (ids) => {
       let paths = []
-      for (let id in isoData) {
+      for (let id in ids) {
         let p = this[id]
         if (p) {
-          paths.push(this[id])
+          paths.push(p)
         }
       }
       return paths
     }
   </script>
 
-
-</superbugs-map>
+</riot-map>

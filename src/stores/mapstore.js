@@ -1,4 +1,4 @@
-import ISO from '../data/iso.js'
+import {NAMES} from '../data/paths.js'
 import {DATASETS} from '../data/datasets.js'
 
 function getDataSet(slug) {
@@ -26,10 +26,9 @@ class MapStore {
     // hilighting
     this.on(riot.EVT.hilight, (id) => {
       this.hilighted = id
-      let name = ISO[id]
-      let iso = id
+      let name = NAMES[id]
       let value = this.data[id]
-      this.trigger(riot.EVT.hilightChanged, {name, iso, value})
+      this.trigger(riot.EVT.hilightChanged, {name, id, value})
     })
 
     // change data layer
