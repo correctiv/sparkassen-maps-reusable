@@ -1,10 +1,10 @@
-import './state_selector.tag'
+import './path_searchbox.tag'
 import './map_layerinfo.tag'
 
-<map-infobox class="superbugs-map__infobox">
+<map-infobox class="map__infobox">
 
-  <div class="superbugs-map__infobox__data">
-    <state-selector active={ data.iso.toUpperCase() }></state-selector>
+  <div class="map__infobox__data">
+    <path-searchbox active={ data.id }></path-searchbox>
     <p class={ -hidden: !data }>{ data.value ? data.value + ' ' + unit : 'n/a' }</p>
   </div>
 

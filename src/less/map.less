@@ -1,7 +1,7 @@
 @import '../../node_modules/normalize.css/normalize.css';
 @import './variables.less';
 
-.superbugs-map {
+.map {
   height: 100%;
   width: 100%;
   position: relative;
@@ -113,7 +113,7 @@
     }
   }
 
-  &__states-selector {
+  &__path-selector {
 
     select {
       width: 100%;
@@ -127,6 +127,28 @@
 
     }
 
+  }
+
+  &__path-searchbox {
+
+    input {
+      width: 200px;
+    }
+
+    &__result-list {
+      width: 200px;
+      margin: 0;
+      padding: 0;
+      border: 1px solid @black;
+
+      li {
+        list-style: none;
+
+        &:hover {
+          background-color: @beige-light;
+        }
+      }
+    }
   }
 
   &__layer-switcher {
