@@ -4,8 +4,8 @@
 
 currently installed:
 
-    slug: 'testdata',
-    name: 'Test Data',
+    slug: 'interests',
+    name: 'Zinsen',
 
 
 ## Installation

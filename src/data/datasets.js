@@ -3,16 +3,17 @@ import {COLORS7, COLORS9} from './colors.js'
 
 const SOURCES = [
   {
-    slug: 'testdata',
-    name: 'Test Data',
+    slug: 'interests',
+    name: 'Zinsen',
     title: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
     annotation: 'Annotations (2016)',
     unit: '%',
     range: {
-      min: 0,
-      max: 500
+      min: 6,
+      max: 14
     },
-    data: require('dsv!./csv/testdata.csv')
+    extraValues: ['value2', 'value3', 'value4'],
+    data: require('dsv!./csv/zinsen_clean.csv')
   }
 ]
 
@@ -24,7 +25,8 @@ for (let source of SOURCES) {
   let data = source.data
   let range = source.range
   let colors = source.colors || DEFAULT_COLORS
-  let loader = new Loader({colors, data, range})
+  let extraValues = source.extraValues || []
+  let loader = new Loader({colors, data, range, extraValues})
   delete source.data
   let metaData = source
   let dataset = {metaData, loader}

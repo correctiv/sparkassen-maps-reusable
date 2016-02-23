@@ -1,0 +1,423 @@
+id,name,value,value2,value3,value4
+45,Sparkasse Holstein,5.710,8.210,0.000,0.010
+192,Sparkasse Jena-Saale-Holzland,6.850,6.850,0.000,0.010
+16,Kreissparkasse Ludwigsburg,7.500,8.750,0.000,0.010
+214,Kreissparkasse Saarpfalz,7.600,7.600,0.000,0.050
+172,Sparkasse Aurich-Norden,7.750,7.750,0.000,0.050
+264,Sparkasse Mansfeld-Südharz,8.260,8.260,0.000,0.050
+94,Sparkasse Marburg-Biedenkopf,8.330,12.330,0.000,0.050
+290,Sparkasse Mecklenburg-Nordwest,8.390,8.390,0.000,0.020
+292,Kreissparkasse Gotha,8.490,8.490,0.000,0.010
+209,Sparkasse Elbe-Elster,8.500,9.900,0.000,0.010
+142,Sparkasse Schweinfurt,8.500,11.500,0.000,0.070
+115,Sparkasse Oberlausitz-Niederschlesien,8.510,8.510,0.000,0.050
+30,Sparkasse Heidelberg,8.700,8.700,0.000,0.050
+106,Sparkasse Siegen,8.730,11.730,0.000,0.050
+24,Kreissparkasse Heilbronn,8.868,8.868,0.000,k.A.
+318,Sparkasse Uckermark,8.890,8.890,k.A.,0.010
+105,Sparkasse Schwäbisch Hall Crailsheim,8.900,12.900,0.000,0.100
+169,Sparkasse Neuwied,9.020,13.020,0.000,0.100
+138,Sparkasse Schaumburg,9.050,14.050,0.000,0.050
+243,Sparkasse Niederlausitz mit Sitz in Senftenberg,9.190,9.190,0.000,0.050
+88,Sparkasse Harburg-Buxtehude,9.210,9.210,0.000,0.050
+234,Kreissparkasse Stade,9.250,14.250,0.000,0.050
+70,Sparkasse Trier,9.250,9.250,0.000,0.010
+397,Sparkasse Grünberg,9.260,15.260,0.030,0.050
+78,Saalesparkasse,9.300,9.300,0.000,0.100
+67,Sparkasse Bodensee,9.300,9.300,0.000,0.050
+393,Sparkasse St. Blasien,9.300,14.800,0.050,0.050
+357,Sparkasse Uecker-Randow,9.330,13.330,0.000,0.010
+203,Sparkasse Stade - Altes Land,9.400,9.400,0.000,0.050
+147,Sparkasse zu Lübeck AG,9.400,9.400,0.000,0.010
+350,Sparkasse Duderstadt,9.420,9.420,0.000,0.050
+113,OstseeSparkasse Rostock,9.450,9.450,0.000,0.020
+146,Sparkasse Coburg-Lichtenfels,9.460,9.460,0.000,0.050
+119,Vereinigte Sparkassen Stadt- und Landkreis Ansbach,9.490,9.490,k.A.,0.010
+90,Sparkasse Landshut,9.500,14.500,0.000,0.010
+340,Vereinigte Sparkassen Gunzenhausen,9.500,9.500,0.000,0.010
+213,Kreissparkasse Grafschaft Bentheim zu Nordhorn,9.550,14.550,0.000,0.050
+294,Stadtsparkasse Bocholt,9.550,9.550,0.000,0.100
+148,Harzsparkasse,9.590,12.590,0.000,0.050
+140,Sparkasse Meißen,9.590,9.590,0.000,0.020
+195,Kreissparkasse Freudenstadt,9.600,12.600,0.000,0.020
+53,Kreissparkasse Reutlingen,9.600,14.100,0.000,0.050
+87,Sparkasse Mittelfranken-Süd,9.600,9.600,k.A.,0.010
+68,Sparkasse Koblenz,9.610,14.230,0.000,0.100
+135,Sparkasse Lüneburg,9.610,9.610,0.000,0.050
+223,Sparkasse Weserbergland,9.630,9.630,k.A.,0.010
+186,Kreis- und Stadtsparkasse Erding - Dorfen,9.640,9.640,0.000,0.150
+328,Kreissparkasse Höchstadt/Aisch,9.650,9.650,0.000,0.010
+238,Sparkasse Barnim,9.650,9.650,0.000,0.020
+211,Sparkasse Nienburg,9.650,14.400,k.A.,0.050
+58,Stadtsparkasse Mönchengladbach,9.650,14.650,0.000,0.050
+51,Kreissparkasse Göppingen,9.690,9.690,0.000,0.050
+72,Sparkasse Regensburg,9.690,12.690,0.000,0.020
+360,Sparkasse Bergkamen-Bönen,9.720,12.220,0.000,0.050
+168,Sparkasse Gießen,9.750,14.750,0.020,0.020
+248,Sparkasse Goslar/Harz,9.750,13.750,0.000,0.100
+228,Sparkasse Hanauerland,9.750,9.750,0.000,0.010
+125,Sparkasse Singen-Radolfzell,9.750,9.750,0.000,0.050
+159,Sparkasse Burgenlandkreis,9.770,9.770,0.000,0.010
+162,Sparkasse Neumarkt-Parsberg,9.780,9.780,0.000,0.010
+225,Vereinigte Sparkassen im Landkreis Weilheim,9.780,15.030,0.000,0.020
+126,Sparkasse Hochrhein,9.790,9.790,0.000,0.050
+255,Kreissparkasse Bersenbrück,9.800,14.800,0.000,0.010
+74,Sparkasse Chemnitz,9.815,9.815,0.000,0.010
+286,Sparkasse Pfaffenhofen,9.820,9.820,0.000,0.050
+335,Stadtsparkasse Gladbeck,9.830,9.830,0.000,0.050
+183,Sparkasse Deggendorf,9.850,9.850,0.000,0.020
+219,Hohenzollerische LdBk KSK Sigmaringen,9.850,14.850,k.A.,0.050
+185,Sparkasse Lüdenscheid,9.860,15.360,0.000,0.050
+230,Kreissparkasse Bautzen,9.900,9.900,0.000,0.010
+319,Sparkasse Bühl,9.900,9.900,0.000,0.050
+282,Kreissparkasse Melle,9.910,9.910,0.000,0.050
+383,Sparkasse Nördlingen,9.935,14.435,0.000,0.050
+257,Kreissparkasse Bitburg-Prüm,9.950,9.950,0.000,0.100
+112,Kreissparkasse Tuttlingen,9.950,14.950,0.000,0.100
+152,Sparkasse Kulmbach-Kronach,9.950,9.950,0.000,0.050
+99,Sparkasse Vorpommern,9.950,9.950,0.000,0.020
+380,Stadtsparkasse Porta Westfalica,9.950,16.450,0.000,0.010
+208,Kreissparkasse Miesbach-Tegernsee,9.960,9.960,0.000,0.030
+284,Kreissparkasse Saalfeld-Rudolstadt,9.990,9.990,0.000,0.010
+7,Ostsächsische Sparkasse Dresden,9.990,9.990,0.000,0.050
+122,Sparkasse Göttingen,9.990,14.490,0.000,0.010
+317,Sparkasse Muldental,9.990,9.990,0.000,0.010
+279,Stadtsparkasse Bottrop,9.990,14.990,0.000,0.100
+295,Kreissparkasse Soltau,10.050,10.050,k.A.,0.050
+190,Sparkasse im Landkreis Neustadt/Aisch - Bad Windsheim,10.050,14.050,0.010,
+390,Stadtsparkasse Schmallenberg,10.050,15.800,0.000,0.020
+174,Sparkasse Gera-Greiz,10.080,10.080,0.000,0.010
+167,Sparkasse Südwestpfalz,10.080,10.080,0.000,0.050
+301,Kreissparkasse Walsrode,10.150,10.150,k.A.,0.001
+359,Stadt- und Kreissparkasse Moosburg,10.160,15.160,k.A.,0.020
+129,Sparkasse Mittelmosel Eifel Mosel Hunsrück,10.170,10.170,0.000,0.020
+349,Sparkasse Hennstedt-Wesselburen,10.190,15.690,0.000,0.010
+285,Sparkasse Bad Neustadt a.d. Saale,10.200,14.200,0.000,0.030
+329,Sparkasse Beckum-Wadersloh,10.200,15.200,0.000,0.050
+276,Sparkasse Neubrandenburg-Demmin,10.200,10.200,0.000,0.020
+216,Rhön-Rennsteig-Sparkasse,10.210,15.210,0.000,0.050
+73,Sparkasse Mittelthüringen,10.220,15.220,0.000,0.010
+82,Sparkasse Niederbayern-Mitte,10.270,15.270,0.000,0.010
+355,Sparkasse Sonneberg,10.270,10.270,0.000,0.050
+181,Sparkasse Neu-Ulm - Illertissen,10.280,15.280,0.000,0.050
+13,Sparkasse Nürnberg,10.280,10.280,0.000,0.010
+251,Kreissparkasse Halle,10.300,10.300,k.A.,0.010
+333,Stadtsparkasse Hameln,10.300,10.300,0.000,0.010
+368,Sparkasse Burbach-Neunkirchen,10.350,10.350,0.000,0.050
+237,Sparkasse Neunkirchen,10.350,10.350,0.000,0.050
+201,Sparkasse Germersheim-Kandel,10.360,15.360,k.A.,0.050
+179,Sparkasse im Landkreis Schwandorf,10.370,15.370,0.000,0.010
+118,Sparkasse Spree-Neiße,10.370,14.870,0.000,0.050
+242,Kreissparkasse Rhein-Hunsrück,10.380,15.380,0.000,0.025
+26,Sparkasse Mainfranken Würzburg,10.390,13.390,0.000,0.050
+386,Sparkasse Rietberg,10.390,15.890,0.000,0.050
+107,Sparkasse Südliche Weinstraße,10.390,10.390,0.000,0.050
+80,Sparkasse Rhein-Haardt,10.410,10.410,0.000,0.150
+345,Sparkasse Ennepetal-Breckerfeld,10.430,10.430,0.000,0.050
+288,Kreissparkasse Garmisch-Partenkirchen,10.438,12.438,0.000,0.010
+193,Kreissparkasse Kelheim,10.450,10.450,0.000,0.050
+229,Sparkasse der Stadt Iserlohn,10.450,10.450,0.000,0.050
+281,Sparkasse Hochsauerland,10.450,10.450,0.000,0.050
+136,Sparkasse Oder-Spree,10.470,15.470,0.000,0.010
+46,Sparkasse Ulm,10.470,10.470,0.000,0.500
+15,Kreissparkasse München Starnberg Ebersberg,10.488,10.488,0.000,0.010
+33,Sparkasse Westmünsterland,10.489,10.489,k.A.,0.050
+102,Sparkasse Emsland,10.500,10.500,0.000,0.050
+108,Sparkasse Gifhorn-Wolfsburg,10.500,10.500,0.000,0.050
+202,Sparkasse Werra-Meißner,10.500,15.500,0.000,0.010
+63,Stadt- und Kreissparkasse Darmstadt,10.500,10.500,0.000,0.050
+419,Berliner Sparkasse,10.500,10.500,0.050,0.050
+120,Kreissparkasse Herzogtum Lauenburg,10.510,10.510,0.000,0.020
+303,Sparkasse Ostprignitz-Ruppin,10.540,10.540,0.000,0.050
+52,Kreissparkasse Tübingen,10.550,10.550,0.000,0.050
+344,Sparkasse Prignitz,10.570,14.570,0.000,0.010
+263,Kreissparkasse Birkenfeld,10.590,15.590,0.000,0.050
+182,Sparkasse Baden-Baden Gaggenau,10.590,10.590,0.000,0.100
+410,Sparkasse Fröndenberg,10.600,15.850,0.000,0.015
+97,Sparkasse Hilden Ratingen Velbert,10.600,10.600,0.000,0.010
+2,Sparkasse KölnBonn,10.620,13.120,0.000,0.030
+37,Sparkasse Vorderpfalz,10.620,10.620,k.A.,0.050
+56,Kreissparkasse Ravensburg,10.630,14.630,0.000,0.050
+71,Sparkasse Aschaffenburg-Alzenau,10.630,10.630,0.000,0.050
+1,Hamburger Sparkasse AG,10.650,10.650,0.000,0.150
+35,Kreissparkasse Biberach,10.650,10.650,0.000,0.100
+141,Kreissparkasse Verden,10.650,16.650,0.000,0.050
+19,Landessparkasse zu Oldenburg,10.650,10.650,0.000,0.010
+256,Sparkasse Lippstadt,10.650,10.650,0.000,0.050
+283,Sparkasse Ostunterfranken,10.650,10.650,0.000,15.000
+93,Sparkasse Düren,10.670,10.670,0.000,0.020
+49,Sparkasse Rhein Neckar Nord,10.670,10.670,0.000,0.020
+47,Stadtsparkasse Augsburg,10.675,14.675,0.000,0.010
+396,Sparkasse der Stadt Straelen,10.680,10.680,0.000,0.010
+217,Sparkasse Forchheim,10.680,10.680,0.000,0.050
+204,Sparkasse Landsberg-Dießen,10.680,14.180,0.000,0.010
+312,Stadtsparkasse Cuxhaven,10.680,10.680,0.000,0.050
+84,Sparkasse Bamberg,10.690,10.690,0.000,0.050
+189,Sparkasse Gütersloh,10.690,10.690,0.000,0.050
+28,Sparkasse Karlsruhe Ettlingen,10.690,10.690,0.000,0.050
+188,Sparkasse Miltenberg-Obernburg,10.690,k.A.,0.000,0.050
+374,Stadtsparkasse Wedel,10.690,16.690,0.000,0.010
+18,Sparkasse Münsterland Ost,10.691,10.691,0.000,0.010
+227,Kreissparkasse Börde,10.700,10.700,0.000,0.050
+117,Sparkasse Lemgo,10.700,13.700,0.050,0.050
+246,Stadtsparkasse Remscheid,10.700,15.700,0.000,0.150
+313,Sparkasse Wittgenstein,10.710,13.960,k.A.,0.010
+22,Stadtsparkasse Dortmund,10.710,10.710,0.000,0.050
+20,Kreissparkasse Esslingen-Nürtingen,10.750,10.750,0.000,0.050
+0,Kreissparkasse Westerwald-Sieg,10.750,15.250,0.000,0.050
+48,Sparkasse Südholstein,10.770,10.770,k.A.,0.010
+134,Sparkasse Hagen,10.780,15.280,0.000,0.050
+259,Sparkasse Freising,10.800,10.800,0.000,0.100
+3,Kreissparkasse Köln,10.810,10.810,0.000,0.050
+29,Stadtsparkasse Wuppertal,10.810,10.810,0.000,0.050
+65,Sparkasse Hildesheim,10.820,10.820,0.000,0.010
+215,Sparkasse Dinslaken-Voerde-Hünxe,10.830,15.830,0.000,0.050
+198,Kreissparkasse Anhalt-Bitterfeld,10.840,10.840,0.000,0.050
+226,Kreissparkasse Grafschaft Diepholz,10.850,16.350,0.000,0.050
+123,Kreissparkasse Syke,10.850,16.350,0.000,0.050
+160,Sparkasse Wetzlar,10.850,13.600,0.000,0.020
+163,Weser-Elbe Sparkasse,10.860,11.990,0.000,0.010
+212,Kreissparkasse Mayen,10.870,14.870,0.000,0.010
+92,Kreissparkasse Steinfurt,10.890,16.390,0.000,0.050
+239,Sparkasse Märkisch-Oderland,10.890,15.890,0.000,0.010
+5,Stadtsparkasse München,10.890,10.890,0.000,0.010
+356,Sparkasse Emden,10.900,10.900,0.000,0.050
+114,Sparkasse Fürth,10.900,15.900,0.000,0.025
+358,Sparkasse Meschede,10.900,14.900,0.000,0.050
+41,Sparkasse Osnabrück,10.900,10.900,0.000,0.050
+337,Stadtsparkasse Dessau,10.900,10.900,0.000,0.010
+381,Stadtsparkasse Wunstorf,10.900,10.900,0.000,0.010
+12,Mittelbrandenburgische Sparkasse in Potsdam,10.920,15.420,0.000,0.010
+338,Bordesholmer Sparkasse AG,10.940,10.940,0.000,0.010
+330,Sparkasse Jerichower Land,10.950,10.950,0.000,0.010
+144,Sparkasse Minden-Lübbecke,10.950,10.950,0.000,0.050
+131,Sparkasse Passau,10.950,16.450,0.010,0.010
+32,Sparkasse Saarbrücken,10.950,15.070,0.000,0.050
+155,Sparkasse Bayreuth,10.960,15.610,0.000,0.010
+154,Sparkasse Lörrach-Rheinfelden,10.960,10.960,0.000,0.010
+270,Kreissparkasse Stendal,10.980,15.980,0.000,0.010
+158,Kreissparkasse Wiedenbrück,10.990,10.990,0.000,0.050
+365,Verbandssparkasse Goch-Kevelaer-Weeze,10.999,10.999,0.000,0.050
+27,Kreissparkasse Waiblingen,11.000,16.000,0.000,nicht verfügbar
+272,Sparkasse Gummersbach-Bergneustadt,11.000,18.500,0.000,0.030
+309,Sparkasse Hattingen,11.000,15.500,0.000,0.015
+81,Sparkasse Rhein-Nahe,11.000,16.000,0.000,0.050
+116,Sparkasse Worms-Alzey-Ried,11.000,11.000,0.000,0.010
+339,Stadtsparkasse Bad Oeynhausen,11.000,11.000,0.000,0.050
+262,Stadtsparkasse Rheine,11.000,15.000,0.000,0.050
+399,Stadtsparkasse Versmold,11.000,16.500,0.000,0.050
+222,Vereinigte Sparkasse im Märkischen Kreis,11.000,16.000,0.000,0.050
+351,Müritz-Sparkasse,11.010,15.510,0.000,0.100
+293,Kreissparkasse St. Wendel,11.030,15.780,0.000,0.050
+269,Sparkasse Regen-Viechtach,11.030,16.030,0.000,0.050
+57,Sparkasse Herford,11.050,11.050,0.000,0.050
+220,Sparkasse Merzig-Wadern,11.050,15.550,0.000,0.050
+363,Städtische Sparkasse zu Schwelm,11.050,11.050,0.000,0.050
+258,Kreissparkasse Osterholz,11.070,11.070,0.000,0.010
+166,Sparkasse Bad Tölz-Wolfratshausen,11.073,13.073,0.000,0.020
+322,Sparkasse Elmshorn,11.080,11.080,k.A.,0.050
+10,Nassauische Sparkasse,11.090,11.090,0.000,0.050
+373,Stadtsparkasse Bad Pyrmont,11.090,15.590,k.A.,0.050
+207,Sparkasse Hamm,11.100,15.850,0.000,0.010
+133,Sparkasse Dachau,11.113,11.113,0.000,0.050
+235,Kreissparkasse Peine,11.130,11.130,0.000,0.100
+401,Stadtsparkasse Hilchenbach,11.130,15.130,0.050,0.050
+17,Stadt- und Kreissparkasse Leipzig,11.140,11.140,0.000,0.010
+60,Stadt- und Kreissparkasse Erlangen,11.160,16.160,0.000,0.010
+64,Erzgebirgssparkasse,11.170,11.170,0.000,0.010
+59,Sparkasse Hanau,11.170,11.170,0.000,0.020
+331,Sparkasse der Homburgischen Gemeinden,11.190,11.190,0.000,0.050
+170,Sparkasse Starkenburg,11.200,11.200,0.000,0.010
+121,Sparkasse Tauberfranken,11.200,16.200,0.000,0.010
+372,Stadtsparkasse Bad Honnef,11.200,16.450,0.000,0.020
+324,Sparkasse Osterode am Harz,11.220,15.720,0.000,0.010
+321,Kyffhäusersparkasse Artern-Sondershausen,11.230,11.230,0.000,0.050
+79,Sparkasse Ingolstadt,11.230,11.230,k.A.,0.050
+31,Sparkasse Paderborn-Detmold,11.230,11.230,0.000,0.050
+50,Kasseler Sparkasse,11.237,11.237,k.A.,0.050
+156,Kreis- und Stadtsparkasse Unna-Kamen,11.240,11.240,0.000,0.050
+55,Kreissparkasse Ostalb,11.240,11.240,0.000,0.010
+44,Sparkasse Freiburg - Nördlicher Breisgau,11.250,11.250,0.000,0.010
+21,Sparkasse Krefeld,11.250,16.250,0.000,0.100
+323,Stadtsparkasse Emmerich-Rees,11.250,15.750,0.000,0.100
+413,Sparkasse Battenberg,11.280,16.280,0.000,0.050
+210,Sparkasse Günzburg-Krumbach,11.281,11.281,0.000,0.010
+394,Sparkasse Erwitte-Anröchte,11.290,16.790,0.000,0.050
+54,Sparkasse Oberhessen,11.290,11.290,0.000,0.050
+151,Stadt-Sparkasse Solingen,11.290,11.290,0.000,0.050
+61,Taunus Sparkasse,11.290,11.290,0.000,0.100
+375,Kreissparkasse Schlüchtern,11.300,11.300,0.000,0.010
+271,Sparkasse Attendorn-Lennestadt-Kirchhundem,11.300,14.300,0.000,0.050
+83,Sparkasse Fulda,11.300,11.300,0.000,0.050
+268,Sparkasse Kleve,11.300,11.300,0.000,0.050
+132,Kreissparkasse Düsseldorf,11.310,11.310,k.A.,0.050
+143,Sparkasse Celle,11.310,11.310,0.000,0.050
+8,Stadtsparkasse Düsseldorf,11.310,11.310,0.000,0.050
+275,Kreis- und Stadtsparkasse Dillingen,11.330,11.330,0.000,0.010
+150,Salzlandsparkasse,11.330,11.330,0.000,0.010
+4,Frankfurter Sparkasse,11.340,13.840,0.000,0.050
+280,Sparkasse Arnsberg-Sundern,11.340,11.340,Sonderaushang,Sonderaushang
+137,Stadtsparkasse Oberhausen,11.359,11.359,0.000,0.050
+206,Kreissparkasse Ahrweiler,11.360,11.360,0.000,0.050
+100,Sparkasse Westholstein,11.370,16.870,0.000,0.050
+320,Kreissparkasse Saale-Orla,11.380,11.380,0.000,0.010
+6,Sparkasse Hannover,11.380,11.380,k.A.,0.050
+400,Stadtsparkasse Blomberg/Lippe,11.380,16.880,0.010,0.010
+278,Kreissparkasse Northeim,11.390,16.690,0.000,0.020
+187,Sparkasse Bensheim,11.400,16.400,0.000,0.050
+75,Sparkasse Memmingen-Lindau-Mindelheim,11.400,15.900,0.000,0.010
+388,Stadtsparkasse Burgdorf,11.400,16.400,0.000,0.050
+391,Stadtsparkasse Völklingen,11.400,14.900,0.000,0.050
+302,Sparkasse Altenburger Land,11.430,11.430,0.000,0.010
+40,Sparkasse Vest Recklinghausen,11.440,13.940,0.000,0.050
+249,Sparkasse Oberpfalz Nord,11.460,11.460,0.000,0.010
+25,Kreissparkasse Böblingen,11.470,16.470,0.000,0.050
+95,Sparkasse Fürstenfeldbruck,11.470,11.470,0.000,0.050
+38,Nord-Ostsee Sparkasse,11.480,11.480,0.000,0.025
+173,Kreissparkasse Heidenheim,11.500,11.500,0.000,0.020
+14,Sparkasse Aachen,11.500,13.000,0.000,0.010
+267,Sparkasse Aichach-Schrobenhausen,11.500,11.500,0.000,0.010
+250,Sparkasse Bad Kissingen,11.500,14.500,0.000,0.050
+42,Sparkasse Bielefeld,11.500,11.500,0.000,0.010
+266,Sparkasse Dillenburg,11.500,16.500,0.000,0.020
+76,Sparkasse Kraichgau,11.500,11.500,0.000,0.010
+36,Sparkasse Neuss,11.500,11.500,0.000,0.020
+245,Städtische Sparkasse Offenbach am Main,11.500,11.500,0.000,0.100
+402,Stadtsparkasse Delbrück,11.500,11.500,0.000,0.050
+124,Kreissparkasse Groß-Gerau,11.520,16.520,0.000,0.050
+336,Kreissparkasse Schongau,11.530,16.530,0.000,0.020
+184,Sparkasse Mecklenburg-Schwerin,11.530,16.530,0.000,0.050
+178,Sparkasse Amberg-Sulzbach,11.546,11.546,0.000,0.050
+247,Kreissparkasse Limburg,11.550,11.550,0.000,0.100
+39,Sparkasse Bochum,11.550,16.050,0.000,0.250
+364,Sparkasse Stockach,11.550,11.550,0.000,0.050
+398,Stadtsparkasse Barsinghausen,11.550,16.550,0.000,0.050
+23,Sparkasse Essen,11.560,11.560,0.000,0.050
+128,Sparkasse Zwickau,11.560,11.560,0.000,0.010
+308,Sparkasse Altmark West,11.580,11.580,0.000,0.010
+104,Sparkasse am Niederrhein,11.580,16.580,0.000,0.020
+91,Sparkasse Schwarzwald-Baar,11.590,14.590,0.000,0.050
+348,Stadtsparkasse Schwerte,11.590,11.590,0.000,0.050
+145,Sparkasse Altötting-Mühldorf,11.600,11.600,0.000,0.010
+316,Sparkasse Neuburg-Rain,11.600,16.600,0.000,0.010
+62,Sparkasse Rosenheim-Bad Aibling,11.600,11.600,0.000,0.010
+416,Stadtsparkasse Bad Sachsa,11.600,11.600,k.A.,0.050
+325,Kreissparkasse Döbeln,11.620,11.620,0.000,0.010
+139,Sparkasse LeerWittmund,11.620,17.620,0.000,0.010
+199,Verbands-Sparkasse Wesel,11.620,16.620,k.A.,0.100
+180,Kreissparkasse Traunstein-Trostberg,11.630,16.630,0.000,0.030
+408,Sparkasse Hohenwestedt,11.630,17.130,0.000,0.050
+240,Sparkasse Höxter,11.630,17.130,0.000,0.050
+109,Sparkasse Vogtland,11.630,11.630,0.000,0.020
+353,Sparkasse Parchim-Lübz,11.650,11.650,0.000,0.010
+11,Sparkasse Pforzheim Calw,11.650,16.150,k.A.,0.010
+176,Sparkasse Uelzen Lüchow-Dannenberg,11.650,17.150,0.000,0.050
+299,Stadtsparkasse Kaiserslautern,11.650,16.650,0.000,0.020
+98,Sparkasse Gelsenkirchen,11.660,11.660,0.000,0.050
+291,Sparkasse Unstrut-Hainich,11.670,"14,17",0.000,0.050
+86,Sparkasse Hochfranken,11.670,11.670,0.000,0.020
+274,Sparkasse Märkisches Sauerland Hemer-Menden,11.690,11.690,0.000,0.025
+233,Sparkasse Berchtesgadener Land,11.711,16.711,0.250,0.050
+149,Sparkasse Dieburg,11.724,11.724,0.000,0.020
+371,Sparkasse Einbeck,11.750,16.750,0.000,0.010
+0,Sparkasse an der Lippe,11.750,11.750,0.000,0.050
+387,Stadtsparkasse Rahden,11.750,11.750,0.000,0.050
+354,Stadtsparkasse Wermelskirchen,11.750,11.750,0.000,0.015
+231,Wartburg-Sparkasse,11.750,11.750,0.000,0.010
+306,Kreis- und Stadtsparkasse Wasserburg am Inn,11.770,16.770,0.000,0.050
+384,Stadtsparkasse Sprockhövel,11.770,11.770,0.000,0.100
+34,Förde Sparkasse,11.800,11.800,0.000,0.010
+197,Herner Sparkasse,11.800,16.800,0.000,0.050
+407,Sparkasse Geseke,11.800,11.800,0.000,0.050
+334,Sparkasse Schopfheim-Zell,11.800,14.550,0.000,0.050
+252,Stadt-Sparkasse Langenfeld,11.810,11.810,0.000,0.050
+66,Sparkasse Allgäu,11.817,11.817,0.000,0.010
+157,Stadtsparkasse Magdeburg,11.870,11.870,0.000,0.010
+392,Sparkasse Münden,11.890,11.890,0.000,0.010
+111,Kreissparkasse Heinsberg,11.900,11.900,0.000,0.050
+232,Sparkasse Odenwaldkreis,11.900,11.900,0.000,0.050
+346,Stadt-Sparkasse Haan,11.900,16.900,0.000,0.010
+307,Sparkasse Wilhelmshaven,11.920,11.920,0.000,0.020
+9,Die Sparkasse Bremen AG,11.950,11.950,0.000,0.050
+277,Kreissparkasse Gelnhausen,11.950,11.950,0.000,0.050
+405,Stadtsparkasse Haltern am See,11.950,11.950,k.A.,0.010
+347,Sparkasse Kierspe-Meinerzhagen,11.970,11.970,0.000,0.030
+175,Sparkasse Witten,11.970,17.470,0.000,0.100
+406,Sparkasse Finnentrop,12.010,12.010,0.000,0.050
+130,Sparkasse Mülheim an der Ruhr,12.037,17.037,0.000,0.020
+196,Sparkasse Mittelholstein AG,12.040,12.040,0.000,0.010
+287,Kreissparkasse Eichsfeld,12.140,14.140,0.000,0.010
+298,Sparkasse Eichstätt,12.150,12.150,0.000,0.100
+200,Kreissparkasse Euskirchen,12.200,15.200,0.000,0.010
+296,Kreissparkasse Nordhausen,12.200,17.200,0.000,0.050
+389,Stadtsparkasse Herdecke,12.200,16.700,0.000,0.100
+327,Verbundsparkasse Emsdetten-Ochtrup,12.210,17.210,0.000,0.050
+165,Sparkasse Mainz,12.220,12.220,0.000,0.020
+361,Sparkasse Radevormwald-Hückeswagen,12.220,12.220,0.000,0.050
+315,Sparkasse Olpe-Drolshagen-Wenden,12.250,14.250,0.000,0.050
+43,Sparkasse Duisburg,12.290,12.290,0.000,0.050
+110,Kreissparkasse Mittelsachsen,12.330,18.330,0.000,0.010
+367,Sparkasse Mecklenburg-Strelitz,12.350,12.350,0.000,0.020
+89,Sparkasse Langen-Seligenstadt,12.380,12.380,0.000,0.010
+103,Sparkasse Leverkusen,12.410,12.410,0.000,0.025
+224,Sparkasse Rastatt-Gernsbach,12.420,17.420,0.000,0.010
+366,Sparkasse Rothenburg,12.453,12.453,0.000,0.005
+77,Kreissparkasse Kaiserslautern,12.470,17.470,0.000,0.020
+194,Kreissparkasse Kusel,12.470,17.470,0.000,0.050
+289,Sparkasse Arnstadt-Ilmenau,12.490,12.490,0.000,0.010
+370,Kreissparkasse Hildburghausen,12.500,12.500,0.000,0.050
+273,Sparkasse Staufen-Breisach,12.500,18.000,0.000,0.010
+205,Sparkasse Rottal-Inn,12.550,12.550,0.000,0.010
+305,Kreissparkasse Weilburg,12.640,12.640,0.000,0.010
+314,Bezirkssparkasse Reichenau,,,,
+404,Kreis- und Stadtsparkasse Dinkelsbühl,,,,
+253,Kreis- und Stadtsparkasse Kaufbeuren,,,0.000,
+260,Kreissparkasse Altenkirchen,,,,
+101,Kreissparkasse Augsburg,,,,
+127,Kreissparkasse Rottweil,,,,
+85,Kreissparkasse Saarlouis,,,,
+171,Kreissparkasse Schwalm-Eder,,,,
+332,Kreissparkasse Vulkaneifel,,,,
+177,Sparkasse Bad Hersfeld-Rotenburg,,,,
+376,Sparkasse Bonndorf-Stühlingen,,,,
+304,Sparkasse Donauwörth,,,,
+254,Sparkasse Donnersberg,,,,
+311,Sparkasse Engen-Gottmadingen,,,,
+341,Sparkasse Freyung-Grafenau,,,,
+378,Sparkasse Gengenbach,,,,
+379,Sparkasse Gronau,,,,
+300,Sparkasse Haslach-Zell,,,,
+297,Sparkasse Hochschwarzwald,,,,
+218,Sparkasse Hohenlohekreis,,,,
+241,Sparkasse im Landkreis Cham,,,0.010,
+409,Sparkasse Laubach-Hungen,,,,
+153,Sparkasse Markgräflerland,,,,
+161,Sparkasse Neckartal-Odenwald,,,,
+69,Sparkasse Offenburg/Ortenau,,,,
+343,Sparkasse Pfullendorf-Messkirch,,,,
+191,Sparkasse Rotenburg-Bremervörde,,,,
+326,Sparkasse Salem-Heiligenberg,,,,
+362,Sparkasse Scheeßel,,,,
+395,Sparkasse Schönau-Todtnau,,,,
+236,Sparkasse Soest,,,,
+418,Sparkasse Unna,,,,
+164,Sparkasse Waldeck-Frankenberg,,,,
+342,Sparkasse Werl,,,,
+261,Sparkasse Wittenberg,,,,
+382,Sparkasse Wolfach,,,,
+96,Sparkasse Zollernalb,,,,
+417,Städtische Sparkasse Kamen,,,,
+414,Stadtsparkasse Borken,,,,
+415,Stadtsparkasse Felsberg,,,,
+403,Stadtsparkasse Freudenberg,,,,
+310,Stadtsparkasse Gevelsberg,,,,
+412,Stadtsparkasse Grebenstein,,,,
+385,Stadtsparkasse Lengerich,,,,
+411,Stadtsparkasse Schwalmstadt,,,,
+377,Stadtsparkasse Schwedt,,,,
+352,Stadtsparkasse Werne,,,,
+369,Stadtsparkasse Wetter,,,,
+265,Vereinigte Spk. Eschenbach Neustadt Vohenstrauß,,,,
+0,Niederrheinische Sparkasse RheinLippe,,,,
+0,Sparkasse Hegau-Bodensee ,,,,
+0,Sparkasse Hameln-Weserbergland,,,,
