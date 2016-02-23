@@ -1,4 +1,4 @@
-import {PATHS, NAMES} from '../data/paths'
+import {PATHS} from '../data/paths'
 
 <path-searchbox class="map__path-searchbox">
 
@@ -10,8 +10,8 @@ import {PATHS, NAMES} from '../data/paths'
       { id } - { name }
     </li>
   </ul>
-  <p if={ getActiveName() } class="-selected-name">
-    { getActiveName() }
+  <p if={ opts.name } class="-selected-name">
+    { opts.name }
   </p>
 
   this.paths = []
@@ -45,11 +45,6 @@ import {PATHS, NAMES} from '../data/paths'
   this.handleClick = (e) => {
     let id = e.item.id
     this.hilight(id)
-  }
-
-  this.getActiveName = () => {
-    let id = this.opts.active
-    return NAMES[id]
   }
 
 </path-searchbox>

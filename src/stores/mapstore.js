@@ -27,8 +27,8 @@ class MapStore {
     this.on(riot.EVT.hilight, (id) => {
       this.hilighted = id
       let name = NAMES[id]
-      let value = this.data[id]
-      this.trigger(riot.EVT.hilightChanged, {name, id, value})
+      let values = this.data[id]
+      this.trigger(riot.EVT.hilightChanged, {name, id, values})
     })
 
     // change data layer

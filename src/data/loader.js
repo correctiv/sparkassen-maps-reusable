@@ -1,16 +1,21 @@
 class Loader {
 
-  constructor({colors, data, range}) {
+  constructor({colors, data, range, extraValues}) {
     this.colors = colors
     this.data = data
     this.range = range
+    this.extraValues = extraValues
   }
 
   colorize(paths) {
     let data = this.getDataDict()
     for (let path of paths) {
       let id = path.getAttribute('id')
-      let value = data[id]
+      let _data = data[id]
+      let value = null
+      if (_data) {
+        value = _data.value
+      }
       if (value) {
         let color = this.getColor(value)
         let style = 'fill:'+color
@@ -76,10 +81,21 @@ class Loader {
   getDataDict() {
     let data = {}
     this.data.map(d => {
-      let val = parseFloat(d.value)
-      data[d.id.toLowerCase()] = !isNaN(val) ? val : null
+      data[d.id] = this._buildDataItem(d)
     })
     return data
+  }
+
+  _buildDataItem(d) {
+    let data = {}
+    let val = parseFloat(d.value)
+    data.value = !isNaN(val) ? val : null
+    if (this.extraValues.length > 0) {
+      this.extraValues.map(x => {
+        data[x] = d[x]
+      })
+    return data
+    }
   }
 }
 
