@@ -1,6 +1,6 @@
 import {PATHS} from '../data/paths'
 
-<path-selector class="map__path-selector">
+<path-selector class="sparkassen-map__path-selector">
 
   <select onchange={ hilight }>
     <option each={ paths } value={ id } selected={ parent.opts.active === id }>

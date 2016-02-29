@@ -1,4 +1,4 @@
-<map-legend class="map__legend">
+<map-legend class="sparkassen-map__legend">
 
   <ul name="legend" if={ legendItems }>
     <li each={ legendItems }

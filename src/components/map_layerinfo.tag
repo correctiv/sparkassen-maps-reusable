@@ -1,8 +1,8 @@
-<map-layerinfo class="map__infobox__layerinfo">
+<map-layerinfo class="sparkassen-map__layerinfo">
 
   <h4>{ data.name }</h4>
-  <p class="-subtitle">{ data.title }</p>
-  <p if={ data.annotation } class="-annotation">{ data.annotation }</p>
+  <p>{ data.title }</p>
+  <small if={ data.annotation }>{ data.annotation }</small>
 
   riot.control.on(riot.EVT.layerChanged, data => {
     this.update({data: data.metaData})
