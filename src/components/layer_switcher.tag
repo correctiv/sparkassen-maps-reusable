@@ -1,6 +1,6 @@
 import MapStore from '../stores/mapstore'
 
-<layer-switcher class="map__layer-switcher">
+<layer-switcher class="sparkassen-map__layer-switcher">
 
   <button
     each={ layers }

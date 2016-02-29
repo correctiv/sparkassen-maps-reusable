@@ -22,7 +22,7 @@
 
   &__legend {
     position: absolute;
-    top: @base-padding;
+    top: (@base-padding + 50px);
     right: @base-padding;
     background-color: @white;
     color: black;
@@ -44,6 +44,7 @@
 
   .svgcontainer {
     margin: 40px 0;
+    margin-top: 50px;
     display: block;
     width: 100%;
     overflow: hidden;
@@ -87,6 +88,7 @@
     background: @white;
     padding: @base-padding;
     margin: 0;
+    margin-top: 50px;
 
     @media (min-width: 768px) {
       width: 60%;
@@ -179,6 +181,33 @@
 
     strong {
       color: @red;
+    }
+  }
+
+  &__layer-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: @beige;
+
+    button {
+      padding: 10px;
+      height: 50px;
+      background-color: @beige-lighter;
+      border: 0;
+      font-weight: bold;
+      color: @white;
+
+      &.active, &.active:hover {
+        background-color: @purple;
+      }
+
+      &:hover {
+        background-color: @beige-light;
+      }
     }
   }
 
