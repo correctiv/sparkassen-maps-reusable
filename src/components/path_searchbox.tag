@@ -1,5 +1,6 @@
 import {PATHS} from '../data/paths'
 import PLZ_LOOKUP from '../data/plz-lookups'
+import SLUGS from '../data/slugs'
 
 <path-searchbox class="map__path-searchbox">
 
@@ -13,7 +14,7 @@ import PLZ_LOOKUP from '../data/plz-lookups'
     </li>
   </ul>
   <p if={ opts.name } class="-selected-name">
-    { opts.name }
+    <a href={ getUrl(opts.active) }>{ opts.name }</a>
   </p>
 
   this.paths = []
@@ -66,6 +67,13 @@ import PLZ_LOOKUP from '../data/plz-lookups'
   this.handleClick = (e) => {
     let id = e.item.id
     this.hilight(id)
+  }
+
+  this.getUrl = (id) => {
+    let slug = SLUGS[id]
+    if (slug) {
+      return 'https://crowdnewsroom.org/sparkassen/sparkasse/' + slug + '/'
+    }
   }
 
   this._getPathForId = (id) => {
