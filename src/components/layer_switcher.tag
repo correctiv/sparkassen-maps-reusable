@@ -1,4 +1,5 @@
 import MapStore from '../stores/mapstore'
+import {DEFAULT_DATASET} from '../data/datasets'
 
 <layer-switcher class="sparkassen-map__layer-switcher">
 
@@ -10,9 +11,7 @@ import MapStore from '../stores/mapstore'
     class={ active: active === slug}>{ name }</button>
 
   this.layers = MapStore.getLayers()
-  this.active = 0
-
-  console.log(this.layers)
+  this.active = DEFAULT_DATASET
 
   this.on('mount', () => {
     // make btn navigation justified
