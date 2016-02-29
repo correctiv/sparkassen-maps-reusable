@@ -3,6 +3,7 @@ import {PATHS} from '../data/paths'
 <path-searchbox class="map__path-searchbox">
 
   <input type="text" oninput={ search } />
+  <p class="-help">Suche nach deiner Sparkasse oder Postleitzahl</p>
   <ul if={ paths.length > 0 } class="map__path-searchbox__result-list">
     <li each={ paths }
       class={ '-active' ? parent.opts.active === id : ''}
