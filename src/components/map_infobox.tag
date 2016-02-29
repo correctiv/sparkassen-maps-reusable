@@ -11,6 +11,9 @@ import './map_layerinfo.tag'
       <li>Guthaben-Zinsen für Sichteinlagen: { values.value3 ? values.value3 + ' ' + unit : 'n/a' }</li>
       <li>Zinsen auf Spareinlagen: { values.value4 ? values.value4 + ' ' + unit : 'n/a' }</li>
     </ul>
+    <p class='-annotation { -hidden: !data }'>
+      { values.annotation }
+    </p>
   </div>
 
   <map-layerinfo></map-layerinfo>
