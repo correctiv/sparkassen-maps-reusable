@@ -1,419 +1,411 @@
-name,id
-Bezirkssparkasse Reichenau,314
-Bordesholmer Sparkasse AG,338
-Die Sparkasse Bremen AG,9
-Erzgebirgssparkasse,64
-Förde Sparkasse,34
-Frankfurter Sparkasse,4
-Hamburger Sparkasse AG,1
-Harzsparkasse,148
-Herner Sparkasse,197
-Hohenzollerische LdBk KSK Sigmaringen,219
-Kasseler Sparkasse,50
-Kreis- und Stadtsparkasse Dillingen,275
-Kreis- und Stadtsparkasse Dinkelsbühl,404
-Kreis- und Stadtsparkasse Erding - Dorfen,186
-Kreis- und Stadtsparkasse Kaufbeuren,253
-Kreis- und Stadtsparkasse Unna-Kamen,156
-Kreis- und Stadtsparkasse Wasserburg am Inn,306
-Kreissparkasse Ahrweiler,206
-Kreissparkasse Altenkirchen,260
-Kreissparkasse Anhalt-Bitterfeld,198
-Kreissparkasse Augsburg,101
-Kreissparkasse Bautzen,230
-Kreissparkasse Bersenbrück,255
-Kreissparkasse Biberach,35
-Kreissparkasse Birkenfeld,263
-Kreissparkasse Bitburg-Prüm,257
-Kreissparkasse Böblingen,25
-Kreissparkasse Börde,227
-Kreissparkasse Döbeln,325
-Kreissparkasse Düsseldorf,132
-Kreissparkasse Eichsfeld,287
-Kreissparkasse Esslingen-Nürtingen,20
-Kreissparkasse Euskirchen,200
-Kreissparkasse Freudenstadt,195
-Kreissparkasse Garmisch-Partenkirchen,288
-Kreissparkasse Gelnhausen,277
-Kreissparkasse Göppingen,51
-Kreissparkasse Gotha,292
-Kreissparkasse Grafschaft Bentheim zu Nordhorn,213
-Kreissparkasse Grafschaft Diepholz,226
-Kreissparkasse Groß-Gerau,124
-Kreissparkasse Halle,251
-Kreissparkasse Heidenheim,173
-Kreissparkasse Heilbronn,24
-Kreissparkasse Heinsberg,111
-Kreissparkasse Herzogtum Lauenburg,120
-Kreissparkasse Hildburghausen,370
-Kreissparkasse Höchstadt/Aisch,328
-Kreissparkasse Kaiserslautern,77
-Kreissparkasse Kelheim,193
-Kreissparkasse Köln,3
-Kreissparkasse Kusel,194
-Kreissparkasse Limburg,247
-Kreissparkasse Ludwigsburg,16
-Kreissparkasse Mayen,212
-Kreissparkasse Melle,282
-Kreissparkasse Miesbach-Tegernsee,208
-Kreissparkasse Mittelsachsen,110
-Kreissparkasse München Starnberg Ebersberg,15
-Kreissparkasse Nordhausen,296
-Kreissparkasse Northeim,278
-Kreissparkasse Ostalb,55
-Kreissparkasse Osterholz,258
-Kreissparkasse Peine,235
-Kreissparkasse Ravensburg,56
-Kreissparkasse Reutlingen,53
-Kreissparkasse Rhein-Hunsrück,242
-Kreissparkasse Rottweil,127
-Kreissparkasse Saale-Orla,320
-Kreissparkasse Saalfeld-Rudolstadt,284
-Kreissparkasse Saarlouis,85
-Kreissparkasse Saarpfalz,214
-Kreissparkasse Schlüchtern,375
-Kreissparkasse Schongau,336
-Kreissparkasse Schwalm-Eder,171
-Kreissparkasse Soltau,295
-Kreissparkasse St. Wendel,293
-Kreissparkasse Stade,234
-Kreissparkasse Steinfurt,92
-Kreissparkasse Stendal,270
-Kreissparkasse Syke,123
-Kreissparkasse Traunstein-Trostberg,180
-Kreissparkasse Tübingen,52
-Kreissparkasse Tuttlingen,112
-Kreissparkasse Verden,141
-Kreissparkasse Vulkaneifel,332
-Kreissparkasse Waiblingen,27
-Kreissparkasse Walsrode,301
-Kreissparkasse Weilburg,305
-Kreissparkasse Westerwald,221
-Kreissparkasse Wiedenbrück,158
-Kyffhäusersparkasse Artern-Sondershausen,321
-Landessparkasse zu Oldenburg,19
-Mittelbrandenburgische Sparkasse in Potsdam,12
-Müritz-Sparkasse,351
-Nassauische Sparkasse,10
-Nord-Ostsee Sparkasse,38
-Ostsächsische Sparkasse Dresden,7
-OstseeSparkasse Rostock,113
-Rhön-Rennsteig-Sparkasse,216
-Saalesparkasse,78
-Salzlandsparkasse,150
-Sparkasse Aachen,14
-Sparkasse Aichach-Schrobenhausen,267
-Sparkasse Allgäu,66
-Sparkasse Altenburger Land,302
-Sparkasse Altmark West,308
-Sparkasse Altötting-Mühldorf,145
-Sparkasse am Niederrhein,104
-Sparkasse Amberg-Sulzbach,178
-Sparkasse Arnsberg-Sundern,280
-Sparkasse Arnstadt-Ilmenau,289
-Sparkasse Aschaffenburg-Alzenau,71
-Sparkasse Attendorn-Lennestadt-Kirchhundem,271
-Sparkasse Aurich-Norden,172
-Sparkasse Bad Hersfeld-Rotenburg,177
-Sparkasse Bad Kissingen,250
-Sparkasse Bad Neustadt a.d. Saale,285
-Sparkasse Bad Tölz-Wolfratshausen,166
-Sparkasse Baden-Baden Gaggenau,182
-Sparkasse Bamberg,84
-Sparkasse Barnim,238
-Sparkasse Battenberg,413
-Sparkasse Bayreuth,155
-Sparkasse Beckum-Wadersloh,329
-Sparkasse Bensheim,187
-Sparkasse Berchtesgadener Land,233
-Sparkasse Bergkamen-Bönen,360
-Sparkasse Bielefeld,42
-Sparkasse Bochum,39
-Sparkasse Bodensee,67
-Sparkasse Bonndorf-Stühlingen,376
-Sparkasse Bühl,319
-Sparkasse Burbach-Neunkirchen,368
-Sparkasse Burgenlandkreis,159
-Sparkasse Celle,143
-Sparkasse Chemnitz,74
-Sparkasse Coburg-Lichtenfels,146
-Sparkasse Dachau,133
-Sparkasse Deggendorf,183
-Sparkasse der Homburgischen Gemeinden,331
-Sparkasse der Stadt Iserlohn,229
-Sparkasse der Stadt Straelen,396
-Sparkasse Dieburg,149
-Sparkasse Dillenburg,266
-Sparkasse Dinslaken-Voerde-Hünxe,215
-Sparkasse Donauwörth,304
-Sparkasse Donnersberg,254
-Sparkasse Duderstadt,350
-Sparkasse Düren,93
-Sparkasse Duisburg,43
-Sparkasse Eichstätt,298
-Sparkasse Einbeck,371
-Sparkasse Elbe-Elster,209
-Sparkasse Elmshorn,322
-Sparkasse Emden,356
-Sparkasse Emsland,102
-Sparkasse Engen-Gottmadingen,311
-Sparkasse Ennepetal-Breckerfeld,345
-Sparkasse Erwitte-Anröchte,394
-Sparkasse Essen,23
-Sparkasse Finnentrop,406
-Sparkasse Forchheim,217
-Sparkasse Freiburg - Nördlicher Breisgau,44
-Sparkasse Freising,259
-Sparkasse Freyung-Grafenau,341
-Sparkasse Fröndenberg,410
-Sparkasse Fürstenfeldbruck,95
-Sparkasse Fürth,114
-Sparkasse Fulda,83
-Sparkasse Gelsenkirchen,98
-Sparkasse Gengenbach,378
-Sparkasse Gera-Greiz,174
-Sparkasse Germersheim-Kandel,201
-Sparkasse Geseke,407
-Sparkasse Gießen,168
-Sparkasse Gifhorn-Wolfsburg,108
-Sparkasse Göttingen,122
-Sparkasse Goslar/Harz,248
-Sparkasse Gronau,379
-Sparkasse Grünberg,397
-Sparkasse Günzburg-Krumbach,210
-Sparkasse Gütersloh,189
-Sparkasse Gummersbach-Bergneustadt,272
-Sparkasse Hagen,134
-Sparkasse Hamm,207
-Sparkasse Hanau,59
-Sparkasse Hanauerland,228
-Sparkasse Hannover,6
-Sparkasse Harburg-Buxtehude,88
-Sparkasse Haslach-Zell,300
-Sparkasse Hattingen,309
-Sparkasse Heidelberg,30
-Sparkasse Hennstedt-Wesselburen,349
-Sparkasse Herford,57
-Sparkasse Hilden Ratingen Velbert,97
-Sparkasse Hildesheim,65
-Sparkasse Hochfranken,86
-Sparkasse Hochrhein,126
-Sparkasse Hochsauerland,281
-Sparkasse Hochschwarzwald,297
-Sparkasse Höxter,240
-Sparkasse Hohenlohekreis,218
-Sparkasse Hohenwestedt,408
-Sparkasse Holstein,45
-Sparkasse im Landkreis Cham,241
-Sparkasse im Landkreis Neustadt/Aisch - Bad Windsheim,190
-Sparkasse im Landkreis Schwandorf,179
-Sparkasse Ingolstadt,79
-Sparkasse Jena-Saale-Holzland,192
-Sparkasse Jerichower Land,330
-Sparkasse Karlsruhe Ettlingen,28
-Sparkasse Kierspe-Meinerzhagen,347
-Sparkasse Kleve,268
-Sparkasse Koblenz,68
-Sparkasse KölnBonn,2
-Sparkasse Kraichgau,76
-Sparkasse Krefeld,21
-Sparkasse Kulmbach-Kronach,152
-Sparkasse Landsberg-Dießen,204
-Sparkasse Landshut,90
-Sparkasse Langen-Seligenstadt,89
-Sparkasse Laubach-Hungen,409
-Sparkasse LeerWittmund,139
-Sparkasse Lemgo,117
-Sparkasse Leverkusen,103
-Sparkasse Lippstadt,256
-Sparkasse Lörrach-Rheinfelden,154
-Sparkasse Lüdenscheid,185
-Sparkasse Lüneburg,135
-Sparkasse Lünen,244
-Sparkasse Märkisch-Oderland,239
-Sparkasse Märkisches Sauerland Hemer-Menden,274
-Sparkasse Mainfranken Würzburg,26
-Sparkasse Mainz,165
-Sparkasse Mansfeld-Südharz,264
-Sparkasse Marburg-Biedenkopf,94
-Sparkasse Markgräflerland,153
-Sparkasse Mecklenburg-Nordwest,290
-Sparkasse Mecklenburg-Schwerin,184
-Sparkasse Mecklenburg-Strelitz,367
-Sparkasse Meißen,140
-Sparkasse Memmingen-Lindau-Mindelheim,75
-Sparkasse Merzig-Wadern,220
-Sparkasse Meschede,358
-Sparkasse Miltenberg-Obernburg,188
-Sparkasse Minden-Lübbecke,144
-Sparkasse Mittelfranken-Süd,87
-Sparkasse Mittelholstein AG,196
-Sparkasse Mittelmosel Eifel Mosel Hunsrück,129
-Sparkasse Mittelthüringen,73
-Sparkasse Mülheim an der Ruhr,130
-Sparkasse Münden,392
-Sparkasse Münsterland Ost,18
-Sparkasse Muldental,317
-Sparkasse Neckartal-Odenwald,161
-Sparkasse Neu-Ulm - Illertissen,181
-Sparkasse Neubrandenburg-Demmin,276
-Sparkasse Neuburg-Rain,316
-Sparkasse Neumarkt-Parsberg,162
-Sparkasse Neunkirchen,237
-Sparkasse Neuss,36
-Sparkasse Neuwied,169
-Sparkasse Niederbayern-Mitte,82
-Sparkasse Niederlausitz mit Sitz in Senftenberg,243
-Sparkasse Nienburg,211
-Sparkasse Nördlingen,383
-Sparkasse Nürnberg,13
-Sparkasse Oberhessen,54
-Sparkasse Oberlausitz-Niederschlesien,115
-Sparkasse Oberpfalz Nord,249
-Sparkasse Odenwaldkreis,232
-Sparkasse Oder-Spree,136
-Sparkasse Offenburg/Ortenau,69
-Sparkasse Olpe-Drolshagen-Wenden,315
-Sparkasse Osnabrück,41
-Sparkasse Osterode am Harz,324
-Sparkasse Ostprignitz-Ruppin,303
-Sparkasse Ostunterfranken,283
-Sparkasse Paderborn-Detmold,31
-Sparkasse Parchim-Lübz,353
-Sparkasse Passau,131
-Sparkasse Pfaffenhofen,286
-Sparkasse Pforzheim Calw,11
-Sparkasse Pfullendorf-Messkirch,343
-Sparkasse Prignitz,344
-Sparkasse Radevormwald-Hückeswagen,361
-Sparkasse Rastatt-Gernsbach,224
-Sparkasse Regen-Viechtach,269
-Sparkasse Regensburg,72
-Sparkasse Rhein-Haardt,80
-Sparkasse Rhein-Nahe,81
-Sparkasse Rhein Neckar Nord,49
-Sparkasse Rietberg,386
-Sparkasse Rosenheim-Bad Aibling,62
-Sparkasse Rotenburg-Bremervörde,191
-Sparkasse Rothenburg,366
-Sparkasse Rottal-Inn,205
-Sparkasse Saarbrücken,32
-Sparkasse Salem-Heiligenberg,326
-Sparkasse Schaumburg,138
-Sparkasse Scheeßel,362
-Sparkasse Schönau-Todtnau,395
-Sparkasse Schopfheim-Zell,334
-Sparkasse Schwäbisch Hall Crailsheim,105
-Sparkasse Schwarzwald-Baar,91
-Sparkasse Schweinfurt,142
-Sparkasse Siegen,106
-Sparkasse Singen-Radolfzell,125
-Sparkasse Soest,236
-Sparkasse Sonneberg,355
-Sparkasse Spree-Neiße,118
-Sparkasse St. Blasien,393
-Sparkasse Stade - Altes Land,203
-Sparkasse Starkenburg,170
-Sparkasse Staufen-Breisach,273
-Sparkasse Stockach,364
-Sparkasse Südholstein,48
-Sparkasse Südliche Weinstraße,107
-Sparkasse Südwestpfalz,167
-Sparkasse Tauberfranken,121
-Sparkasse Trier,70
-Sparkasse Uckermark,318
-Sparkasse Uecker-Randow,357
-Sparkasse Uelzen Lüchow-Dannenberg,176
-Sparkasse Ulm,46
-Sparkasse Unna,418
-Sparkasse Unstrut-Hainich,291
-Sparkasse Vest Recklinghausen,40
-Sparkasse Vogtland,109
-Sparkasse Vorderpfalz,37
-Sparkasse Vorpommern,99
-Sparkasse Waldeck-Frankenberg,164
-Sparkasse Werl,342
-Sparkasse Werra-Meißner,202
-Sparkasse Weserbergland,223
-Sparkasse Westholstein,100
-Sparkasse Westmünsterland,33
-Sparkasse Wetzlar,160
-Sparkasse Wilhelmshaven,307
-Sparkasse Witten,175
-Sparkasse Wittenberg,261
-Sparkasse Wittgenstein,313
-Sparkasse Wolfach,382
-Sparkasse Worms-Alzey-Ried,116
-Sparkasse Zollernalb,96
-Sparkasse zu Lübeck AG,147
-Sparkasse Zwickau,128
-Stadt-Sparkasse Haan,346
-Stadt-Sparkasse Langenfeld,252
-Stadt-Sparkasse Solingen,151
-Stadt- und Kreissparkasse Darmstadt,63
-Stadt- und Kreissparkasse Erlangen,60
-Stadt- und Kreissparkasse Leipzig,17
-Stadt- und Kreissparkasse Moosburg,359
-Stadtsparkasse Augsburg,47
-Stadtsparkasse Bad Honnef,372
-Stadtsparkasse Bad Oeynhausen,339
-Stadtsparkasse Bad Pyrmont,373
-Stadtsparkasse Bad Sachsa,416
-Stadtsparkasse Barsinghausen,398
-Stadtsparkasse Blomberg/Lippe,400
-Stadtsparkasse Bocholt,294
-Stadtsparkasse Borken,414
-Stadtsparkasse Bottrop,279
-Stadtsparkasse Burgdorf,388
-Stadtsparkasse Cuxhaven,312
-Stadtsparkasse Delbrück,402
-Stadtsparkasse Dessau,337
-Stadtsparkasse Dortmund,22
-Stadtsparkasse Düsseldorf,8
-Stadtsparkasse Emmerich-Rees,323
-Stadtsparkasse Felsberg,415
-Stadtsparkasse Freudenberg,403
-Stadtsparkasse Gevelsberg,310
-Stadtsparkasse Gladbeck,335
-Stadtsparkasse Grebenstein,412
-Stadtsparkasse Haltern am See,405
-Stadtsparkasse Hameln,333
-Stadtsparkasse Herdecke,389
-Stadtsparkasse Hilchenbach,401
-Stadtsparkasse Kaiserslautern,299
-Stadtsparkasse Lengerich,385
-Stadtsparkasse Magdeburg,157
-Stadtsparkasse Mönchengladbach,58
-Stadtsparkasse München,5
-Stadtsparkasse Oberhausen,137
-Stadtsparkasse Porta Westfalica,380
-Stadtsparkasse Rahden,387
-Stadtsparkasse Remscheid,246
-Stadtsparkasse Rheine,262
-Stadtsparkasse Schmallenberg,390
-Stadtsparkasse Schwalmstadt,411
-Stadtsparkasse Schwedt,377
-Stadtsparkasse Schwerte,348
-Stadtsparkasse Sprockhövel,384
-Stadtsparkasse Versmold,399
-Stadtsparkasse Völklingen,391
-Stadtsparkasse Wedel,374
-Stadtsparkasse Wermelskirchen,354
-Stadtsparkasse Werne,352
-Stadtsparkasse Wetter,369
-Stadtsparkasse Wunstorf,381
-Stadtsparkasse Wuppertal,29
-Städtische Sparkasse Kamen,417
-Städtische Sparkasse Offenbach am Main,245
-Städtische Sparkasse zu Schwelm,363
-Taunus Sparkasse,61
-Verbands-Sparkasse Wesel,199
-Verbandssparkasse Goch-Kevelaer-Weeze,365
-Verbundsparkasse Emsdetten-Ochtrup,327
-Vereinigte Sparkasse im Märkischen Kreis,222
-Vereinigte Sparkassen Gunzenhausen,340
-Vereinigte Sparkassen im Landkreis Weilheim,225
-Vereinigte Sparkassen Stadt- und Landkreis Ansbach,119
-Vereinigte Spk. Eschenbach Neustadt Vohenstrauß,265
-Wartburg-Sparkasse,231
-Weser-Elbe Sparkasse,163
+id,name,foo
+419,Berliner Sparkasse,
+314,Bezirkssparkasse Reichenau,
+338,Bordesholmer Sparkasse AG,
+9,Die Sparkasse Bremen AG,
+64,Erzgebirgssparkasse,
+34,Förde Sparkasse,
+4,Frankfurter Sparkasse,
+1,Hamburger Sparkasse AG,
+148,Harzsparkasse,
+197,Herner Sparkasse,
+219,Hohenzollerische LdBk KSK Sigmaringen,
+50,Kasseler Sparkasse,
+275,Kreis- und Stadtsparkasse Dillingen,
+404,Kreis- und Stadtsparkasse Dinkelsbühl,
+186,Kreis- und Stadtsparkasse Erding - Dorfen,
+253,Kreis- und Stadtsparkasse Kaufbeuren,
+156,Kreis- und Stadtsparkasse Unna-Kamen,
+306,Kreis- und Stadtsparkasse Wasserburg am Inn,
+206,Kreissparkasse Ahrweiler,
+198,Kreissparkasse Anhalt-Bitterfeld,
+101,Kreissparkasse Augsburg,
+230,Kreissparkasse Bautzen,
+255,Kreissparkasse Bersenbrück,
+35,Kreissparkasse Biberach,
+263,Kreissparkasse Birkenfeld,
+257,Kreissparkasse Bitburg-Prüm,
+25,Kreissparkasse Böblingen,
+227,Kreissparkasse Börde,
+325,Kreissparkasse Döbeln,
+132,Kreissparkasse Düsseldorf,
+287,Kreissparkasse Eichsfeld,
+20,Kreissparkasse Esslingen-Nürtingen,
+200,Kreissparkasse Euskirchen,
+195,Kreissparkasse Freudenstadt,
+288,Kreissparkasse Garmisch-Partenkirchen,
+277,Kreissparkasse Gelnhausen,
+51,Kreissparkasse Göppingen,
+292,Kreissparkasse Gotha,
+213,Kreissparkasse Grafschaft Bentheim zu Nordhorn,
+226,Kreissparkasse Grafschaft Diepholz,
+124,Kreissparkasse Groß-Gerau,
+251,Kreissparkasse Halle,
+173,Kreissparkasse Heidenheim,
+24,Kreissparkasse Heilbronn,
+111,Kreissparkasse Heinsberg,
+120,Kreissparkasse Herzogtum Lauenburg,
+370,Kreissparkasse Hildburghausen,
+328,Kreissparkasse Höchstadt/Aisch,
+77,Kreissparkasse Kaiserslautern,
+193,Kreissparkasse Kelheim,
+3,Kreissparkasse Köln,
+194,Kreissparkasse Kusel,
+247,Kreissparkasse Limburg,
+16,Kreissparkasse Ludwigsburg,
+212,Kreissparkasse Mayen,
+282,Kreissparkasse Melle,
+208,Kreissparkasse Miesbach-Tegernsee,
+110,Kreissparkasse Mittelsachsen,
+15,Kreissparkasse München Starnberg Ebersberg,
+296,Kreissparkasse Nordhausen,
+278,Kreissparkasse Northeim,
+55,Kreissparkasse Ostalb,
+258,Kreissparkasse Osterholz,
+235,Kreissparkasse Peine,
+56,Kreissparkasse Ravensburg,
+53,Kreissparkasse Reutlingen,
+242,Kreissparkasse Rhein-Hunsrück,
+127,Kreissparkasse Rottweil,
+320,Kreissparkasse Saale-Orla,
+284,Kreissparkasse Saalfeld-Rudolstadt,
+85,Kreissparkasse Saarlouis,
+214,Kreissparkasse Saarpfalz,
+375,Kreissparkasse Schlüchtern,
+336,Kreissparkasse Schongau,
+171,Kreissparkasse Schwalm-Eder,
+295,Kreissparkasse Soltau,
+293,Kreissparkasse St. Wendel,
+234,Kreissparkasse Stade,
+92,Kreissparkasse Steinfurt,
+270,Kreissparkasse Stendal,
+123,Kreissparkasse Syke,
+180,Kreissparkasse Traunstein-Trostberg,
+52,Kreissparkasse Tübingen,
+112,Kreissparkasse Tuttlingen,
+141,Kreissparkasse Verden,
+332,Kreissparkasse Vulkaneifel,
+27,Kreissparkasse Waiblingen,
+301,Kreissparkasse Walsrode,
+305,Kreissparkasse Weilburg,
+158,Kreissparkasse Wiedenbrück,
+321,Kyffhäusersparkasse Artern-Sondershausen,
+19,Landessparkasse zu Oldenburg,
+12,Mittelbrandenburgische Sparkasse in Potsdam,
+351,Müritz-Sparkasse,
+10,Nassauische Sparkasse,
+38,Nord-Ostsee Sparkasse,
+7,Ostsächsische Sparkasse Dresden,
+113,OstseeSparkasse Rostock,
+216,Rhön-Rennsteig-Sparkasse,
+78,Saalesparkasse,
+150,Salzlandsparkasse,
+14,Sparkasse Aachen,
+267,Sparkasse Aichach-Schrobenhausen,
+66,Sparkasse Allgäu,
+302,Sparkasse Altenburger Land,
+308,Sparkasse Altmark West,
+145,Sparkasse Altötting-Mühldorf,
+104,Sparkasse am Niederrhein,
+178,Sparkasse Amberg-Sulzbach,
+280,Sparkasse Arnsberg-Sundern,
+289,Sparkasse Arnstadt-Ilmenau,
+71,Sparkasse Aschaffenburg-Alzenau,
+271,Sparkasse Attendorn-Lennestadt-Kirchhundem,
+172,Sparkasse Aurich-Norden,
+177,Sparkasse Bad Hersfeld-Rotenburg,
+250,Sparkasse Bad Kissingen,
+285,Sparkasse Bad Neustadt a.d. Saale,
+166,Sparkasse Bad Tölz-Wolfratshausen,
+182,Sparkasse Baden-Baden Gaggenau,
+84,Sparkasse Bamberg,
+238,Sparkasse Barnim,
+413,Sparkasse Battenberg,
+155,Sparkasse Bayreuth,
+329,Sparkasse Beckum-Wadersloh,
+187,Sparkasse Bensheim,
+233,Sparkasse Berchtesgadener Land,
+360,Sparkasse Bergkamen-Bönen,
+42,Sparkasse Bielefeld,
+39,Sparkasse Bochum,
+67,Sparkasse Bodensee,
+376,Sparkasse Bonndorf-Stühlingen,
+319,Sparkasse Bühl,
+368,Sparkasse Burbach-Neunkirchen,
+159,Sparkasse Burgenlandkreis,
+143,Sparkasse Celle,
+74,Sparkasse Chemnitz,
+146,Sparkasse Coburg-Lichtenfels,
+133,Sparkasse Dachau,
+183,Sparkasse Deggendorf,
+331,Sparkasse der Homburgischen Gemeinden,
+229,Sparkasse der Stadt Iserlohn,
+396,Sparkasse der Stadt Straelen,
+149,Sparkasse Dieburg,
+266,Sparkasse Dillenburg,
+304,Sparkasse Donauwörth,
+254,Sparkasse Donnersberg,
+350,Sparkasse Duderstadt,
+43,Sparkasse Duisburg,
+93,Sparkasse Düren,
+298,Sparkasse Eichstätt,
+371,Sparkasse Einbeck,
+209,Sparkasse Elbe-Elster,
+322,Sparkasse Elmshorn,
+356,Sparkasse Emden,
+102,Sparkasse Emsland,
+311,Sparkasse Engen-Gottmadingen,
+345,Sparkasse Ennepetal-Breckerfeld,
+394,Sparkasse Erwitte-Anröchte,
+23,Sparkasse Essen,
+406,Sparkasse Finnentrop,
+217,Sparkasse Forchheim,
+44,Sparkasse Freiburg - Nördlicher Breisgau,
+259,Sparkasse Freising,
+341,Sparkasse Freyung-Grafenau,
+410,Sparkasse Fröndenberg,
+83,Sparkasse Fulda,
+95,Sparkasse Fürstenfeldbruck,
+114,Sparkasse Fürth,
+98,Sparkasse Gelsenkirchen,
+378,Sparkasse Gengenbach,
+174,Sparkasse Gera-Greiz,
+201,Sparkasse Germersheim-Kandel,
+407,Sparkasse Geseke,
+168,Sparkasse Gießen,
+108,Sparkasse Gifhorn-Wolfsburg,
+248,Sparkasse Goslar/Harz,
+122,Sparkasse Göttingen,
+397,Sparkasse Grünberg,
+272,Sparkasse Gummersbach-Bergneustadt,
+210,Sparkasse Günzburg-Krumbach,
+189,Sparkasse Gütersloh,
+134,Sparkasse Hagen,
+207,Sparkasse Hamm,
+59,Sparkasse Hanau,
+228,Sparkasse Hanauerland,
+6,Sparkasse Hannover,
+88,Sparkasse Harburg-Buxtehude,
+300,Sparkasse Haslach-Zell,
+309,Sparkasse Hattingen,
+30,Sparkasse Heidelberg,
+349,Sparkasse Hennstedt-Wesselburen,
+57,Sparkasse Herford,
+97,Sparkasse Hilden Ratingen Velbert,
+65,Sparkasse Hildesheim,
+86,Sparkasse Hochfranken,
+126,Sparkasse Hochrhein,
+281,Sparkasse Hochsauerland,
+297,Sparkasse Hochschwarzwald,
+218,Sparkasse Hohenlohekreis,
+408,Sparkasse Hohenwestedt,
+45,Sparkasse Holstein,
+240,Sparkasse Höxter,
+241,Sparkasse im Landkreis Cham,
+190,Sparkasse im Landkreis Neustadt/Aisch - Bad Windsheim,
+179,Sparkasse im Landkreis Schwandorf,
+79,Sparkasse Ingolstadt,
+192,Sparkasse Jena-Saale-Holzland,
+330,Sparkasse Jerichower Land,
+28,Sparkasse Karlsruhe Ettlingen,
+347,Sparkasse Kierspe-Meinerzhagen,
+268,Sparkasse Kleve,
+68,Sparkasse Koblenz,
+2,Sparkasse KölnBonn,
+76,Sparkasse Kraichgau,
+21,Sparkasse Krefeld,
+152,Sparkasse Kulmbach-Kronach,
+204,Sparkasse Landsberg-Dießen,
+90,Sparkasse Landshut,
+89,Sparkasse Langen-Seligenstadt,
+409,Sparkasse Laubach-Hungen,
+139,Sparkasse LeerWittmund,
+117,Sparkasse Lemgo,
+103,Sparkasse Leverkusen,
+256,Sparkasse Lippstadt,
+154,Sparkasse Lörrach-Rheinfelden,
+185,Sparkasse Lüdenscheid,
+135,Sparkasse Lüneburg,
+26,Sparkasse Mainfranken Würzburg,
+165,Sparkasse Mainz,
+264,Sparkasse Mansfeld-Südharz,
+94,Sparkasse Marburg-Biedenkopf,
+153,Sparkasse Markgräflerland,
+239,Sparkasse Märkisch-Oderland,
+274,Sparkasse Märkisches Sauerland Hemer-Menden,
+290,Sparkasse Mecklenburg-Nordwest,
+184,Sparkasse Mecklenburg-Schwerin,
+367,Sparkasse Mecklenburg-Strelitz,
+140,Sparkasse Meißen,
+75,Sparkasse Memmingen-Lindau-Mindelheim,
+220,Sparkasse Merzig-Wadern,
+358,Sparkasse Meschede,
+188,Sparkasse Miltenberg-Obernburg,
+144,Sparkasse Minden-Lübbecke,
+87,Sparkasse Mittelfranken-Süd,
+196,Sparkasse Mittelholstein AG,
+129,Sparkasse Mittelmosel Eifel Mosel Hunsrück,
+73,Sparkasse Mittelthüringen,
+317,Sparkasse Muldental,
+130,Sparkasse Mülheim an der Ruhr,
+392,Sparkasse Münden,
+18,Sparkasse Münsterland Ost,
+161,Sparkasse Neckartal-Odenwald,
+181,Sparkasse Neu-Ulm - Illertissen,
+276,Sparkasse Neubrandenburg-Demmin,
+316,Sparkasse Neuburg-Rain,
+162,Sparkasse Neumarkt-Parsberg,
+237,Sparkasse Neunkirchen,
+36,Sparkasse Neuss,
+169,Sparkasse Neuwied,
+82,Sparkasse Niederbayern-Mitte,
+243,Sparkasse Niederlausitz mit Sitz in Senftenberg,
+211,Sparkasse Nienburg,
+383,Sparkasse Nördlingen,
+13,Sparkasse Nürnberg,
+54,Sparkasse Oberhessen,
+115,Sparkasse Oberlausitz-Niederschlesien,
+249,Sparkasse Oberpfalz Nord,
+232,Sparkasse Odenwaldkreis,
+136,Sparkasse Oder-Spree,
+69,Sparkasse Offenburg/Ortenau,
+315,Sparkasse Olpe-Drolshagen-Wenden,
+41,Sparkasse Osnabrück,
+324,Sparkasse Osterode am Harz,
+303,Sparkasse Ostprignitz-Ruppin,
+283,Sparkasse Ostunterfranken,
+31,Sparkasse Paderborn-Detmold,
+353,Sparkasse Parchim-Lübz,
+131,Sparkasse Passau,
+286,Sparkasse Pfaffenhofen,
+11,Sparkasse Pforzheim Calw,
+343,Sparkasse Pfullendorf-Messkirch,
+344,Sparkasse Prignitz,
+361,Sparkasse Radevormwald-Hückeswagen,
+224,Sparkasse Rastatt-Gernsbach,
+269,Sparkasse Regen-Viechtach,
+72,Sparkasse Regensburg,
+49,Sparkasse Rhein Neckar Nord,
+80,Sparkasse Rhein-Haardt,
+81,Sparkasse Rhein-Nahe,
+386,Sparkasse Rietberg,
+62,Sparkasse Rosenheim-Bad Aibling,
+191,Sparkasse Rotenburg-Bremervörde,
+366,Sparkasse Rothenburg,
+205,Sparkasse Rottal-Inn,
+32,Sparkasse Saarbrücken,
+326,Sparkasse Salem-Heiligenberg,
+138,Sparkasse Schaumburg,
+362,Sparkasse Scheeßel,
+395,Sparkasse Schönau-Todtnau,
+334,Sparkasse Schopfheim-Zell,
+105,Sparkasse Schwäbisch Hall Crailsheim,
+91,Sparkasse Schwarzwald-Baar,
+142,Sparkasse Schweinfurt,
+106,Sparkasse Siegen,
+236,Sparkasse Soest,
+355,Sparkasse Sonneberg,
+118,Sparkasse Spree-Neiße,
+393,Sparkasse St. Blasien,
+203,Sparkasse Stade - Altes Land,
+170,Sparkasse Starkenburg,
+273,Sparkasse Staufen-Breisach,
+48,Sparkasse Südholstein,
+107,Sparkasse Südliche Weinstraße,
+167,Sparkasse Südwestpfalz,
+121,Sparkasse Tauberfranken,
+70,Sparkasse Trier,
+318,Sparkasse Uckermark,
+357,Sparkasse Uecker-Randow,
+176,Sparkasse Uelzen Lüchow-Dannenberg,
+46,Sparkasse Ulm,
+291,Sparkasse Unstrut-Hainich,
+40,Sparkasse Vest Recklinghausen,
+109,Sparkasse Vogtland,
+37,Sparkasse Vorderpfalz,
+99,Sparkasse Vorpommern,
+164,Sparkasse Waldeck-Frankenberg,
+342,Sparkasse Werl,
+202,Sparkasse Werra-Meißner,
+100,Sparkasse Westholstein,
+33,Sparkasse Westmünsterland,
+160,Sparkasse Wetzlar,
+307,Sparkasse Wilhelmshaven,
+175,Sparkasse Witten,
+261,Sparkasse Wittenberg,
+313,Sparkasse Wittgenstein,
+382,Sparkasse Wolfach,
+116,Sparkasse Worms-Alzey-Ried,
+96,Sparkasse Zollernalb,
+147,Sparkasse zu Lübeck AG,
+128,Sparkasse Zwickau,
+63,Stadt- und Kreissparkasse Darmstadt,
+60,Stadt- und Kreissparkasse Erlangen,
+17,Stadt- und Kreissparkasse Leipzig,
+359,Stadt- und Kreissparkasse Moosburg,
+346,Stadt-Sparkasse Haan,
+252,Stadt-Sparkasse Langenfeld,
+151,Stadt-Sparkasse Solingen,
+245,Städtische Sparkasse Offenbach am Main,
+363,Städtische Sparkasse zu Schwelm,
+47,Stadtsparkasse Augsburg,
+372,Stadtsparkasse Bad Honnef,
+339,Stadtsparkasse Bad Oeynhausen,
+373,Stadtsparkasse Bad Pyrmont,
+416,Stadtsparkasse Bad Sachsa,
+398,Stadtsparkasse Barsinghausen,
+400,Stadtsparkasse Blomberg/Lippe,
+294,Stadtsparkasse Bocholt,
+414,Stadtsparkasse Borken,
+279,Stadtsparkasse Bottrop,
+388,Stadtsparkasse Burgdorf,
+312,Stadtsparkasse Cuxhaven,
+402,Stadtsparkasse Delbrück,
+337,Stadtsparkasse Dessau,
+22,Stadtsparkasse Dortmund,
+8,Stadtsparkasse Düsseldorf,
+323,Stadtsparkasse Emmerich-Rees,
+415,Stadtsparkasse Felsberg,
+310,Stadtsparkasse Gevelsberg,
+335,Stadtsparkasse Gladbeck,
+412,Stadtsparkasse Grebenstein,
+405,Stadtsparkasse Haltern am See,
+389,Stadtsparkasse Herdecke,
+401,Stadtsparkasse Hilchenbach,
+299,Stadtsparkasse Kaiserslautern,
+385,Stadtsparkasse Lengerich,
+157,Stadtsparkasse Magdeburg,
+58,Stadtsparkasse Mönchengladbach,
+5,Stadtsparkasse München,
+137,Stadtsparkasse Oberhausen,
+380,Stadtsparkasse Porta Westfalica,
+387,Stadtsparkasse Rahden,
+246,Stadtsparkasse Remscheid,
+262,Stadtsparkasse Rheine,
+390,Stadtsparkasse Schmallenberg,
+411,Stadtsparkasse Schwalmstadt,
+377,Stadtsparkasse Schwedt,
+348,Stadtsparkasse Schwerte,
+384,Stadtsparkasse Sprockhövel,
+399,Stadtsparkasse Versmold,
+391,Stadtsparkasse Völklingen,
+374,Stadtsparkasse Wedel,
+354,Stadtsparkasse Wermelskirchen,
+369,Stadtsparkasse Wetter,
+381,Stadtsparkasse Wunstorf,
+29,Stadtsparkasse Wuppertal,
+61,Taunus Sparkasse,
+365,Verbandssparkasse Goch-Kevelaer-Weeze,
+327,Verbundsparkasse Emsdetten-Ochtrup,
+222,Vereinigte Sparkasse im Märkischen Kreis,
+340,Vereinigte Sparkassen Gunzenhausen,
+225,Vereinigte Sparkassen im Landkreis Weilheim,
+119,Vereinigte Sparkassen Stadt- und Landkreis Ansbach,
+265,Vereinigte Spk. Eschenbach Neustadt Vohenstrauß,
+231,Wartburg-Sparkasse,
+163,Weser-Elbe Sparkasse,
+500,Sparkasse Westerwald-Sieg,
+501,Sparkasse an der Lippe,
+502,Niederrheinische Sparkasse RheinLippe,
+503,Sparkasse Hegau-Bodensee ,
+504,Sparkasse Hameln-Weserbergland ,
