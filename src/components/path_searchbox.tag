@@ -2,20 +2,20 @@ import {PATHS} from '../data/paths'
 import PLZ_LOOKUP from '../data/plz-lookups'
 import SLUGS from '../data/slugs'
 
-<path-searchbox class="map__path-searchbox">
+<path-searchbox class="sparkassen-map__path-searchbox">
 
   <input type="text" oninput={ search } />
-  <p if={ !paths.length > 0 } class="-help">Suche nach deiner Sparkasse oder Postleitzahl</p>
-  <ul if={ paths.length > 0 } class="map__path-searchbox__result-list">
+  <p if={ !paths.length > 0 } >Suche nach deiner Sparkasse oder Postleitzahl</p>
+  <ul if={ paths.length > 0 } class="sparkassen-map__result-list">
     <li each={ paths }
       class={ '-active' ? parent.opts.active === id : ''}
       onclick={ handleClick }>
       { name }
     </li>
   </ul>
-  <p if={ opts.name } class="-selected-name">
+  <h3 if={ opts.name }>
     <a href={ getUrl(opts.active) }>{ opts.name }</a>
-  </p>
+  </3>
 
   this.paths = []
 

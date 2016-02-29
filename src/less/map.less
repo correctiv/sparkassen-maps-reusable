@@ -128,29 +128,31 @@
       width: 200px;
     }
 
-    &__result-list {
-      width: 200px;
-      margin: 0;
-      padding: 0;
-      border: 1px solid @black;
-
-      li {
-        list-style: none;
-
-        &:hover {
-          background-color: @beige-light;
-        }
-      }
-    }
-
     p.-help {
       font-size: @font-size-small;
       font-style: italic;
     }
   }
 
+  &__result-list {
+    width: 100%;
+    margin: @base-padding/2 0;
+    padding: 0;
+    border: 1px solid @gray-light;
+
+    li {
+      list-style: none;
+      padding: @base-padding/2 @base-padding;
+
+      &:hover {
+        background-color: @gray-lighter;
+        cursor: pointer;
+      }
+    }
+  }
+
   &__data-listing {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     display: block;
     overflow: hidden;
