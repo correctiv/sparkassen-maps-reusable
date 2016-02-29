@@ -1,9 +1,11 @@
 import './map_infobox.tag'
 import './map_legend.tag'
+import './layer_switcher.tag'
 import {IDS} from '../data/paths'
 import {DEFAULT_DATASET} from '../data/datasets'
 
 <riot-map>
+  <layer-switcher></layer-switcher>
 
   <yield/>
   <map-legend></map-legend>

@@ -1,5 +1,5 @@
 import {NAMES} from '../data/paths.js'
-import {DATASETS} from '../data/datasets.js'
+import {LAYERS, DATASETS} from '../data/datasets.js'
 
 function getDataSet(slug) {
   let dataSet = DATASETS[slug]
@@ -46,12 +46,7 @@ class MapStore {
   }
 
   getLayers() {
-    let layers = []
-    DATASETS.map(d => {
-      let id = DATASETS.indexOf(d)
-      layers.push({id, name})
-    })
-    return layers
+    return LAYERS
   }
 
 }
