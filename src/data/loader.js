@@ -54,6 +54,7 @@ class Loader {
   getRanges() {
     let min = this.range.min
     let max = this.range.max
+    let fixed = this.range.toFixed || 1
     let range = max - min
     let steps = this.colors.length - 1
     let stepSize = range / steps
@@ -61,7 +62,7 @@ class Loader {
     let i = 1
     while (i <= steps) {
       let val = i * stepSize + min
-      ranges.push(val)
+      ranges.push(val.toFixed(fixed))
       i++
     }
     return ranges

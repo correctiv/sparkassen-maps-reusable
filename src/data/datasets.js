@@ -21,7 +21,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 6,
-      max: 14
+      max: 18
     },
     extraValues: ['value2', 'value3', 'value4', 'annotation'],
     data: require('dsv!./csv/zinsen_2.csv')
@@ -32,8 +32,9 @@ const SOURCES = [
     annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
-      min: 6,
-      max: 14
+      min: 0.00,
+      max: 0.04,
+      toFixed: 3
     },
     extraValues: ['value2', 'value3', 'value4', 'annotation'],
     data: require('dsv!./csv/zinsen_3.csv')
@@ -44,8 +45,9 @@ const SOURCES = [
     annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
-      min: 6,
-      max: 14
+      min: 0,
+      max: 0.4,
+      toFixed: 2
     },
     extraValues: ['value2', 'value3', 'value4', 'annotation'],
     data: require('dsv!./csv/zinsen_4.csv')
