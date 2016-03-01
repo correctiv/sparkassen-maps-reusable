@@ -5,7 +5,7 @@ const SOURCES = [
   {
     slug: 'interests_1',
     name: 'Dispozinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
+    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
       min: 6,
@@ -17,7 +17,7 @@ const SOURCES = [
   {
     slug: 'interests_2',
     name: 'Überziehungszinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
+    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
       min: 6,
@@ -29,7 +29,7 @@ const SOURCES = [
   {
     slug: 'interests_3',
     name: 'Guthaben-Zinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
+    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
       min: 0.00,
@@ -42,7 +42,7 @@ const SOURCES = [
   {
     slug: 'interests_4',
     name: 'Spareinlagen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichen Sie uns unter sparkasse@correctiv.org.',
+    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
     unit: '%',
     range: {
       min: 0,

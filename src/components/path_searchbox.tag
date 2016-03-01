@@ -5,7 +5,7 @@ import SLUGS from '../data/slugs'
 <path-searchbox class="sparkassen-map__path-searchbox">
 
   <input type="text" oninput={ search } />
-  <p if={ !paths.length > 0 } >Suche nach deiner Sparkasse oder Postleitzahl</p>
+  <p if={ !paths.length > 0 } >Suche nach Deiner Sparkasse oder Postleitzahl</p>
   <ul if={ paths.length > 0 } class="sparkassen-map__result-list">
     <li each={ paths }
       class={ '-active' ? parent.opts.active === id : ''}
