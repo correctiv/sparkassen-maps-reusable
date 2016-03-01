@@ -6,9 +6,6 @@ import './map_layerinfo.tag'
   <div class="sparkassen-map__data">
 
     <path-searchbox active={ data.id } name={ data.name }></path-searchbox>
-    <small if={ data }>
-      { values.annotation }
-    </small>
 
     <dl class="sparkassen-map__data-listing { -hidden: !data }">
       <dt><strong>{ values.value ? values.value + ' ' + unit : 'n/a' }</strong></dt>
@@ -23,6 +20,11 @@ import './map_layerinfo.tag'
       <dt>{ values.value4 ? values.value4 + ' ' + unit : 'n/a' }</dt>
       <dd>Zinsen auf Spareinlagen</dd>
     </dl>
+
+    <small if={ values.annotation }>
+      Quelle: { values.annotation }
+    </small>
+
   </div>
 
   <map-layerinfo></map-layerinfo>

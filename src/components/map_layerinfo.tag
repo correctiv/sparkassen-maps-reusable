@@ -1,8 +1,8 @@
 <map-layerinfo class="sparkassen-map__layerinfo">
 
-  <h4>{ data.name }</h4>
-  <p>{ data.title }</p>
-  <small if={ data.annotation }>{ data.annotation }</small>
+  <small if={ data.annotation }>
+    <strong>Anmerkungen: </strong>{ data.annotation }
+  </small>
 
   riot.control.on(riot.EVT.layerChanged, data => {
     this.update({data: data.metaData})
