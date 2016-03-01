@@ -9,20 +9,20 @@ import './map_layerinfo.tag'
 
     <dl class="sparkassen-map__data-listing { -hidden: !data }">
       <dt><strong>{ values.value ? values.value + ' ' + unit : 'n/a' }</strong></dt>
-      <dd><strong>Effektiver Dispozins</strong></dd>
+      <dd><strong>{ values.label }</strong></dd>
 
-      <dt>{ values.value2 ? values.value2 + ' ' + unit : 'n/a' }</dt>
-      <dd>Effektiver Überziehungszins</dd>
+      <dt>{ extraData.value2.val ? extraData.value2.val + ' ' + unit : 'n/a' }</dt>
+      <dd>{ extraData.value2.label }</dd>
 
-      <dt>{ values.value3 ? values.value3 + ' ' + unit : 'n/a' }</dt>
-      <dd>Guthaben-Zinsen für Sichteinlagen</dd>
+      <dt>{ extraData.value3.val ? extraData.value3.val + ' ' + unit : 'n/a' }</dt>
+      <dd>{ extraData.value3.label }</dd>
 
-      <dt>{ values.value4 ? values.value4 + ' ' + unit : 'n/a' }</dt>
-      <dd>Zinsen auf Spareinlagen</dd>
+      <dt>{ extraData.value4.val ? extraData.value4.val + ' ' + unit : 'n/a' }</dt>
+      <dd>{ extraData.value4.label }</dd>
     </dl>
 
-    <small if={ values.annotation }>
-      Quelle: { values.annotation }
+    <small if={ extraData.annotation }>
+      { extraData.annotation.label }: { extraData.annotation.val }
     </small>
 
   </div>
@@ -36,6 +36,7 @@ import './map_layerinfo.tag'
   riot.control.on(riot.EVT.hilightChanged, data => {
     this.data = data
     this.values = data.values
+    this.extraData = data.values.extra
   })
 
 </map-infobox>

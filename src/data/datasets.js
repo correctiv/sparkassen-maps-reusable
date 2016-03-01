@@ -11,7 +11,13 @@ const SOURCES = [
       min: 6,
       max: 14
     },
-    extraValues: ['value2', 'value3', 'value4', 'annotation'],
+    values: {
+      value: 'Effektiver Dispozins',
+      value2: 'Effektiver Überziehungszins',
+      value3: 'Guthaben-Zinsen für Sichteinlagen',
+      value4: 'Zinsen auf Spareinlagen',
+      annotation: 'Info'
+    },
     data: require('dsv!./csv/zinsen_1.csv')
   },
   {
@@ -23,7 +29,13 @@ const SOURCES = [
       min: 6,
       max: 18
     },
-    extraValues: ['value2', 'value3', 'value4', 'annotation'],
+    values: {
+      value2: 'Effektiver Dispozins',
+      value: 'Effektiver Überziehungszins',
+      value3: 'Guthaben-Zinsen für Sichteinlagen',
+      value4: 'Zinsen auf Spareinlagen',
+      annotation: 'Info'
+    },
     data: require('dsv!./csv/zinsen_2.csv')
   },
   {
@@ -36,7 +48,13 @@ const SOURCES = [
       max: 0.04,
       toFixed: 3
     },
-    extraValues: ['value2', 'value3', 'value4', 'annotation'],
+    values: {
+      value2: 'Effektiver Dispozins',
+      value3: 'Effektiver Überziehungszins',
+      value: 'Guthaben-Zinsen für Sichteinlagen',
+      value4: 'Zinsen auf Spareinlagen',
+      annotation: 'Info'
+    },
     data: require('dsv!./csv/zinsen_3.csv')
   },
   {
@@ -49,7 +67,13 @@ const SOURCES = [
       max: 0.4,
       toFixed: 2
     },
-    extraValues: ['value2', 'value3', 'value4', 'annotation'],
+    values: {
+      value2: 'Effektiver Dispozins',
+      value3: 'Effektiver Überziehungszins',
+      value4: 'Guthaben-Zinsen für Sichteinlagen',
+      value: 'Zinsen auf Spareinlagen',
+      annotation: 'Info'
+    },
     data: require('dsv!./csv/zinsen_4.csv')
   }
 ]
@@ -63,8 +87,8 @@ for (let source of SOURCES) {
   let data = source.data
   let range = source.range
   let colors = source.colors || DEFAULT_COLORS
-  let extraValues = source.extraValues || []
-  let loader = new Loader({colors, data, range, extraValues})
+  let values = source.values || []
+  let loader = new Loader({colors, data, range, values})
   delete source.data
   let metaData = source
   let dataset = {metaData, loader}

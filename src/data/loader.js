@@ -1,10 +1,10 @@
 class Loader {
 
-  constructor({colors, data, range, extraValues}) {
+  constructor({colors, data, range, values}) {
     this.colors = colors
     this.data = data
     this.range = range
-    this.extraValues = extraValues
+    this.values = values
   }
 
   colorize(paths) {
@@ -91,12 +91,17 @@ class Loader {
     let data = {}
     let val = parseFloat(d.value)
     data.value = !isNaN(val) ? val : null
-    if (this.extraValues.length > 0) {
-      this.extraValues.map(x => {
-        data[x] = d[x]
-      })
-    return data
+    data.label = this.values['value']
+    data.extra = {}
+    for (let v in this.values) {
+      if (v != 'value') {
+        data.extra[v] = {
+          label: this.values[v],
+          val: d[v]
+        }
+      }
     }
+    return data
   }
 }
 
