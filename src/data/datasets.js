@@ -9,7 +9,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 6,
-      max: 14
+      max: 12
     },
     values: {
       value: 'Effektiver Dispozins',
@@ -64,7 +64,7 @@ const SOURCES = [
     unit: '%',
     range: {
       min: 0,
-      max: 0.4,
+      max: 0.2,
       toFixed: 2
     },
     values: {
