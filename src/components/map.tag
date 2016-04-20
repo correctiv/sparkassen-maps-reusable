@@ -1,13 +1,13 @@
 import './map_infobox.tag'
 import './map_legend.tag'
 import './layer_switcher.tag'
+import './svg/svg_sparkassen.tag'
 import {IDS} from '../data/paths'
 import {DEFAULT_DATASET} from '../data/datasets'
 
 <riot-map>
   <layer-switcher></layer-switcher>
-
-  <yield/>
+  <svg-sparkassen></svg-sparkassen>
   <map-legend></map-legend>
   <map-infobox></map-infobox>
 
@@ -35,15 +35,15 @@ import {DEFAULT_DATASET} from '../data/datasets'
     }
 
     this.hilightPath = () => {
-      let path = this[this.hilighted]
+      let path = this._svg.getPathById(this.hilighted)
       // bring path to front because of stroke styling:
-      this.map.appendChild(path)
+      path.parentElement.appendChild(path)
       path.classList.add('-hilighted')
     }
 
     this.unhilight = () => {
       if (this.hilighted) {
-        let path = this[this.hilighted]
+        let path = this._svg.getPathById(this.hilighted)
         path.classList.remove('-hilighted')
       }
     }
@@ -57,13 +57,16 @@ import {DEFAULT_DATASET} from '../data/datasets'
     this.getPaths = (ids) => {
       let paths = []
       for (let id in ids) {
-        let p = this[id]
+        let p = this._svg.getPathById(id)
         if (p) {
           paths.push(p)
         }
       }
       return paths
     }
+
+    this._svg = this.tags['svg-sparkassen']
+
   </script>
 
 </riot-map>
