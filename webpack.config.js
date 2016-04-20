@@ -29,7 +29,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'riotjs',
         query: {
-          type: 'es6'
+          type: 'none'
         }
       }
     ],
@@ -40,7 +40,7 @@ module.exports = {
         include: /src/,
         loader: 'babel',
         query: {
-          modules: 'common'
+          presets: ['es2015']
         }
       },
       {
