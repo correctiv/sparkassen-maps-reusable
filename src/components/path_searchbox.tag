@@ -15,7 +15,7 @@ import SLUGS from '../data/slugs'
   </ul>
   <h3 if={ opts.name }>
     <a href={ getUrl(opts.active) }>{ opts.name }</a>
-  </3>
+  </h3>
 
   this.paths = []
 
