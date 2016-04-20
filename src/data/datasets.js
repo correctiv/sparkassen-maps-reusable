@@ -104,4 +104,4 @@ for (let source of SOURCES) {
   })
 }
 
-export default {DATASETS, DEFAULT_DATASET, LAYERS}
+module.exports = {DATASETS, DEFAULT_DATASET, LAYERS}

@@ -6,4 +6,4 @@ for (let d of data) {
   PLZ_LOOKUP[d.plz] = d.id
 }
 
-export default PLZ_LOOKUP
+module.exports = PLZ_LOOKUP

@@ -8,4 +8,4 @@ for (let c of PATHS) {
   IDS.push(c.id)
 }
 
-export default {PATHS, IDS, NAMES}
+module.exports = {PATHS, IDS, NAMES}

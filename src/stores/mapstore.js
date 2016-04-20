@@ -55,4 +55,4 @@ class MapStore {
 let mapStore = new MapStore()
 riot.control.addStore(mapStore)
 
-export default mapStore
+module.exports = mapStore

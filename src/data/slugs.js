@@ -6,4 +6,4 @@ for (let d of data) {
   SLUGS[d.id] = d.slug
 }
 
-export default SLUGS
+module.exports = SLUGS

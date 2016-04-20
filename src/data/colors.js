@@ -3,5 +3,5 @@
 const COLORS7 = ['#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#99000d']
 const COLORS9 = ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d']
 
-export default {COLORS7, COLORS9}
+module.exports = {COLORS7, COLORS9}
 
