@@ -14,8 +14,8 @@ const SOURCES = [
     values: {
       notleidende_kredite_2014: 'Notleidende Kredite',
       value: 'Gesamt',
-      value2: 'Unternehmen & Selbstständige',
-      value3: 'Privatpersonen',
+      value3: 'Unternehmen & Selbstständige',
+      value2: 'Privatpersonen',
       platz_nk_kredite_gesamt: 'Platz',
       gesamt_jahresueberschuss_fond: 'Gewinn',
       verhaeltnis_npl_zu_gewinn: 'Jahre',
@@ -48,7 +48,7 @@ const SOURCES = [
       platz_gesamtkapitalquote: 'Platz Kapital',
       anmerkungen: 'Info'
     },
-    data: require('dsv!./csv/kredite2.csv')
+    data: require('dsv!./csv/kredite3.csv')
   },
   {
     slug: 'kredite_privat',
@@ -72,7 +72,7 @@ const SOURCES = [
       platz_gesamtkapitalquote: 'Platz Kapital',
       anmerkungen: 'Info'
     },
-    data: require('dsv!./csv/kredite3.csv')
+    data: require('dsv!./csv/kredite2.csv')
   }
 ]
 
