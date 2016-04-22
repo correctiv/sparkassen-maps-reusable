@@ -70,18 +70,14 @@ import './map_layerinfo.tag'
   }
 
   this.renderNumber = (value) => {
-    let strValue = value.toString().replace(/,[0-9]+/, '')
-    if (strValue.length < 7) {
-      let val = this._convert(strValue)
-      return val + ' T'
+    value = parseInt(value.toString().replace(/,[0-9]+/, ''))
+    if (value.toString().length < 7) {
+      let val = (value/1000).toFixed(1)
+      return val + ' T.'
     } else {
-      let val = this._convert(strValue, 6)
+      let val = (value/1000000).toFixed(1)
       return val + ' Mio.'
     }
-  }
-
-  this._convert = (strValue, n=3) => {
-    return Math.round(parseFloat(strValue.slice(0, -n) + '.' + strValue.slice(-n))).toString()
   }
 
 </map-infobox>
