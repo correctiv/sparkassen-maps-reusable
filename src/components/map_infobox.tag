@@ -34,11 +34,13 @@ import './map_layerinfo.tag'
         <dd>{ extraData.gesamt_jahresueberschuss_fond.label } 2014</dd>
       </dl>
 
-      <h4>Hat die Sparkasse genügend Sicherheiten gebildet?</h4>
+      <h4>Wie ist die Sparkasse für schlechte Zeiten gerüstet?</h4>
 
       <dl class="sparkassen-map__data-listing">
         <dt>{ extraData.gesamtkapitalquote_2014.val } %</dt>
         <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 416)</dd>
+        <dt></dt>
+        <dd><em>Minimale Pflicht nach Basel III: 8&nbsp;%</em></dd>
       </dl>
 
       <small if={ extraData.anmerkungen.val }>
