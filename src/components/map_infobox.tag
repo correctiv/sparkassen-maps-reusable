@@ -39,8 +39,8 @@ import './map_layerinfo.tag'
       <dl class="sparkassen-map__data-listing">
         <dt>{ extraData.gesamtkapitalquote_2014.val } %</dt>
         <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 416)</dd>
-        <dt></dt>
-        <dd><em>Minimale Pflicht nach Basel III: 8&nbsp;%</em></dd>
+        <dt><em>8&nbsp;%</dt>
+        <dd><em>Minimale Pflicht nach Basel III</em></dd>
       </dl>
 
       <small if={ extraData.anmerkungen.val }>
@@ -73,12 +73,9 @@ import './map_layerinfo.tag'
     let strValue = value.toString().replace(/,[0-9]+/, '')
     if (strValue.length < 7) {
       let val = this._convert(strValue)
-      console.log(val)
       return val + ' T'
     } else {
-      console.log(value)
       let val = this._convert(strValue, 6)
-      console.log(val)
       return val + ' Mio.'
     }
   }
