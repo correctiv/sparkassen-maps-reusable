@@ -70,7 +70,21 @@ import './map_layerinfo.tag'
   }
 
   this.renderNumber = (value) => {
-    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+    let strValue = value.toString().replace(/,[0-9]+/, '')
+    if (strValue.length < 7) {
+      let val = this._convert(strValue)
+      console.log(val)
+      return val + ' T'
+    } else {
+      console.log(value)
+      let val = this._convert(strValue, 6)
+      console.log(val)
+      return val + ' Mio.'
+    }
+  }
+
+  this._convert = (strValue, n=3) => {
+    return Math.round(parseFloat(strValue.slice(0, -n) + '.' + strValue.slice(-n))).toString()
   }
 
 </map-infobox>
