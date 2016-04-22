@@ -28,10 +28,10 @@ import './map_layerinfo.tag'
         <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 416)</dd>
 
         <dt>{ renderNumber(extraData.notleidende_kredite_2014.val) }&nbsp;€</dt>
-        <dd>Notleidende Kredite 2014</dd>
+        <dd>Notleidende Kredite</dd>
 
         <dt>{ renderNumber(extraData.gesamt_jahresueberschuss_fond.val) }&nbsp;€</dt>
-        <dd>{ extraData.gesamt_jahresueberschuss_fond.label } 2014</dd>
+        <dd>{ extraData.gesamt_jahresueberschuss_fond.label }</dd>
       </dl>
 
       <h4>Wie ist die Sparkasse für schlechte Zeiten gerüstet?</h4>
