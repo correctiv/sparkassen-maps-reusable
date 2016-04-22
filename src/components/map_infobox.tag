@@ -62,7 +62,7 @@ import './map_layerinfo.tag'
 
   this.renderScore = (values) => {
     if (values.label === 'Gesamt') {
-      let value = values.value || values.val
+      let value = this.extraData.platz_nk_kredite_gesamt.val
       return ' (Platz ' + value + ' von 416)'
     }
   }
