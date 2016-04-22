@@ -11,12 +11,12 @@ import './map_layerinfo.tag'
       <h4>Wie hoch ist der Anteil notleidender Kredite?</h4>
 
       <dl class="sparkassen-map__data-listing">
-        <dt><strong>{ values.value }&nbsp;%</strong></dt>
-        <dd><strong>{ values.label }{ renderScore(values) }</strong></dd>
-        <dt>{ extraData.value2.val }&nbsp;%</dt>
-        <dd>{ extraData.value2.label }{ renderScore(extraData.value2) }</dd>
-        <dt>{ extraData.value3.val }&nbsp;%</dt>
-        <dd>{ extraData.value3.label }{ renderScore(extraData.value3) }</dd>
+        <dt><strong>{ renderValue(values.value, '%') }</strong></dt>
+        <dd><strong>{ values.label }{ maybeRenderScore(values) }</strong></dd>
+        <dt>{ renderValue(extraData.value2.val, '%') }</dt>
+        <dd>{ extraData.value2.label }{ maybeRenderScore(extraData.value2) }</dd>
+        <dt>{ renderValue(extraData.value3.val, '%') }</dt>
+        <dd>{ extraData.value3.label }{ maybeRenderScore(extraData.value3) }</dd>
       </dl>
 
       <h4>Falls alle notleidenden Kredite ausfallen: Wie viele Jahre bräuchte die
@@ -24,21 +24,21 @@ import './map_layerinfo.tag'
       </h4>
 
       <dl class="sparkassen-map__data-listing">
-        <dt>{ extraData.verhaeltnis_npl_zu_gewinn.val }</dt>
-        <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 413)</dd>
+        <dt>{ renderValue(extraData.verhaeltnis_npl_zu_gewinn.val) }</dt>
+        <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label }{ renderScore(extraData.platz_npl_zu_gewinn.val) }</dd>
 
-        <dt>{ renderNumber(extraData.notleidende_kredite_2014.val) }&nbsp;€</dt>
+        <dt>{ renderValue(renderNumber(extraData.notleidende_kredite_2014.val), '€') }</dt>
         <dd>Notleidende Kredite</dd>
 
-        <dt>{ renderNumber(extraData.gesamt_jahresueberschuss_fond.val) }&nbsp;€</dt>
+        <dt>{ renderValue(renderNumber(extraData.gesamt_jahresueberschuss_fond.val), '€') }</dt>
         <dd>{ extraData.gesamt_jahresueberschuss_fond.label }</dd>
       </dl>
 
       <h4>Wie ist die Sparkasse für schlechte Zeiten gerüstet?</h4>
 
       <dl class="sparkassen-map__data-listing">
-        <dt>{ extraData.gesamtkapitalquote_2014.val } %</dt>
-        <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 413)</dd>
+        <dt>{ renderValue(extraData.gesamtkapitalquote_2014.val, '%') }</dt>
+        <dd>Gesamtkapitalquote{ renderScore(extraData.platz_gesamtkapitalquote.val) }</dd>
         <dt><em>8&nbsp;%</dt>
         <dd><em>Minimale Pflicht nach Basel III</em></dd>
       </dl>
@@ -62,22 +62,50 @@ import './map_layerinfo.tag'
     this.extraData = data.values.extra
   })
 
-  this.renderScore = (values) => {
+  this.renderScore= (score) => {
+    if (score) {
+      return ' (Platz ' + score + ' von 413)'
+    }
+  }
+
+  this.maybeRenderScore = (values) => {
+    // FIXME
     if (values.label === 'Gesamt') {
       let value = this.extraData.platz_nk_kredite_gesamt.val
-      return ' (Platz ' + value + ' von 413)'
+      if (value) {
+        return ' (Platz ' + value + ' von 413)'
+      }
     }
+  }
+
+  this.renderValue = (value, unit) => {
+    let val = ''
+    if (this._isValue(value)) {
+      val = value.toString()
+      if (unit) {
+        val = val + ' ' + unit
+      }
+    } else {
+      val = 'k.A.'
+    }
+    return val
   }
 
   this.renderNumber = (value) => {
     value = parseInt(value.toString().replace(/,[0-9]+/, ''))
-    if (value.toString().length < 7) {
+    if (isNaN(value)) {
+      return null
+    } else if (value.toString().length < 7) {
       let val = (value/1000).toFixed(1)
       return val + ' T.'
     } else {
       let val = (value/1000000).toFixed(1)
       return val + ' Mio.'
     }
+  }
+
+  this._isValue = (value) => {
+    return value && (value.toString().indexOf('k.A') < 0)
   }
 
 </map-infobox>
