@@ -25,7 +25,7 @@ import './map_layerinfo.tag'
 
       <dl class="sparkassen-map__data-listing">
         <dt>{ extraData.verhaeltnis_npl_zu_gewinn.val }</dt>
-        <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 416)</dd>
+        <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 413)</dd>
 
         <dt>{ renderNumber(extraData.notleidende_kredite_2014.val) }&nbsp;€</dt>
         <dd>Notleidende Kredite</dd>
@@ -38,7 +38,7 @@ import './map_layerinfo.tag'
 
       <dl class="sparkassen-map__data-listing">
         <dt>{ extraData.gesamtkapitalquote_2014.val } %</dt>
-        <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 416)</dd>
+        <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 413)</dd>
         <dt><em>8&nbsp;%</dt>
         <dd><em>Minimale Pflicht nach Basel III</em></dd>
       </dl>
@@ -65,7 +65,7 @@ import './map_layerinfo.tag'
   this.renderScore = (values) => {
     if (values.label === 'Gesamt') {
       let value = this.extraData.platz_nk_kredite_gesamt.val
-      return ' (Platz ' + value + ' von 416)'
+      return ' (Platz ' + value + ' von 413)'
     }
   }
 
