@@ -173,16 +173,18 @@
     margin-bottom: @base-padding;
   }
 
+  &__data-listing-wrapper {
+    &.-hidden {
+      display: none;
+    }
+  }
+
   &__data-listing {
     margin: 10px;
     padding: 0;
     display: block;
     overflow: hidden;
     width: 100%;
-
-    &.-hidden {
-      display: none;
-    }
 
     dt {
       display: inline-block;

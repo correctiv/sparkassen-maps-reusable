@@ -7,23 +7,44 @@ import './map_layerinfo.tag'
 
     <path-searchbox active={ data.id } name={ data.name }></path-searchbox>
 
-    <dl class="sparkassen-map__data-listing { -hidden: !data }">
-      <dt><strong>{ values.value ? values.value + ' ' + unit : 'n/a' }</strong></dt>
-      <dd><strong>{ values.label }</strong></dd>
+    <section class="sparkassen-map__data-listing-wrapper { -hidden: !data }">
+      <h4>Wie hoch ist der Anteil notleidender Kredite?</h4>
 
-      <dt>{ extraData.value2.val ? extraData.value2.val + ' ' + unit : 'n/a' }</dt>
-      <dd>{ extraData.value2.label }</dd>
+      <dl class="sparkassen-map__data-listing">
+        <dt><strong>{ values.value }&nbsp;%</strong></dt>
+        <dd><strong>{ values.label }{ renderScore(values) }</strong></dd>
+        <dt>{ extraData.value2.val }&nbsp;%</dt>
+        <dd>{ extraData.value2.label }{ renderScore(extraData.value2) }</dd>
+        <dt>{ extraData.value3.val }&nbsp;%</dt>
+        <dd>{ extraData.value3.label }{ renderScore(extraData.value3) }</dd>
+      </dl>
 
-      <dt>{ extraData.value3.val ? extraData.value3.val + ' ' + unit : 'n/a' }</dt>
-      <dd>{ extraData.value3.label }</dd>
+      <h4>Falls alle notleidenden Kredite ausfallen: Wie viele Jahre bräuchte die
+        Sparkasse bei gleichbleibendem Gewinn, um den Verlust auszugleichen?
+      </h4>
 
-      <dt>{ extraData.value4.val ? extraData.value4.val + ' ' + unit : 'n/a' }</dt>
-      <dd>{ extraData.value4.label }</dd>
-    </dl>
+      <dl class="sparkassen-map__data-listing">
+        <dt>{ extraData.verhaeltnis_npl_zu_gewinn.val }</dt>
+        <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 416)</dd>
 
-    <small if={ extraData.annotation }>
-      { extraData.annotation.label }: { extraData.annotation.val }
-    </small>
+        <dt>{ extraData.notleidende_kredite_2014.val }&nbsp;€</dt>
+        <dd>Notleidende Kredite 2014</dd>
+
+        <dt>{ extraData.gesamt_jahresueberschuss_fond.val }&nbsp;€</dt>
+        <dd>{ extraData.gesamt_jahresueberschuss_fond.label } 2014</dd>
+      </dl>
+
+      <h4>Hat die Sparkasse genügend Sicherheiten gebildet?</h4>
+
+      <dl class="sparkassen-map__data-listing">
+        <dt>{ extraData.gesamtkapitalquote_2014.val } %</dt>
+        <dd>Gesamtkapitalquote (Platz { extraData.platz_gesamtkapitalquote.val } von 416)</dd>
+      </dl>
+
+      <small if={ extraData.anmerkungen.val }>
+        { extraData.anmerkungen.label }: { extraData.anmerkungen.val }
+      </small>
+    </section>
 
   </div>
 
@@ -38,5 +59,12 @@ import './map_layerinfo.tag'
     this.values = data.values
     this.extraData = data.values.extra
   })
+
+  this.renderScore = (values) => {
+    if (values.label === 'Gesamt') {
+      let value = values.value || values.val
+      return ' (Platz ' + value + ' von 416)'
+    }
+  }
 
 </map-infobox>

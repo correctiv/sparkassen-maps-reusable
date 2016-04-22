@@ -3,78 +3,76 @@ import {COLORS7, COLORS9} from './colors.js'
 
 const SOURCES = [
   {
-    slug: 'interests_1',
-    name: 'Dispozinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
-    unit: '%',
-    range: {
-      min: 6,
-      max: 12
-    },
-    values: {
-      value: 'Effektiver Dispozins',
-      value2: 'Effektiver Überziehungszins',
-      value3: 'Guthaben-Zinsen für Sichteinlagen',
-      value4: 'Zinsen auf Spareinlagen',
-      annotation: 'Info'
-    },
-    data: require('dsv!./csv/zinsen_1.csv')
-  },
-  {
-    slug: 'interests_2',
-    name: 'Überziehungszinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
-    unit: '%',
-    range: {
-      min: 6,
-      max: 18
-    },
-    values: {
-      value2: 'Effektiver Dispozins',
-      value: 'Effektiver Überziehungszins',
-      value3: 'Guthaben-Zinsen für Sichteinlagen',
-      value4: 'Zinsen auf Spareinlagen',
-      annotation: 'Info'
-    },
-    data: require('dsv!./csv/zinsen_2.csv')
-  },
-  {
-    slug: 'interests_3',
-    name: 'Guthaben-Zinsen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
-    unit: '%',
-    range: {
-      min: 0.00,
-      max: 0.04,
-      toFixed: 3
-    },
-    values: {
-      value2: 'Effektiver Dispozins',
-      value3: 'Effektiver Überziehungszins',
-      value: 'Guthaben-Zinsen für Sichteinlagen',
-      value4: 'Zinsen auf Spareinlagen',
-      annotation: 'Info'
-    },
-    data: require('dsv!./csv/zinsen_3.csv')
-  },
-  {
-    slug: 'interests_4',
-    name: 'Spareinlagen',
-    annotation: 'Die Daten haben wir im Zeitraum von November 2015 bis Februar 2016 erfasst. Wir beziehen uns immer auf das Kontomodell mit dem günstigsten Grundpreis, was unabhängig vom Alter abgeschlossen werden kann. Für Rückfragen erreichst Du uns unter sparkasse@correctiv.org.',
+    slug: 'kredite_gesamt',
+    name: 'Gesamt',
+    annotation: 'Quellen: Offenlegungsberichte & Jahresabschlüsse 2014',
     unit: '%',
     range: {
       min: 0,
-      max: 0.2,
-      toFixed: 2
+      max: 6
     },
     values: {
-      value2: 'Effektiver Dispozins',
-      value3: 'Effektiver Überziehungszins',
-      value4: 'Guthaben-Zinsen für Sichteinlagen',
-      value: 'Zinsen auf Spareinlagen',
-      annotation: 'Info'
+      notleidende_kredite_2014: 'Notleidende Kredite',
+      value: 'Gesamt',
+      value2: 'Unternehmen & Selbstständige',
+      value3: 'Privatpersonen',
+      platz_nk_kredite_gesamt: 'Platz',
+      gesamt_jahresueberschuss_fond: 'Gewinn',
+      verhaeltnis_npl_zu_gewinn: 'Jahre',
+      platz_npl_zu_gewinn: 'Jahre Platz',
+      gesamtkapitalquote_2014: 'Kapitalquote',
+      platz_gesamtkapitalquote: 'Platz Kapital',
+      anmerkungen: 'Info'
     },
-    data: require('dsv!./csv/zinsen_4.csv')
+    data: require('dsv!./csv/kredite1.csv')
+  },
+  {
+    slug: 'kredite_unternehmen',
+    name: 'Unternehmen & Selbstständige',
+    annotation: 'Quellen: Offenlegungsberichte & Jahresabschlüsse 2014',
+    unit: '%',
+    range: {
+      min: 0,
+      max: 6
+    },
+    values: {
+      notleidende_kredite_2014: 'Notleidende Kredite',
+      value2: 'Gesamt',
+      value: 'Unternehmen & Selbstständige',
+      value3: 'Privatpersonen',
+      platz_nk_kredite_gesamt: 'Platz',
+      gesamt_jahresueberschuss_fond: 'Gewinn',
+      verhaeltnis_npl_zu_gewinn: 'Jahre',
+      platz_npl_zu_gewinn: 'Jahre Platz',
+      gesamtkapitalquote_2014: 'Kapitalquote',
+      platz_gesamtkapitalquote: 'Platz Kapital',
+      anmerkungen: 'Info'
+    },
+    data: require('dsv!./csv/kredite2.csv')
+  },
+  {
+    slug: 'kredite_privat',
+    name: 'Privatpersonen',
+    annotation: 'Quellen: Offenlegungsberichte & Jahresabschlüsse 2014',
+    unit: '%',
+    range: {
+      min: 0,
+      max: 6
+    },
+    values: {
+      notleidende_kredite_2014: 'Notleidende Kredite',
+      value2: 'Gesamt',
+      value3: 'Unternehmen & Selbstständige',
+      value: 'Privatpersonen',
+      platz_nk_kredite_gesamt: 'Platz',
+      gesamt_jahresueberschuss_fond: 'Gewinn',
+      verhaeltnis_npl_zu_gewinn: 'Jahre',
+      platz_npl_zu_gewinn: 'Jahre Platz',
+      gesamtkapitalquote_2014: 'Kapitalquote',
+      platz_gesamtkapitalquote: 'Platz Kapital',
+      anmerkungen: 'Info'
+    },
+    data: require('dsv!./csv/kredite3.csv')
   }
 ]
 
