@@ -27,10 +27,10 @@ import './map_layerinfo.tag'
         <dt>{ extraData.verhaeltnis_npl_zu_gewinn.val }</dt>
         <dd>{ extraData.verhaeltnis_npl_zu_gewinn.label } (Platz { extraData.platz_npl_zu_gewinn.val } von 416)</dd>
 
-        <dt>{ extraData.notleidende_kredite_2014.val }&nbsp;€</dt>
+        <dt>{ renderNumber(extraData.notleidende_kredite_2014.val) }&nbsp;€</dt>
         <dd>Notleidende Kredite 2014</dd>
 
-        <dt>{ extraData.gesamt_jahresueberschuss_fond.val }&nbsp;€</dt>
+        <dt>{ renderNumber(extraData.gesamt_jahresueberschuss_fond.val) }&nbsp;€</dt>
         <dd>{ extraData.gesamt_jahresueberschuss_fond.label } 2014</dd>
       </dl>
 
@@ -65,6 +65,10 @@ import './map_layerinfo.tag'
       let value = this.extraData.platz_nk_kredite_gesamt.val
       return ' (Platz ' + value + ' von 416)'
     }
+  }
+
+  this.renderNumber = (value) => {
+    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
   }
 
 </map-infobox>

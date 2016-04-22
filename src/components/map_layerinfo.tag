@@ -1,7 +1,7 @@
 <map-layerinfo class="sparkassen-map__layerinfo">
 
   <small if={ data.annotation }>
-    <strong>Anmerkungen: </strong>{ data.annotation }
+    <strong>Anmerkungen:</strong><br>{ data.annotation }
   </small>
 
   riot.control.on(riot.EVT.layerChanged, data => {
