@@ -8,7 +8,7 @@ import './map_layerinfo.tag'
     <path-searchbox active={ data.id } name={ data.name }></path-searchbox>
 
     <section class="sparkassen-map__data-listing-wrapper { -hidden: !data }">
-      <h4>Wie hoch ist der Anteil notleidender Kredite?</h4>
+      <p>Wie hoch ist der Anteil notleidender Kredite?</p>
 
       <dl class="sparkassen-map__data-listing">
         <dt><strong>{ renderValue(values.value, '%') }</strong></dt>
@@ -19,9 +19,9 @@ import './map_layerinfo.tag'
         <dd>{ extraData.value3.label }{ maybeRenderScore(extraData.value3) }</dd>
       </dl>
 
-      <h4>Falls alle notleidenden Kredite ausfallen: Wie viele Jahre bräuchte die
+      <p>Falls alle notleidenden Kredite ausfallen: Wie viele Jahre bräuchte die
         Sparkasse bei gleichbleibendem Gewinn, um den Verlust auszugleichen?
-      </h4>
+      </p>
 
       <dl class="sparkassen-map__data-listing">
         <dt>{ renderValue(extraData.verhaeltnis_npl_zu_gewinn.val) }</dt>
@@ -34,7 +34,7 @@ import './map_layerinfo.tag'
         <dd>{ extraData.gesamt_jahresueberschuss_fond.label }</dd>
       </dl>
 
-      <h4>Wie ist die Sparkasse für schlechte Zeiten gerüstet?</h4>
+      <p>Wie ist die Sparkasse für schlechte Zeiten gerüstet?</p>
 
       <dl class="sparkassen-map__data-listing">
         <dt>{ renderValue(extraData.gesamtkapitalquote_2014.val, '%') }</dt>
