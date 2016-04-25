@@ -2,7 +2,7 @@
 
   <small if={ data.annotation }>
       { data.annotation }<br>
-        Hintergrund: <a href="https://correctiv.org/recherchen/sparkassen/artikel/2016/04/24/notleidende-kredite-was-die-daten-aussagen-koennen-und-was-nicht/">Was die Daten aussagen können - und was nicht</a>
+        Hintergrund: <a href="https://correctiv.org/recherchen/sparkassen/artikel/2016/04/25/notleidende-kredite-was-die-daten-aussagen-koennen-und-was-nicht/">Was die Daten aussagen können - und was nicht</a>
   </small>
 
   riot.control.on(riot.EVT.layerChanged, data => {
