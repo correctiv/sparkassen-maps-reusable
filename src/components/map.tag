@@ -36,15 +36,19 @@ import {DEFAULT_DATASET} from '../data/datasets'
 
     this.hilightPath = () => {
       let path = this._svg.getPathById(this.hilighted)
-      // bring path to front because of stroke styling:
-      path.parentElement.appendChild(path)
-      path.classList.add('-hilighted')
+      if (path) {
+        // bring path to front because of stroke styling:
+        path.parentElement.appendChild(path)
+        path.classList.add('-hilighted')
+      }
     }
 
     this.unhilight = () => {
       if (this.hilighted) {
         let path = this._svg.getPathById(this.hilighted)
-        path.classList.remove('-hilighted')
+        if (path) {
+          path.classList.remove('-hilighted')
+        }
       }
     }
 
