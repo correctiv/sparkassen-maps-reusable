@@ -105,7 +105,7 @@ import './map_layerinfo.tag'
   }
 
   this._isValue = (value) => {
-    return value && (value.toString().indexOf('k.A') < 0)
+    return value && (value.toString().indexOf('k.A') < 0) && (value.toString().indexOf('#VALUE') < 0)
   }
 
 </map-infobox>
