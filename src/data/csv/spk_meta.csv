@@ -1,0 +1,426 @@
+id,name,slug
+136,Sparkasse Oder-Spree,sparkasse_oder_spree
+369,Stadtsparkasse Wetter,stadtsparkasse_wetter
+2,Sparkasse KölnBonn,sparkasse_koelnbonn
+151,Stadt-Sparkasse Solingen,stadt_sparkasse_solingen
+319,Sparkasse Bühl,sparkasse_buehl
+132,Kreissparkasse Düsseldorf,kreissparkasse_duesseldorf
+344,Sparkasse Prignitz,sparkasse_prignitz
+17,Stadt- und Kreissparkasse Leipzig,stadt_und_kreissparkasse_leipzig
+503,Sparkasse Hegau-Bodensee,sparkasse_hegau_bodensee
+93,Sparkasse Düren,sparkasse_dueren
+399,Stadtsparkasse Versmold,stadtsparkasse_versmold
+375,Kreissparkasse Schlüchtern,kreissparkasse_schluechtern
+101,Kreissparkasse Augsburg,kreissparkasse_augsburg
+371,Sparkasse Einbeck,sparkasse_einbeck
+311,Sparkasse Engen-Gottmadingen,sparkasse_engen_gottmadingen
+9,Die Sparkasse Bremen AG,die_sparkasse_bremen_ag
+405,Stadtsparkasse Haltern am See,stadtsparkasse_haltern_am_see
+114,Sparkasse Fürth,sparkasse_fuerth
+278,Kreissparkasse Northeim,kreissparkasse_northeim
+212,Kreissparkasse Mayen,kreissparkasse_mayen
+280,Sparkasse Arnsberg-Sundern,sparkasse_arnsberg_sundern
+233,Sparkasse Berchtesgadener Land,sparkasse_berchtesgadener_land
+238,Sparkasse Barnim,sparkasse_barnim
+298,Sparkasse Eichstätt,sparkasse_eichstaett
+396,Sparkasse der Stadt Straelen,sparkasse_der_stadt_straelen
+49,Sparkasse Rhein Neckar Nord,sparkasse_rhein_neckar_nord
+181,Sparkasse Neu-Ulm - Illertissen,sparkasse_neu_ulm_illertissen
+76,Sparkasse Kraichgau,sparkasse_kraichgau
+339,Stadtsparkasse Bad Oeynhausen,stadtsparkasse_bad_oeynhausen
+191,Sparkasse Rotenburg-Bremervörde,sparkasse_rotenburg_bremervoerde
+290,Sparkasse Mecklenburg-Nordwest,sparkasse_mecklenburg_nordwest
+357,Sparkasse Uecker-Randow,sparkasse_uecker_randow
+335,Stadtsparkasse Gladbeck,stadtsparkasse_gladbeck
+80,Sparkasse Rhein-Haardt,sparkasse_rhein_haardt
+237,Sparkasse Neunkirchen,sparkasse_neunkirchen
+392,Sparkasse Münden,sparkasse_muenden
+185,Sparkasse Lüdenscheid,sparkasse_luedenscheid
+302,Sparkasse Altenburger Land,sparkasse_altenburger_land
+134,Sparkasse Hagen,sparkasse_hagen
+257,Kreissparkasse Bitburg-Prüm,kreissparkasse_bitburg_pruem
+220,Sparkasse Merzig-Wadern,sparkasse_merzig_wadern
+122,Sparkasse Göttingen,sparkasse_goettingen
+389,Stadtsparkasse Herdecke,stadtsparkasse_herdecke
+401,Stadtsparkasse Hilchenbach,stadtsparkasse_hilchenbach
+187,Sparkasse Bensheim,sparkasse_bensheim
+5,Stadtsparkasse München,stadtsparkasse_muenchen
+216,Rhön-Rennsteig-Sparkasse,rhoen_rennsteig_sparkasse
+21,Sparkasse Krefeld,sparkasse_krefeld
+310,Stadtsparkasse Gevelsberg,stadtsparkasse_gevelsberg
+293,Kreissparkasse St. Wendel,kreissparkasse_st_wendel
+370,Kreissparkasse Hildburghausen,kreissparkasse_hildburghausen
+89,Sparkasse Langen-Seligenstadt,sparkasse_langen_seligenstadt
+123,Kreissparkasse Syke,kreissparkasse_syke
+251,Kreissparkasse Halle,kreissparkasse_halle
+87,Sparkasse Mittelfranken-Süd,sparkasse_mittelfranken_sued
+172,Sparkasse Aurich-Norden,sparkasse_aurich_norden
+296,Kreissparkasse Nordhausen,kreissparkasse_nordhausen
+274,Sparkasse Märkisches Sauerland Hemer-Menden,sparkasse_maerkisches_sauerland_hemer_menden
+301,Kreissparkasse Walsrode,kreissparkasse_walsrode
+288,Kreissparkasse Garmisch-Partenkirchen,kreissparkasse_garmisch_partenkirchen
+368,Sparkasse Burbach-Neunkirchen,sparkasse_burbach_neunkirchen
+188,Sparkasse Miltenberg-Obernburg,sparkasse_miltenberg_obernburg
+419,Berliner Sparkasse,berliner_sparkasse
+282,Kreissparkasse Melle,kreissparkasse_melle
+214,Kreissparkasse Saarpfalz,kreissparkasse_saarpfalz
+252,Stadt-Sparkasse Langenfeld,stadt_sparkasse_langenfeld
+8,Stadtsparkasse Düsseldorf,stadtsparkasse_duesseldorf
+321,Kyffhäusersparkasse Artern-Sondershausen,kyffhaeusersparkasse_artern_sondershausen
+14,Sparkasse Aachen,sparkasse_aachen
+364,Sparkasse Stockach,sparkasse_stockach
+60,Stadt- und Kreissparkasse Erlangen,stadt_und_kreissparkasse_erlangen
+281,Sparkasse Hochsauerland,sparkasse_hochsauerland
+12,Mittelbrandenburgische Sparkasse in Potsdam,mittelbrandenburgische_sparkasse_in_potsdam
+183,Sparkasse Deggendorf,sparkasse_deggendorf
+501,Sparkasse an der Lippe,sparkasse_an_der_lippe
+65,Sparkasse Hildesheim,sparkasse_hildesheim
+313,Sparkasse Wittgenstein,sparkasse_wittgenstein
+133,Sparkasse Dachau,sparkasse_dachau
+64,Erzgebirgssparkasse,erzgebirgssparkasse
+96,Sparkasse Zollernalb,sparkasse_zollernalb
+247,Kreissparkasse Limburg,kreissparkasse_limburg
+246,Stadtsparkasse Remscheid,stadtsparkasse_remscheid
+264,Sparkasse Mansfeld-Südharz,sparkasse_mansfeld_suedharz
+94,Sparkasse Marburg-Biedenkopf,sparkasse_marburg_biedenkopf
+36,Sparkasse Neuss,sparkasse_neuss
+500,Kreissparkasse Westerwald-Sieg,kreissparkasse_westerwald_sieg
+13,Sparkasse Nürnberg,sparkasse_nuernberg
+276,Sparkasse Neubrandenburg-Demmin,sparkasse_neubrandenburg_demmin
+7,Ostsächsische Sparkasse Dresden,ostsaechsische_sparkasse_dresden
+376,Sparkasse Bonndorf-Stühlingen,sparkasse_bonndorf_stuehlingen
+384,Stadtsparkasse Sprockhövel,stadtsparkasse_sprockhoevel
+299,Stadtsparkasse Kaiserslautern,stadtsparkasse_kaiserslautern
+362,Sparkasse Scheeßel,sparkasse_scheessel
+59,Sparkasse Hanau,sparkasse_hanau
+176,Sparkasse Uelzen Lüchow-Dannenberg,sparkasse_uelzen_luechow_dannenberg
+379,Sparkasse Gronau,sparkasse_gronau
+149,Sparkasse Dieburg,sparkasse_dieburg
+146,Sparkasse Coburg-Lichtenfels,sparkasse_coburg_lichtenfels
+82,Sparkasse Niederbayern-Mitte,sparkasse_niederbayern_mitte
+44,Sparkasse Freiburg - Nördlicher Breisgau,sparkasse_freiburg_noerdlicher_breisgau
+365,Verbandssparkasse Goch-Kevelaer-Weeze,verbandssparkasse_goch_kevelaer_weeze
+374,Stadtsparkasse Wedel,stadtsparkasse_wedel
+51,Kreissparkasse Göppingen,kreissparkasse_goeppingen
+349,Sparkasse Hennstedt-Wesselburen,sparkasse_hennstedt_wesselburen
+186,Kreis- und Stadtsparkasse Erding - Dorfen,kreis_und_stadtsparkasse_erding_dorfen
+16,Kreissparkasse Ludwigsburg,kreissparkasse_ludwigsburg
+267,Sparkasse Aichach-Schrobenhausen,sparkasse_aichach_schrobenhausen
+168,Sparkasse Gießen,sparkasse_giessen
+152,Sparkasse Kulmbach-Kronach,sparkasse_kulmbach_kronach
+192,Sparkasse Jena-Saale-Holzland,sparkasse_jena_saale_holzland
+500,Sparkasse Westerwald-Sieg,sparkasse_westerwald_sieg
+294,Stadtsparkasse Bocholt,stadtsparkasse_bocholt
+320,Kreissparkasse Saale-Orla,kreissparkasse_saale_orla
+309,Sparkasse Hattingen,sparkasse_hattingen
+33,Sparkasse Westmünsterland,sparkasse_westmuensterland
+57,Sparkasse Herford,sparkasse_herford
+258,Kreissparkasse Osterholz,kreissparkasse_osterholz
+95,Sparkasse Fürstenfeldbruck,sparkasse_fuerstenfeldbruck
+243,Sparkasse Niederlausitz mit Sitz in Senftenberg,sparkasse_niederlausitz_mit_sitz_in_senftenberg
+203,Sparkasse Stade - Altes Land,sparkasse_stade_altes_land
+261,Sparkasse Wittenberg,sparkasse_wittenberg
+179,Sparkasse im Landkreis Schwandorf,sparkasse_im_landkreis_schwandorf
+45,Sparkasse Holstein,sparkasse_holstein
+340,Vereinigte Sparkassen Gunzenhausen,vereinigte_sparkassen_gunzenhausen
+105,Sparkasse Schwäbisch Hall Crailsheim,sparkasse_schwaebisch_hall_crailsheim
+338,Bordesholmer Sparkasse AG,bordesholmer_sparkasse_ag
+303,Sparkasse Ostprignitz-Ruppin,sparkasse_ostprignitz_ruppin
+502,Niederrheinische Sparkasse RheinLippe,niederrheinische_sparkasse_rheinlippe
+61,Taunus Sparkasse,taunus_sparkasse
+75,Sparkasse Memmingen-Lindau-Mindelheim,sparkasse_memmingen_lindau_mindelheim
+116,Sparkasse Worms-Alzey-Ried,sparkasse_worms_alzey_ried
+77,Kreissparkasse Kaiserslautern,kreissparkasse_kaiserslautern
+10,Nassauische Sparkasse,nassauische_sparkasse
+343,Sparkasse Pfullendorf-Messkirch,sparkasse_pfullendorf_messkirch
+18,Sparkasse Münsterland Ost,sparkasse_muensterland_ost
+417,Städtische Sparkasse Kamen,staedtische_sparkasse_kamen
+1,Hamburger Sparkasse AG,hamburger_sparkasse_ag
+395,Sparkasse Schönau-Todtnau,sparkasse_schoenau_todtnau
+29,Stadtsparkasse Wuppertal,stadtsparkasse_wuppertal
+403,Stadtsparkasse Freudenberg,stadtsparkasse_freudenberg
+144,Sparkasse Minden-Lübbecke,sparkasse_minden_luebbecke
+20,Kreissparkasse Esslingen-Nürtingen,kreissparkasse_esslingen_nuertingen
+150,Salzlandsparkasse,salzlandsparkasse
+378,Sparkasse Gengenbach,sparkasse_gengenbach
+215,Sparkasse Dinslaken-Voerde-Hünxe,sparkasse_dinslaken_voerde_huenxe
+91,Sparkasse Schwarzwald-Baar,sparkasse_schwarzwald_baar
+90,Sparkasse Landshut,sparkasse_landshut
+269,Sparkasse Regen-Viechtach,sparkasse_regen_viechtach
+265,Vereinigte Spk. Eschenbach Neustadt Vohenstrauß,vereinigte_spk_eschenbach_neustadt_vohenstrauss
+404,Kreis- und Stadtsparkasse Dinkelsbühl,kreis_und_stadtsparkasse_dinkelsbuehl
+162,Sparkasse Neumarkt-Parsberg,sparkasse_neumarkt_parsberg
+88,Sparkasse Harburg-Buxtehude,sparkasse_harburg_buxtehude
+410,Sparkasse Fröndenberg,sparkasse_froendenberg
+385,Stadtsparkasse Lengerich,stadtsparkasse_lengerich
+348,Stadtsparkasse Schwerte,stadtsparkasse_schwerte
+180,Kreissparkasse Traunstein-Trostberg,kreissparkasse_traunstein_trostberg
+381,Stadtsparkasse Wunstorf,stadtsparkasse_wunstorf
+347,Sparkasse Kierspe-Meinerzhagen,sparkasse_kierspe_meinerzhagen
+240,Sparkasse Höxter,sparkasse_hoexter
+360,Sparkasse Bergkamen-Bönen,sparkasse_bergkamen_boenen
+154,Sparkasse Lörrach-Rheinfelden,sparkasse_loerrach_rheinfelden
+163,Weser-Elbe Sparkasse,weser_elbe_sparkasse
+84,Sparkasse Bamberg,sparkasse_bamberg
+327,Verbundsparkasse Emsdetten-Ochtrup,verbundsparkasse_emsdetten_ochtrup
+86,Sparkasse Hochfranken,sparkasse_hochfranken
+56,Kreissparkasse Ravensburg,kreissparkasse_ravensburg
+182,Sparkasse Baden-Baden Gaggenau,sparkasse_baden_baden_gaggenau
+52,Kreissparkasse Tübingen,kreissparkasse_tuebingen
+126,Sparkasse Hochrhein,sparkasse_hochrhein
+100,Sparkasse Westholstein,sparkasse_westholstein
+204,Sparkasse Landsberg-Dießen,sparkasse_landsberg_diessen
+279,Stadtsparkasse Bottrop,stadtsparkasse_bottrop
+408,Sparkasse Hohenwestedt,sparkasse_hohenwestedt
+352,Stadtsparkasse Werne,stadtsparkasse_werne
+217,Sparkasse Forchheim,sparkasse_forchheim
+394,Sparkasse Erwitte-Anröchte,sparkasse_erwitte_anroechte
+351,Müritz-Sparkasse,mueritz_sparkasse
+297,Sparkasse Hochschwarzwald,sparkasse_hochschwarzwald
+284,Kreissparkasse Saalfeld-Rudolstadt,kreissparkasse_saalfeld_rudolstadt
+103,Sparkasse Leverkusen,sparkasse_leverkusen
+390,Stadtsparkasse Schmallenberg,stadtsparkasse_schmallenberg
+158,Kreissparkasse Wiedenbrück,kreissparkasse_wiedenbrueck
+127,Kreissparkasse Rottweil,kreissparkasse_rottweil
+218,Sparkasse Hohenlohekreis,sparkasse_hohenlohekreis
+73,Sparkasse Mittelthüringen,sparkasse_mittelthueringen
+250,Sparkasse Bad Kissingen,sparkasse_bad_kissingen
+120,Kreissparkasse Herzogtum Lauenburg,kreissparkasse_herzogtum_lauenburg
+386,Sparkasse Rietberg,sparkasse_rietberg
+40,Sparkasse Vest Recklinghausen,sparkasse_vest_recklinghausen
+112,Kreissparkasse Tuttlingen,kreissparkasse_tuttlingen
+3,Kreissparkasse Köln,kreissparkasse_koeln
+117,Sparkasse Lemgo,sparkasse_lemgo
+208,Kreissparkasse Miesbach-Tegernsee,kreissparkasse_miesbach_tegernsee
+170,Sparkasse Starkenburg,sparkasse_starkenburg
+54,Sparkasse Oberhessen,sparkasse_oberhessen
+329,Sparkasse Beckum-Wadersloh,sparkasse_beckum_wadersloh
+98,Sparkasse Gelsenkirchen,sparkasse_gelsenkirchen
+315,Sparkasse Olpe-Drolshagen-Wenden,sparkasse_olpe_drolshagen_wenden
+273,Sparkasse Staufen-Breisach,sparkasse_staufen_breisach
+209,Sparkasse Elbe-Elster,sparkasse_elbe_elster
+387,Stadtsparkasse Rahden,stadtsparkasse_rahden
+400,Stadtsparkasse Blomberg/Lippe,stadtsparkasse_blomberg_lippe
+412,Stadtsparkasse Grebenstein,stadtsparkasse_grebenstein
+153,Sparkasse Markgräflerland,sparkasse_markgraeflerland
+221,Kreissparkasse Westerwald,kreissparkasse_westerwald
+270,Kreissparkasse Stendal,kreissparkasse_stendal
+143,Sparkasse Celle,sparkasse_celle
+85,Kreissparkasse Saarlouis,kreissparkasse_saarlouis
+331,Sparkasse der Homburgischen Gemeinden,sparkasse_der_homburgischen_gemeinden
+377,Stadtsparkasse Schwedt,stadtsparkasse_schwedt
+109,Sparkasse Vogtland,sparkasse_vogtland
+31,Sparkasse Paderborn-Detmold,sparkasse_paderborn_detmold
+106,Sparkasse Siegen,sparkasse_siegen
+175,Sparkasse Witten,sparkasse_witten
+190,Sparkasse im Landkreis Neustadt/Aisch - Bad Windsheim,sparkasse_im_landkreis_neustadt_aisch_bad_windsheim
+304,Sparkasse Donauwörth,sparkasse_donauwoerth
+372,Stadtsparkasse Bad Honnef,stadtsparkasse_bad_honnef
+37,Sparkasse Vorderpfalz,sparkasse_vorderpfalz
+330,Sparkasse Jerichower Land,sparkasse_jerichower_land
+271,Sparkasse Attendorn-Lennestadt-Kirchhundem,sparkasse_attendorn_lennestadt_kirchhundem
+230,Kreissparkasse Bautzen,kreissparkasse_bautzen
+174,Sparkasse Gera-Greiz,sparkasse_gera_greiz
+137,Stadtsparkasse Oberhausen,stadtsparkasse_oberhausen
+130,Sparkasse Mülheim an der Ruhr,sparkasse_muelheim_an_der_ruhr
+140,Sparkasse Meißen,sparkasse_meissen
+38,Nord-Ostsee Sparkasse,nord_ostsee_sparkasse
+229,Sparkasse der Stadt Iserlohn,sparkasse_der_stadt_iserlohn
+333,Stadtsparkasse Hameln,stadtsparkasse_hameln
+115,Sparkasse Oberlausitz-Niederschlesien,sparkasse_oberlausitz_niederschlesien
+406,Sparkasse Finnentrop,sparkasse_finnentrop
+416,Stadtsparkasse Bad Sachsa,stadtsparkasse_bad_sachsa
+285,Sparkasse Bad Neustadt a.d. Saale,sparkasse_bad_neustadt_a_d_saale
+173,Kreissparkasse Heidenheim,kreissparkasse_heidenheim
+219,Hohenzollerische LdBk KSK Sigmaringen,hohenzollerische_ldbk_ksk_sigmaringen
+322,Sparkasse Elmshorn,sparkasse_elmshorn
+11,Sparkasse Pforzheim Calw,sparkasse_pforzheim_calw
+83,Sparkasse Fulda,sparkasse_fulda
+383,Sparkasse Nördlingen,sparkasse_noerdlingen
+314,Bezirkssparkasse Reichenau,bezirkssparkasse_reichenau
+97,Sparkasse Hilden Ratingen Velbert,sparkasse_hilden_ratingen_velbert
+62,Sparkasse Rosenheim-Bad Aibling,sparkasse_rosenheim_bad_aibling
+148,Harzsparkasse,harzsparkasse
+194,Kreissparkasse Kusel,kreissparkasse_kusel
+275,Kreis- und Stadtsparkasse Dillingen,kreis_und_stadtsparkasse_dillingen
+200,Kreissparkasse Euskirchen,kreissparkasse_euskirchen
+121,Sparkasse Tauberfranken,sparkasse_tauberfranken
+259,Sparkasse Freising,sparkasse_freising
+129,Sparkasse Mittelmosel Eifel Mosel Hunsrück,sparkasse_mittelmosel_eifel_mosel_hunsrueck
+63,Stadt- und Kreissparkasse Darmstadt,stadt_und_kreissparkasse_darmstadt
+242,Kreissparkasse Rhein-Hunsrück,kreissparkasse_rhein_hunsrueck
+213,Kreissparkasse Grafschaft Bentheim zu Nordhorn,kreissparkasse_grafschaft_bentheim_zu_nordhorn
+367,Sparkasse Mecklenburg-Strelitz,sparkasse_mecklenburg_strelitz
+99,Sparkasse Vorpommern,sparkasse_vorpommern
+224,Sparkasse Rastatt-Gernsbach,sparkasse_rastatt_gernsbach
+70,Sparkasse Trier,sparkasse_trier
+71,Sparkasse Aschaffenburg-Alzenau,sparkasse_aschaffenburg_alzenau
+341,Sparkasse Freyung-Grafenau,sparkasse_freyung_grafenau
+165,Sparkasse Mainz,sparkasse_mainz
+342,Sparkasse Werl,sparkasse_werl
+305,Kreissparkasse Weilburg,kreissparkasse_weilburg
+69,Sparkasse Offenburg/Ortenau,sparkasse_offenburg_ortenau
+39,Sparkasse Bochum,sparkasse_bochum
+266,Sparkasse Dillenburg,sparkasse_dillenburg
+504,Sparkasse Hameln-Weserbergland,sparkasse_hameln_weserbergland
+306,Kreis- und Stadtsparkasse Wasserburg am Inn,kreis_und_stadtsparkasse_wasserburg_am_inn
+167,Sparkasse Südwestpfalz,sparkasse_suedwestpfalz
+67,Sparkasse Bodensee,sparkasse_bodensee
+239,Sparkasse Märkisch-Oderland,sparkasse_maerkisch_oderland
+291,Sparkasse Unstrut-Hainich,sparkasse_unstrut_hainich
+414,Stadtsparkasse Borken,stadtsparkasse_borken
+241,Sparkasse im Landkreis Cham,sparkasse_im_landkreis_cham
+171,Kreissparkasse Schwalm-Eder,kreissparkasse_schwalm_eder
+210,Sparkasse Günzburg-Krumbach,sparkasse_guenzburg_krumbach
+268,Sparkasse Kleve,sparkasse_kleve
+104,Sparkasse am Niederrhein,sparkasse_am_niederrhein
+355,Sparkasse Sonneberg,sparkasse_sonneberg
+78,Saalesparkasse,saalesparkasse
+260,Kreissparkasse Altenkirchen,kreissparkasse_altenkirchen
+244,Sparkasse Lünen,sparkasse_luenen
+382,Sparkasse Wolfach,sparkasse_wolfach
+366,Sparkasse Rothenburg,sparkasse_rothenburg
+223,Sparkasse Weserbergland,sparkasse_weserbergland
+398,Stadtsparkasse Barsinghausen,stadtsparkasse_barsinghausen
+325,Kreissparkasse Döbeln,kreissparkasse_doebeln
+177,Sparkasse Bad Hersfeld-Rotenburg,sparkasse_bad_hersfeld_rotenburg
+23,Sparkasse Essen,sparkasse_essen
+255,Kreissparkasse Bersenbrück,kreissparkasse_bersenbrueck
+236,Sparkasse Soest,sparkasse_soest
+160,Sparkasse Wetzlar,sparkasse_wetzlar
+316,Sparkasse Neuburg-Rain,sparkasse_neuburg_rain
+411,Stadtsparkasse Schwalmstadt,stadtsparkasse_schwalmstadt
+359,Stadt- und Kreissparkasse Moosburg,stadt_und_kreissparkasse_moosburg
+15,Kreissparkasse München Starnberg Ebersberg,kreissparkasse_muenchen_starnberg_ebersberg
+324,Sparkasse Osterode am Harz,sparkasse_osterode_am_harz
+46,Sparkasse Ulm,sparkasse_ulm
+249,Sparkasse Oberpfalz Nord,sparkasse_oberpfalz_nord
+157,Stadtsparkasse Magdeburg,stadtsparkasse_magdeburg
+312,Stadtsparkasse Cuxhaven,stadtsparkasse_cuxhaven
+58,Stadtsparkasse Mönchengladbach,stadtsparkasse_moenchengladbach
+286,Sparkasse Pfaffenhofen,sparkasse_pfaffenhofen
+388,Stadtsparkasse Burgdorf,stadtsparkasse_burgdorf
+225,Vereinigte Sparkassen im Landkreis Weilheim,vereinigte_sparkassen_im_landkreis_weilheim
+283,Sparkasse Ostunterfranken,sparkasse_ostunterfranken
+248,Sparkasse Goslar/Harz,sparkasse_goslar_harz
+334,Sparkasse Schopfheim-Zell,sparkasse_schopfheim_zell
+287,Kreissparkasse Eichsfeld,kreissparkasse_eichsfeld
+253,Kreis- und Stadtsparkasse Kaufbeuren,kreis_und_stadtsparkasse_kaufbeuren
+234,Kreissparkasse Stade,kreissparkasse_stade
+41,Sparkasse Osnabrück,sparkasse_osnabrueck
+353,Sparkasse Parchim-Lübz,sparkasse_parchim_luebz
+393,Sparkasse St. Blasien,sparkasse_st_blasien
+68,Sparkasse Koblenz,sparkasse_koblenz
+328,Kreissparkasse Höchstadt/Aisch,kreissparkasse_hoechstadt_aisch
+317,Sparkasse Muldental,sparkasse_muldental
+50,Kasseler Sparkasse,kasseler_sparkasse
+350,Sparkasse Duderstadt,sparkasse_duderstadt
+178,Sparkasse Amberg-Sulzbach,sparkasse_amberg_sulzbach
+197,Herner Sparkasse,herner_sparkasse
+119,Vereinigte Sparkassen Stadt- und Landkreis Ansbach,vereinigte_sparkassen_stadt_und_landkreis_ansbach
+363,Städtische Sparkasse zu Schwelm,staedtische_sparkasse_zu_schwelm
+226,Kreissparkasse Grafschaft Diepholz,kreissparkasse_grafschaft_diepholz
+356,Sparkasse Emden,sparkasse_emden
+380,Stadtsparkasse Porta Westfalica,stadtsparkasse_porta_westfalica
+55,Kreissparkasse Ostalb,kreissparkasse_ostalb
+81,Sparkasse Rhein-Nahe,sparkasse_rhein_nahe
+232,Sparkasse Odenwaldkreis,sparkasse_odenwaldkreis
+111,Kreissparkasse Heinsberg,kreissparkasse_heinsberg
+228,Sparkasse Hanauerland,sparkasse_hanauerland
+332,Kreissparkasse Vulkaneifel,kreissparkasse_vulkaneifel
+193,Kreissparkasse Kelheim,kreissparkasse_kelheim
+47,Stadtsparkasse Augsburg,stadtsparkasse_augsburg
+254,Sparkasse Donnersberg,sparkasse_donnersberg
+35,Kreissparkasse Biberach,kreissparkasse_biberach
+358,Sparkasse Meschede,sparkasse_meschede
+195,Kreissparkasse Freudenstadt,kreissparkasse_freudenstadt
+30,Sparkasse Heidelberg,sparkasse_heidelberg
+131,Sparkasse Passau,sparkasse_passau
+354,Stadtsparkasse Wermelskirchen,stadtsparkasse_wermelskirchen
+141,Kreissparkasse Verden,kreissparkasse_verden
+235,Kreissparkasse Peine,kreissparkasse_peine
+34,Förde Sparkasse,foerde_sparkasse
+113,OstseeSparkasse Rostock,ostseesparkasse_rostock
+22,Stadtsparkasse Dortmund,stadtsparkasse_dortmund
+43,Sparkasse Duisburg,sparkasse_duisburg
+245,Städtische Sparkasse Offenbach am Main,staedtische_sparkasse_offenbach_am_main
+26,Sparkasse Mainfranken Würzburg,sparkasse_mainfranken_wuerzburg
+206,Kreissparkasse Ahrweiler,kreissparkasse_ahrweiler
+336,Kreissparkasse Schongau,kreissparkasse_schongau
+263,Kreissparkasse Birkenfeld,kreissparkasse_birkenfeld
+6,Sparkasse Hannover,sparkasse_hannover
+53,Kreissparkasse Reutlingen,kreissparkasse_reutlingen
+108,Sparkasse Gifhorn-Wolfsburg,sparkasse_gifhorn_wolfsburg
+272,Sparkasse Gummersbach-Bergneustadt,sparkasse_gummersbach_bergneustadt
+139,Sparkasse LeerWittmund,sparkasse_leerwittmund
+345,Sparkasse Ennepetal-Breckerfeld,sparkasse_ennepetal_breckerfeld
+125,Sparkasse Singen-Radolfzell,sparkasse_singen_radolfzell
+407,Sparkasse Geseke,sparkasse_geseke
+361,Sparkasse Radevormwald-Hückeswagen,sparkasse_radevormwald_hueckeswagen
+198,Kreissparkasse Anhalt-Bitterfeld,kreissparkasse_anhalt_bitterfeld
+413,Sparkasse Battenberg,sparkasse_battenberg
+102,Sparkasse Emsland,sparkasse_emsland
+318,Sparkasse Uckermark,sparkasse_uckermark
+164,Sparkasse Waldeck-Frankenberg,sparkasse_waldeck_frankenberg
+169,Sparkasse Neuwied,sparkasse_neuwied
+32,Sparkasse Saarbrücken,sparkasse_saarbruecken
+155,Sparkasse Bayreuth,sparkasse_bayreuth
+189,Sparkasse Gütersloh,sparkasse_guetersloh
+295,Kreissparkasse Soltau,kreissparkasse_soltau
+74,Sparkasse Chemnitz,sparkasse_chemnitz
+135,Sparkasse Lüneburg,sparkasse_lueneburg
+207,Sparkasse Hamm,sparkasse_hamm
+337,Stadtsparkasse Dessau,stadtsparkasse_dessau
+42,Sparkasse Bielefeld,sparkasse_bielefeld
+19,Landessparkasse zu Oldenburg,landessparkasse_zu_oldenburg
+110,Kreissparkasse Mittelsachsen,kreissparkasse_mittelsachsen
+128,Sparkasse Zwickau,sparkasse_zwickau
+397,Sparkasse Grünberg,sparkasse_gruenberg
+227,Kreissparkasse Börde,kreissparkasse_boerde
+202,Sparkasse Werra-Meißner,sparkasse_werra_meissner
+262,Stadtsparkasse Rheine,stadtsparkasse_rheine
+72,Sparkasse Regensburg,sparkasse_regensburg
+92,Kreissparkasse Steinfurt,kreissparkasse_steinfurt
+418,Sparkasse Unna,sparkasse_unna
+415,Stadtsparkasse Felsberg,stadtsparkasse_felsberg
+138,Sparkasse Schaumburg,sparkasse_schaumburg
+4,Frankfurter Sparkasse,frankfurter_sparkasse
+27,Kreissparkasse Waiblingen,kreissparkasse_waiblingen
+307,Sparkasse Wilhelmshaven,sparkasse_wilhelmshaven
+161,Sparkasse Neckartal-Odenwald,sparkasse_neckartal_odenwald
+48,Sparkasse Südholstein,sparkasse_suedholstein
+159,Sparkasse Burgenlandkreis,sparkasse_burgenlandkreis
+201,Sparkasse Germersheim-Kandel,sparkasse_germersheim_kandel
+402,Stadtsparkasse Delbrück,stadtsparkasse_delbrueck
+211,Sparkasse Nienburg,sparkasse_nienburg
+205,Sparkasse Rottal-Inn,sparkasse_rottal_inn
+346,Stadt-Sparkasse Haan,stadt_sparkasse_haan
+256,Sparkasse Lippstadt,sparkasse_lippstadt
+308,Sparkasse Altmark West,sparkasse_altmark_west
+277,Kreissparkasse Gelnhausen,kreissparkasse_gelnhausen
+292,Kreissparkasse Gotha,kreissparkasse_gotha
+323,Stadtsparkasse Emmerich-Rees,stadtsparkasse_emmerich_rees
+142,Sparkasse Schweinfurt,sparkasse_schweinfurt
+145,Sparkasse Altötting-Mühldorf,sparkasse_altoetting_muehldorf
+124,Kreissparkasse Groß-Gerau,kreissparkasse_gross_gerau
+391,Stadtsparkasse Völklingen,stadtsparkasse_voelklingen
+184,Sparkasse Mecklenburg-Schwerin,sparkasse_mecklenburg_schwerin
+231,Wartburg-Sparkasse,wartburg_sparkasse
+289,Sparkasse Arnstadt-Ilmenau,sparkasse_arnstadt_ilmenau
+326,Sparkasse Salem-Heiligenberg,sparkasse_salem_heiligenberg
+118,Sparkasse Spree-Neiße,sparkasse_spree_neisse
+79,Sparkasse Ingolstadt,sparkasse_ingolstadt
+66,Sparkasse Allgäu,sparkasse_allgaeu
+156,Kreis- und Stadtsparkasse Unna-Kamen,kreis_und_stadtsparkasse_unna_kamen
+147,Sparkasse zu Lübeck AG,sparkasse_zu_luebeck_ag
+222,Vereinigte Sparkasse im Märkischen Kreis,vereinigte_sparkasse_im_maerkischen_kreis
+107,Sparkasse Südliche Weinstraße,sparkasse_suedliche_weinstrasse
+373,Stadtsparkasse Bad Pyrmont,stadtsparkasse_bad_pyrmont
+25,Kreissparkasse Böblingen,kreissparkasse_boeblingen
+196,Sparkasse Mittelholstein AG,sparkasse_mittelholstein_ag
+300,Sparkasse Haslach-Zell,sparkasse_haslach_zell
+24,Kreissparkasse Heilbronn,kreissparkasse_heilbronn
+166,Sparkasse Bad Tölz-Wolfratshausen,sparkasse_bad_toelz_wolfratshausen
+409,Sparkasse Laubach-Hungen,sparkasse_laubach_hungen
+28,Sparkasse Karlsruhe Ettlingen,sparkasse_karlsruhe_ettlingen
+199,Verbands-Sparkasse Wesel,verbands_sparkasse_wesel
