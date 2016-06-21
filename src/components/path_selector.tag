@@ -1,4 +1,4 @@
-import {PATHS} from '../data/paths'
+import {PATHS} from '../data/meta'
 
 <path-selector class="sparkassen-map__path-selector">
 

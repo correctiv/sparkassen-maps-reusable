@@ -1,12 +1,16 @@
-<map-layerinfo class="sparkassen-map__layerinfo">
+import './raw_html.tag'
 
-  <small if={ data.annotation }>
-      { data.annotation }<br>
-        Hintergrund: <a href="https://correctiv.org/recherchen/sparkassen/artikel/2016/04/25/notleidende-kredite-was-die-daten-aussagen-koennen-und-was-nicht/">Was die Daten aussagen können - und was nicht</a>
+
+<map-layerinfo class="sparkassen-map__layerinfo" if={ annotation || annotationHtml }>
+
+  <small>
+    { annotation }
+    <raw-html if={ annotationHtml } content={ annotationHtml }></raw-html>
   </small>
 
-  riot.control.on(riot.EVT.layerChanged, data => {
-    this.update({data: data.metaData})
+  riot.control.on(riot.EVT.layerReady, layer => {
+    this.update({annotation: layer.opts.annotation,
+                 annotationHtml: layer.opts.annotationHtml})
   })
 
 </map-layerinfo>

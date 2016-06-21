@@ -5,9 +5,9 @@
       style="background-color:{ color }">{ step } { unit }</li>
   </ul>
 
-  riot.control.on(riot.EVT.layerChanged, data => {
-    this.update({legendItems: data.legend,
-                 unit: data.metaData.unit})
+  riot.control.on(riot.EVT.layerReady, layer => {
+    this.update({legendItems: layer.legend,
+                 unit: layer.opts.unit})
   })
 
 </map-legend>

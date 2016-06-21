@@ -8,5 +8,8 @@ riot.EVT = {
   hilight : 'hilight',
   hilightChanged : 'hilight_changed',
   changeLayer : 'change_layer',
-  layerChanged : 'layer_changed'
+  initLayers: 'init_layers',
+  layersReady: 'layers_ready',
+  layerLoading: 'layer_loading',
+  layerReady: 'layer_ready'
 }

@@ -5,7 +5,7 @@
 
   this.getPathById = (id) => {
     // we must use Array.prototype because `this.paths` is HTMLCollection (array-like)
-    return Array.prototype.filter.call(this.paths, function (p) {return p.id == id})[0] || null
+    return Array.prototype.filter.call(this.paths, p => {return p.id == id})[0] || null
   }
 
 </svg-sparkassen>

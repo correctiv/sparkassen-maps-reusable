@@ -1,15 +1,7 @@
-import {NAMES} from '../data/paths.js'
-import {LAYERS, DATASETS} from '../data/datasets.js'
+import {NAMES} from '../data/meta'
+import initLayers from '../utils/layers'
+import slugify from '../utils/slugify'
 
-function getDataSet(slug) {
-  let dataSet = DATASETS[slug]
-  let metaData = dataSet.metaData
-  let loader = dataSet.loader
-  let colorize = loader.colorize.bind(loader)
-  let data = loader.getDataDict()
-  let legend = loader.getLegend()
-  return {metaData, colorize, data, legend}
-}
 
 class MapStore {
 
@@ -17,25 +9,30 @@ class MapStore {
     riot.observable(this)
     this.bindEvents()
 
-    this.data = {}
-    this.legend = null
+    // used vars
+    this.layers
+    this.hilighted
+    this.data
   }
 
   bindEvents() {
-
     // hilighting
     this.on(riot.EVT.hilight, (id) => {
       this.hilighted = id
-      let name = NAMES[id]
-      let values = this.data[id]
-      this.trigger(riot.EVT.hilightChanged, {name, id, values})
+      let data = this.data[id] || {id: id}
+      data.name = NAMES[id]
+      this.trigger(riot.EVT.hilightChanged, data)
     })
 
     // change data layer
     this.on(riot.EVT.changeLayer, (slug) => {
-      let dataSet = getDataSet(slug)
-      this.data = dataSet.data
-      this.trigger(riot.EVT.layerChanged, dataSet)
+      this.layers[slug].load()  // will trigger 'layerReady' later
+      this.trigger(riot.EVT.layerLoading)
+    })
+
+    // layer ready
+    this.on(riot.EVT.layerReady, (layer) => {
+      this.data = layer.data
 
       // update data in infobox of previously hilighted
       if (this.hilighted) {
@@ -43,10 +40,19 @@ class MapStore {
       }
     })
 
-  }
+    // init layers
+    this.on(riot.EVT.initLayers, (layers) => {
+      this.layers = initLayers(layers)
+      this.shortLayers = []
+      let shortLayers = layers.map(l => {
+        return {
+          name: l.name,
+          slug: slugify(l.name)
+        }
+      })
+      this.trigger(riot.EVT.layersReady, shortLayers)
+    })
 
-  getLayers() {
-    return LAYERS
   }
 
 }

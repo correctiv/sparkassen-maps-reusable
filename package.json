@@ -5,10 +5,11 @@
   "main": "webpack.config.js",
   "scripts": {
     "html": "cpy ./src/index.html ./build/",
+    "data": "cpy ./src/data/csv/sample.csv ./build/",
     "bundle": "webpack -p -d --progress --colors",
     "build": "npm-run-all html bundle",
     "serve": "webpack-dev-server --hot",
-    "dev": "npm-run-all html serve"
+    "dev": "npm-run-all html data serve"
   },
   "author": "@simonwoerpel",
   "license": "MIT",
@@ -33,12 +34,15 @@
     "cpy": "^3.4.1",
     "css-loader": "^0.23.0",
     "csswring": "^5.0.0",
+    "dsv-loader": "^1.0.3",
+    "papaparse": "^4.1.2",
     "postcss-custom-properties": "^5.0.0",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "postcss-nested": "^1.0.0",
     "riot": "^2.3.15",
     "riotjs-loader": "^3.0.0",
+    "string-template": "^1.0.0",
     "style-loader": "^0.13.0",
     "svg-inline-loader": "^0.4.1",
     "webpack": "^1.12.10",

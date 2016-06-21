@@ -1,6 +1,5 @@
-import {PATHS} from '../data/paths'
+import {PATHS, SLUGS} from '../data/meta'
 import PLZ_LOOKUP from '../data/plz-lookups'
-import SLUGS from '../data/slugs'
 
 <path-searchbox class="sparkassen-map__path-searchbox">
 
