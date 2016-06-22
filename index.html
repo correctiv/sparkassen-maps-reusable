@@ -3,15 +3,36 @@
   <head lang="en">
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css">
     <title>Sparkassen map</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   </head>
 <body>
-  <div class="sparkassen-map" id="sparkassen-map--1">
-
-  <riot-map></riot-map>
-
+  <div class="sparkassen-map">
+    <div id="sparkassen-map--1"></div>
   </div>
-  <script src="bundle.js"></script>
+  <script src="/build/bundle.js"></script>
+  <script type="text/javascript">
+renderMap({
+  elId: 'sparkassen-map--1',
+  layers: [{
+    name: 'Gesamt',
+    annotationHtml: 'Quellen: Offenlegungsberichte & Jahresabschlüsse 2014<br>Hintergrund: <a href="https://correctiv.org/recherchen/sparkassen/artikel/2016/04/25/notleidende-kredite-was-die-daten-aussagen-koennen-und-was-nicht/">Was die Daten aussagen können - und was nicht</a>',
+    range: {
+      min: 200000,
+      max: 600000
+    },
+    dataUrl: '/data/durchschnittsgehaelter2014.csv',
+    valueCol: 'durchschnitt_2014',
+    unit: '€',
+    infoBoxTemplate: '<dl class="sparkassen-map__data-listing">\
+                        <dt><strong>{durchschnitt_2014}</strong></dt><dd><strong>Gehalt pro Vorstand</strong></dd>\
+                        <dt>{gesamtbezuege_2014}</dt><dd>Gesamtbezüge</dd>\
+                        <dt>{anzahl_vorstaende_2014}</dt><dd>Anzahl Vorstände</dd>\
+                        <dt>{bilanzsumme_2014}</dt><dd>Bilanzsumme</dd>\
+                      </dl>\
+                      <p>{anMerkungen}</p>'
+  }]
+});
+  </script>
 </body>
 </html>
