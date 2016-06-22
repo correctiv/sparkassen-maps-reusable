@@ -22,9 +22,12 @@
   **/
 function renderMap(opts) {
   let wrapperEl = document.getElementById(opts.elId)
-  let riotEl = document.registerElement('riot-map')
-  wrapperEl.appendChild(new riotEl())
-  riot.mount('riot-map', {layers: opts.layers})
+  let riotEl = document.createElement('DIV')
+  let riotElId = opts.elId+'-riot-map'
+  riotEl.id = riotElId
+  wrapperEl.appendChild(riotEl)
+  let riotSelector = 'div#'+riotElId
+  riot.mount(riotSelector, 'riot-map', {layers: opts.layers})
 }
 
 
