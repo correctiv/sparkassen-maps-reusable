@@ -18,19 +18,19 @@ renderMap({
     name: 'Gesamt',
     annotationHtml: 'Quellen: Offenlegungsberichte & Jahresabschlüsse 2014<br>Hintergrund: <a href="https://correctiv.org/recherchen/sparkassen/artikel/2016/04/25/notleidende-kredite-was-die-daten-aussagen-koennen-und-was-nicht/">Was die Daten aussagen können - und was nicht</a>',
     range: {
-      min: 200000,
-      max: 600000
+      min: 200,
+      max: 600
     },
     dataUrl: 'data/durchschnittsgehaelter2014.csv',
-    valueCol: 'durchschnitt_2014',
-    unit: '€',
+    valueCol: 'value',
+    unit: 'T. €',
     infoBoxTemplate: '<dl class="sparkassen-map__data-listing">\
-                        <dt><strong>{durchschnitt_2014}</strong></dt><dd><strong>Gehalt pro Vorstand</strong></dd>\
-                        <dt>{gesamtbezuege_2014}</dt><dd>Gesamtbezüge</dd>\
-                        <dt>{anzahl_vorstaende_2014}</dt><dd>Anzahl Vorstände</dd>\
-                        <dt>{bilanzsumme_2014}</dt><dd>Bilanzsumme</dd>\
+                        <dt><strong>{durchschnitt}</strong></dt><dd><strong>Gehalt pro Vorstand</strong></dd>\
+                        <dt>{gesamtbezuege}</dt><dd>Gesamtbezüge</dd>\
+                        <dt>{anzahl}</dt><dd>Vorstände</dd>\
+                        <dt>{bilanzsumme}</dt><dd>Bilanzsumme</dd>\
                       </dl>\
-                      <p>{anMerkungen}</p>'
+                      <p>{anmerkungen}</p>'
   }]
 });
   </script>
